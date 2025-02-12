@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<div class="main-content post--single">
+    <section class="section-body">
+        <header class="u-textAlignCenter">
+            <h2 class="block-title" itemprop="headline">
+                {{ .Title }}
+            </h2>
+        </header>
+        <div class="fancy-archive">
+            {{ range .Pages.ByPublishDate.Reverse.GroupByDate "2006" }}
+            {{ if (where .Pages "Section" "post") }}
+            <div data-year="{{ .Key }}" class="archive-year">
+                {{ range .Pages.ByPublishDate.Reverse.GroupByDate "January" }}
+                <h3 class="archive-month">{{ .Key }}</h3>
+                <ul class="fancy-ul">
+                    {{ range ((where .Pages "Section" "post")) }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                        <em>({{ .Date.Format "01-02" }})</em>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

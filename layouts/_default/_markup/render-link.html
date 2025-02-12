@@ -1,0 +1,32 @@
+{{ $regex := `(?i)https?:\/\/(\w+)\.douban\.com\/subject\/(\d+)` }}
+{{ $urls := findRE $regex .Destination }}
+{{ if $urls }}
+{{ $url :=index ($urls) 0 }}
+{{ $dbtype := replaceRE $regex "$1" $url }}
+{{ $dbid := replaceRE $regex "$2" $url }}
+{{ $url := printf "https://dbapi.wpista.com/%s/%s" $dbtype $dbid }}
+{{ with resources.GetRemote $url }}
+{{ $subject :=. | transform.Unmarshal }}
+{{ $number := (float $subject.douban_score) }}
+<div class="doulist-item">
+    <div class="doulist-subject">
+        <div class="doulist-post"><img decoding="async" referrerpolicy="no-referrer" src="{{ $subject.poster }}"></div>
+        <div class="doulist-content">
+            <div class="doulist-title"><a href="{{ $subject.link }}" class="cute" target="_blank"
+                    rel="external nofollow">{{ $subject.name }}</a></div>
+            <div class="rating"><span class="allstardark"><span class="allstarlight"
+                        style="--width: {{ mul $number 10 }}%"></span></span><span class="rating_nums">{{
+                    $subject.douban_score }}</span>
+            </div>
+            <div class="abstract">{{ $subject.card_subtitle }}</div>
+        </div>
+    </div>
+</div>
+{{else}}
+<a href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}{{ if strings.HasPrefix
+    .Destination "http" }} target="_blank" rel="noopener" {{ end }}>{{ .Text | safeHTML }}</a>
+{{end}}
+{{ else }}
+<a href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}{{ if strings.HasPrefix
+    .Destination "http" }} target="_blank" rel="noopener" {{ end }}>{{ .Text | safeHTML }}</a>
+{{ end }}

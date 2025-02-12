@@ -1,0 +1,12 @@
+{{$URL := .Get 0}}
+{{ with .Site.GetPage $URL }}
+<div class="grap--mixtapeEmbed">
+    <a href="{{ .Permalink }}" target="_blank" class="mixtapeContent"><span
+            class="markup--strong markup--mixtapeEmbed-strong">{{ .Title
+            }}</span><em class="markup--em markup--mixtapeEmbed-em">{{ .Summary | plainify | truncate 60 }}</em></a>
+    {{ if .Params.cover }}
+    <a href="{{ .Permalink }}" target="_blank" class="mixtapeImage"
+        style="background-image:url('{{ .Params.cover }}')"></a>
+    {{ end }}
+</div>
+{{ end }}

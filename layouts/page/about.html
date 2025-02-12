@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<div class="main-content post--single" data-id="{{ .File.UniqueID}}">
+    <section class="section-body">
+        <header class="u-textAlignCenter">
+            <h2 class="block-title" itemprop="headline">
+                {{ .Title }}
+            </h2>
+            <div class="block-postMetaWrap">
+                <time datetime='{{.Date.Format "2006-01-02 15:04:01" }}' class="humane--time">{{
+                    .Date.Format "2006-01-02 15:04:01" }}</time>
+            </div>
+        </header>
+        {{ if .IsTranslated }}
+        <div class="translatedCard">
+            <h4>{{ i18n "translations" }}</h4>
+            <ul>
+                {{ range .Translations }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end
+                        }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        <div class="grap u-marginBottom30">
+            {{ .Content }}
+        </div>
+    </section>
+</div>
+
+{{ end }}

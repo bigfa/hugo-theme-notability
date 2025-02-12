@@ -1,0 +1,31 @@
+<article class="block--list articleItem" data-id="{{ .File.UniqueID}}">
+    <header class="u-textAlignCenter">
+        <h2 class="block-title post-featured" itemprop="headline">
+            <a href="{{ .Permalink }}">
+                {{ .Title }}
+            </a>
+        </h2>
+        <div class="block-postMetaWrap">
+            <time datetime='{{.Date.Format "2006-01-02 15:04:01" }}' class="humane--time">{{ .Date
+                | time.Format
+                ":date_long"
+                }}</time>
+        </div>
+    </header>
+    <div class="block-snippet grap">
+        {{ if .Content }}
+        {{ $urls := findRE "<img src=\"[^\"|\\\"]*\"" .Content }} {{ if $urls }} {{ $url :=index ($urls) 0 }} {{ $url
+            :=(strings.TrimPrefix "<img src=\"" $url) }}
+{{ $url := strings.TrimRight " \"" $url }} <p><img src="{{ $url }}" class="cover" /></p> {{ end }} {{
+        end }}
+        <p>{{ .Summary | plainify | truncate 160 }}</p>
+    </div>
+    <div class="block-footer">
+        By {{ .Site.Params.authorName }} . In {{ range (.GetTerms "categories") }}
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+        <div class="block-footer-inner">
+            <span class="article--views"></span>
+        </div>
+    </div>
+</article>

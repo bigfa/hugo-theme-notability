@@ -1,0 +1,174 @@
+:root {
+    // --puma-main-color: #27ae60;
+    --puma-main-color: #27ae60; //#4370f5;
+    --puma-hover-color: #0f730c; // #3a5f9a;
+    --puma-text-color: rgba(0, 0, 0, 0.84);
+    --puma-text-light: rgba(0, 0, 0, 0.68);
+    --puma-text-gray: rgba(0, 0, 0, 0.6);
+    --puma-text-gray-lightest: rgba(0, 0, 0, 0.5);
+
+    --puma-background-white: rgba(255, 255, 255, 1);
+    --puma-background-gray: #f0f0f0;
+    --puma-background-gray-light: #f9f9f9;
+    --puma-background-opacity: 0.9;
+    --puma-background-white-opacity: rgba(
+        255,
+        255,
+        255,
+        var(--puma-background-opacity)
+    );
+
+    --puma-border-color: rgba(0, 0, 0, 0.1);
+    --puma-border-color-light: rgba(0, 0, 0, 0.05);
+
+    --puma-text-size-small: 14px;
+    --puma-text-size-normal: 16px;
+    --puma-text-size-smallest: 12px;
+
+    --puma-content-width: 900px;
+
+    --db-main-color: var(--puma-main-color);
+    --db-hover-color: var(--puma-hover-color);
+    --db--text-color: var(--puma-text-color);
+    --db--text-color-light: var(--puma-text-light);
+    --db--background-gray: var(--puma-background-gray);
+    --db-border-color: var(--puma-border-color);
+
+    .db--genreItem {
+        &:hover {
+            color: var(--puma-backgroud-white);
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .auto {
+        --puma-main-color: rgba(253, 186, 116, 1);
+        --puma-hover-color: rgba(255, 237, 213, 1);
+        --puma-text-color: #a1a1aa;
+        --puma-text-light: rgba(161, 161, 170, 1);
+        --puma-text-gray: rgba(113, 113, 122, 1);
+        --puma-text-gray-lightest: rgba(113, 113, 122, 0.95);
+
+        --puma-background-white: #1e1e1e;
+        --puma-background-gray: #000;
+        --puma-background-gray-light: #121212;
+        --puma-background-white-opacity: rgba(
+            30,
+            30,
+            30,
+            var(--puma-background-opacity)
+        );
+
+        --puma-border-color: rgba(63, 63, 70, 0.6);
+        --puma-border-color-light: rgba(63, 63, 70, 0.4);
+
+        --db-main-color: var(--puma-main-color);
+        --db-hover-color: var(--puma-hover-color);
+        --db--text-color: var(--puma-text-color);
+        --db--text-color-light: var(--puma-text-light);
+        --db--background-gray: var(--puma-background-gray);
+        --db-border-color: var(--puma-border-color);
+
+        .db--genreItem {
+            &:hover {
+                color: var(--puma-backgroud-white);
+            }
+        }
+
+        .doulist-item {
+            border-color: var(--db-border-color);
+        }
+
+        .comment-form {
+            input,
+            textarea {
+                background-color: rgba(63, 63, 70, 0.15);
+                border-color: rgba(63, 63, 70, 1);
+            }
+        }
+    }
+}
+
+.dark {
+    --puma-main-color: rgba(253, 186, 116, 1);
+    --puma-hover-color: rgba(255, 237, 213, 1);
+    --puma-text-color: #a1a1aa;
+    --puma-text-light: rgba(161, 161, 170, 1);
+    --puma-text-gray: rgba(113, 113, 122, 1);
+    --puma-text-gray-lightest: rgba(113, 113, 122, 0.95);
+
+    --puma-background-white: #1e1e1e;
+    --puma-background-gray: #000;
+    --puma-background-gray-light: #121212;
+    --puma-background-white-opacity: rgba(
+        30,
+        30,
+        30,
+        var(--puma-background-opacity)
+    );
+
+    --puma-border-color: rgba(63, 63, 70, 0.6);
+    --puma-border-color-light: rgba(63, 63, 70, 0.4);
+
+    --db-main-color: var(--puma-main-color);
+    --db-hover-color: var(--puma-hover-color);
+    --db--text-color: var(--puma-text-color);
+    --db--text-color-light: var(--puma-text-light);
+    --db--background-gray: var(--puma-background-gray);
+    --db-border-color: var(--puma-border-color);
+
+    .db--genreItem {
+        &:hover {
+            color: var(--puma-backgroud-white);
+        }
+    }
+
+    .doulist-item {
+        border-color: var(--db-border-color);
+    }
+
+    .comment-form {
+        input,
+        textarea {
+            background-color: rgba(63, 63, 70, 0.15);
+            border-color: rgba(63, 63, 70, 1);
+        }
+    }
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("../fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("../fonts/OpenSans-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Light.woff2") format("woff2"),
+        url("../fonts/OpenSans-Light.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Medium.woff2") format("woff2"),
+        url("../fonts/OpenSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

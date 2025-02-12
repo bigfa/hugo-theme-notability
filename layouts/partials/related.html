@@ -1,0 +1,26 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<div class="relatedPost--content">
+    <h3 class="relatedPost--title">{{ i18n "article.relatedContent" }}</h3>
+    <div class="relatedPost">
+        {{ range . }}
+        <div class="relatedPost--item"><a href="{{ .RelPermalink }}">
+                {{ if .Content }}
+                {{ $urls := findRE "<img src=\"[^\"|\\\"]*\"" .Content }} {{ if $urls }} {{ $url :=index ($urls) 0 }} {{
+                    $url :=(strings.TrimPrefix "<img src=\"" $url) }}
+{{ $url := strings.TrimRight " \"" $url }} <div class="relatedPost--item__img"><img src="{{ $url }}" class="cover" />
+        </div> {{ end }} {{
+        end }}
+        <div class="relatedPost--item__title">{{ .Title }}</div>
+        <div class="meta">
+            <time datetime='{{.Date.Format "2006-01-02 15:04:01" }}' class="humane--time">{{ .Date
+                | time.Format
+                ":date_long"
+                }}</time>
+        </div>
+        </a>
+    </div>
+    {{ end }}
+</div>
+</div>
+{{ end }}

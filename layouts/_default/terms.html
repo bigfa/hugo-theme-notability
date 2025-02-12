@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="main-content post--single">
+    <section class="section-body">
+        <header class="u-textAlignCenter">
+            <h2 class="block-title" itemprop="headline">
+                {{ .Title }}
+            </h2>
+        </header>
+        <div class="archive--tagList">
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms.ByCount }}
+            <span class="archive--tagItem">
+                <a href="{{ $value.Page.Permalink }}">
+                    {{ $value.Page.Title }} <span>({{ $value.Count }})</span>
+                </a>
+            </span>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="main-content">
+    <header class="archive-header u-textAlignCenter">
+        <h1 class="archive-title">{{.Title}}</h1>
+        {{ if .Params.description }}
+        <div class="taxonomy-description">{{ .Params.description }}</div>
+        {{ end }}
+    </header>
+    {{- $pages := union .RegularPages .Sections }}
+    {{- $paginator := .Paginate $pages }}
+    <div class="blockGroup">
+        {{- range $index, $page := $paginator.Pages }}
+        {{ if eq .Type "memo" }}
+        {{ partial "memo.html" . }}
+        {{ else }}
+        {{ partial "post.html" . }}
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="posts-nav">
+        {{ range $paginator.Pagers }}
+        <a class="page-numbers{{ if eq . $paginator }} current{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

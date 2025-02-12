@@ -1,0 +1,32 @@
+<header class="site-header">
+	<div class="header-inner" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+		<h1 class="site-title" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+			<a href='{{ site.Home.Permalink }}' class="metabar--logo">Puma
+			</a>
+		</h1>
+		<p class="site-description">just another wordpress site</p>
+		<form method="get" class="search-form" action="{{ site.Home.Permalink }}search">
+			<input type="search" class="search-field" placeholder="输入内容按回车搜索" value="" name="s">
+		</form>
+		{{ if .Site.Params.footer_sns }}
+		<div class=site--footer__sns>
+			{{ partial "sns.html" . }}
+		</div>
+		{{ else }}
+		Made with 💗
+		{{ end }}
+	</div>
+</header>
+{{ if len $.Site.Menus }}
+<nav class="topNav">
+	<ul class="topNav-items">
+		{{ range $.Site.Menus.main }}
+		{{ if not .HasChildren }}
+		<li class="menu-item">
+			<a href="{{ .URL }}">{{ .Name }}</a>
+		</li>
+		{{ end }}
+		{{ end }}
+	</ul>
+</nav>
+{{ end }}

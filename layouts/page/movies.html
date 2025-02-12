@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="main-content post--single" data-id="{{ .File.UniqueID}}">
+    <section class="section-body">
+        <header class="u-textAlignCenter">
+            <h2 class="block-title" itemprop="headline">
+                {{ .Title }}
+            </h2>
+            <div class="block-postMetaWrap">
+                <time datetime='{{.Date.Format "2006-01-02 15:04:01" }}' class="humane--time">{{
+                    .Date.Format "2006-01-02 15:04:01" }}</time>
+            </div>
+        </header>
+        <div class="db--container">
+        </div>
+    </section>
+</div>
+
+{{ end }}

@@ -1,0 +1,69 @@
+toggleMenu:
+    other: 切换菜单
+
+darkMode:
+    other: 暗色模式
+
+copyRight:
+    other: 版权所有
+
+translations:
+    other: 其他语言
+
+postsOlder:
+    other: 更早文章
+
+postsNewer:
+    other: 更新文章
+
+article:
+    back:
+        other: 返回
+
+    tableOfContents:
+        other: 目录
+
+    relatedContent:
+        other: 相关文章
+
+    lastUpdatedOn:
+        other: 最后更新于
+
+    readingTime:
+        other: "阅读时长: {{ .Count }} 分钟"
+
+    views:
+        other: " 次浏览"
+
+    nocomment:
+        other: "还没有评论"
+
+timeFormat:
+    second:
+        other: 秒前
+    seconds:
+        other: 秒前
+    minite:
+        other: 分钟前
+    minites:
+        ohter: 分钟前
+    hour:
+        other: 小时前
+    hours:
+        other: 小时前
+    days:
+        other: 天前
+    day:
+        other: 天前
+    week:
+        other: 周前
+    weeks:
+        other: 周前
+    month:
+        other: 月前
+    months:
+        other: 月前
+    year:
+        other: 年前
+    years:
+        other: 年前

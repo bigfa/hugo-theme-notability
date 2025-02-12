@@ -1,0 +1,60 @@
+.site-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    background-image: url(../images/banner.jpg);
+    background-position: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.97);
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    &:before {
+        background-color: rgba(0, 0, 0, 0.15);
+        bottom: 0;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header-inner {
+        position: relative;
+    }
+
+    .site-title {
+        font-size: 32px;
+    }
+
+    .site-description {
+        font-size: 14px;
+    }
+}
+
+.search-form {
+    padding-top: 12px;
+    .search-field {
+        background-color: rgba(0, 0, 0, 0.15);
+        border: 0;
+        border-radius: 5px;
+        padding: 7px 10px;
+        color: rgba(255, 255, 255, 0.8);
+        box-shadow: none;
+        width: 200px;
+        text-align: center;
+        font-size: 12px;
+        &:focus {
+            color: #fff;
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+}

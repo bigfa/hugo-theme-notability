@@ -1,0 +1,8 @@
+{{ if .Text }}
+<figure class="grap--figure">
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+    <figcaption class="imageCaption">{{ .Text | safeHTML }}</figcaption>
+</figure>
+{{ else }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{ end }}

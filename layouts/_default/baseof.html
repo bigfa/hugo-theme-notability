@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default " en" }}" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    <script>
+        window.DEFAULT_THEME = "{{ .Site.Params.defaultTheme }}";
+        if (localStorage.getItem("theme") == null) {
+            localStorage.setItem("theme", window.DEFAULT_THEME);
+        }
+        if (localStorage.getItem("theme") == "dark") {
+            document.querySelector("body").classList.add("dark");
+        }
+        if (localStorage.getItem("theme") == "auto") {
+            document.querySelector("body").classList.add("auto");
+        }
+
+    </script>
+
+    <main class="surface-content">
+        {{ partial "navigation.html" . }}
+        {{ block "main" . }}{{ end }}
+        {{ partial "footer.html" . }}
+    </main>
+</body>
+
+</html>

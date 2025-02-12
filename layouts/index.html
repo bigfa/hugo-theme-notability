@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="main-content">
+    <div class="blockGroup">
+        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{ $paginator := .Paginate ($pages) }}
+        {{ range $paginator.Pages }}
+        {{ if eq .Type "memo" }}
+        {{ partial "memo.html" . }}
+        {{ else }}
+        {{ partial "post.html" . }}
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="posts-nav">
+        {{ range $paginator.Pagers }}
+        <a class="page-numbers{{ if eq . $paginator }} current{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

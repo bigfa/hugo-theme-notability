@@ -1,0 +1,74 @@
+.archive-year {
+    position: relative;
+    padding: 50px 0;
+
+    &::after {
+        content: attr(data-year);
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 120px;
+        font-weight: 700;
+        color: var(--puma-text-light);
+        font-style: italic;
+        opacity: 0.05;
+    }
+}
+
+.fancy-archive {
+    color: var(--puma-text-gray);
+    font-size: 14px;
+    position: relative;
+}
+
+.fancy-ul {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 15px;
+
+    li {
+        padding-left: 15px;
+        position: relative;
+        line-height: 1.5;
+        padding: 0;
+        position: relative;
+        z-index: 2;
+
+        &:hover {
+            color: var(--puma-main-color);
+
+            &:after {
+                background-color: var(--puma-main-color);
+            }
+        }
+    }
+}
+
+.archive-month {
+    font-weight: 700;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.ais-Hits--empty {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--puma-text-gray);
+}
+
+.ais-SearchBox-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .search-submit {
+        display: none;
+    }
+}
+
+.ais-SearchBox-input {
+    border: 1px solid var(--puma-border-color-light);
+    padding: 5px;
+    font-size: 14px;
+    color: var(--puma-text-light);
+}

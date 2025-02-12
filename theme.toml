@@ -1,0 +1,11 @@
+name = "puma"
+license = "MIT"
+description = "minimalist"
+homepage = "https://fatesinger.com"
+tags = ["minimalist"]
+features = ["minimalist"]
+min_version = "0.75.0"
+
+[author]
+    name = "bigfa"
+    homepage = "https://github.com/bigfa"

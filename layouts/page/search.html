@@ -1,0 +1,75 @@
+{{ define "main" }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.1.0/themes/reset-min.css"
+    integrity="sha256-2AeJLzExpZvqLUxMfcs+4DWcMwNfpnjUeAAvEtPr0wU=" crossorigin="anonymous">
+<div class="site--main">
+    <header class="archive-header archive-header__search">
+        <div id="searchbox"></div>
+    </header>
+    <div id="hits" class="blockGroup"></div>
+    <div id="pagination"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.20.0/dist/algoliasearch-lite.umd.js"
+    integrity="sha256-DABVk+hYj0mdUzo+7ViJC6cwLahQIejFvC+my2M/wfM=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.60.0/dist/instantsearch.production.min.js"
+    integrity="sha256-9242vN47QUX50UG5Gf5XDO1YREWCEJRyXHofh5fsl24=" crossorigin="anonymous"></script>
+<script>
+    const searchClient = algoliasearch('{{ .Site.Params.searchAPPID }}', '{{ .Site.Params.searchKey }}');
+
+    const search = instantsearch({
+        indexName: '{{ .Site.Params.indexName }}',
+        searchClient,
+        insights: false
+    });
+
+    search.addWidgets([
+        instantsearch.widgets.searchBox({
+            container: '#searchbox',
+            showReset: false,
+            placeholder: 'Search for stories',
+            cssClasses: {
+            },
+            templates: {
+                submit: `<input type="submit" class="search-submit" value="Search">`
+            }
+        }),
+
+        instantsearch.widgets.hits({
+            container: '#hits',
+            templates: {
+                item(hit, { html, components, sendEvent }) {
+                    const time = new Date(hit.date);
+                    const date = time.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                    });
+                    const lngString = '{{ .Site.Language }}';
+                    const uri = hit.uri.replace("/" + lngString + "/", "/");
+                    const cover = hit.cover ? html`<p><img src="${hit.cover}" class="cover" itemprop="image" /></p>` : '';
+                    return html`<article class="block--list" itemtype="http://schema.org/Article" itemscope="itemscope">
+                        <header class="u-textAlignCenter">
+        <h2 class="block-title post-featured" itemprop="headline">
+            <a href="${uri}">${components.Highlight({ attribute: 'title', hit })}</a>
+        </h2>
+        <div class="block-postMetaWrap">
+            >${date}
+        </div>
+    </header>
+            <div class="block-snippet grap">
+                ${cover}
+          <p>${hit.description}</p>
+
+                    </div>
+                    </article>
+      `;
+                },
+            },
+        })
+    ]);
+
+    search.start();
+    const queryString = window.location.search;
+    const params = new URLSearchParams(queryString);
+    search.helper.setQuery(params.get("s")).search();
+</script>
+{{ end }}
