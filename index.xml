@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Untitled</title><link>https://bigfa.github.io/hugo-theme-puma/</link><description>Recent content on Untitled</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 09 Feb 2025 21:20:09 +0800</lastBuildDate><atom:link href="https://bigfa.github.io/hugo-theme-puma/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 主题 Farallon</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-farallon/</link><pubDate>Mon, 30 Oct 2023 21:07:22 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-farallon/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/06/u1ak8xgmyn9ec24r.png" alt="Hugo 主题 Farallon" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Farallon&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.4.9&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-farallon/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="卡片分类页面使用方法">卡片分类页面使用方法&lt;/h3>
+&lt;p>在&lt;code>content&lt;/code>目录下新建你想要使用模版的页面，比如你的分类是&lt;code>travel&lt;/code>，则新建&lt;code>categories/travel/_index.md&lt;/code>,然后编辑文件，设置&lt;code>layout&lt;/code>为&lt;code>travel&lt;/code> 即可&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+title: &amp;#34;旅行&amp;#34;
+description: &amp;#34;旅行体验&amp;#34;
+layout: travel
+---
+&lt;/code>&lt;/pre>&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p></description></item><item><title>Hugo 主题 Puma</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-puma/</link><pubDate>Sun, 09 Feb 2025 21:20:09 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-puma/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2025/01/10eb5gy4cj9fvxag.png" alt="Hugo 主题 Puma" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Puma&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.0.7&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-puma/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p>
+&lt;p>站点配置参数，设置成你自己的，主要不要暴露&lt;code>adminKey&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ search= true
+ indexName = &amp;#39;bigfa&amp;#39;
+ searchKey = &amp;#39;b0825b184f45c084e31770fbcc9261f2&amp;#39;
+ searchAPPID = &amp;#39;FX1CAS2SD8&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>自动提交编辑&lt;code>.github/workflow/main.yaml&lt;/code>&lt;/p></description></item><item><title>221g</title><link>https://bigfa.github.io/hugo-theme-puma/memo/2/</link><pubDate>Fri, 03 Jan 2025 17:13:25 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/memo/2/</guid><description>&lt;p>对于 STEM 学生，Mantis SAO 是几乎很难避免的，因为判断 dual-use technology 是依靠 Technology Alert List 里面列出可能存在敏感或是军民两用技术。虽然是 2002 年的文件，但里面基本上扫射了所有 STEM 专业，再加上最近紧张的政治局势，还有签证官基本上不具备 STEM 背景知识，导致大部分签证官在看到申请人专业时抱着「宁可错杀三千也不放过一个」心态直接给个 check 结果。Mantis SAO 的标准工作时长是 15 个工作日，但也可以无限长（极端个例会在下文提及）。大家常说敏感专业啥的被 check，本质是基于 Mantis SAO。&lt;/p></description></item><item><title>Hugo 主题 Hera</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-hera/</link><pubDate>Fri, 03 Jan 2025 13:36:45 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-hera/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/12/2u80bhyxkmru4o9j.png" alt="Hugo 主题 Hera" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Hera&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.0.10&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-hera/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="卡片分类页面使用方法">卡片分类页面使用方法&lt;/h3>
+&lt;p>在&lt;code>content&lt;/code>目录下新建你想要使用模版的页面，比如你的分类是&lt;code>travel&lt;/code>，则新建&lt;code>categories/travel/_index.md&lt;/code>,然后编辑文件，设置&lt;code>layout&lt;/code>为&lt;code>travel&lt;/code> 即可&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+title: &amp;#34;旅行&amp;#34;
+description: &amp;#34;旅行体验&amp;#34;
+layout: travel
+---
+&lt;/code>&lt;/pre>&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p></description></item><item><title>香港银行卡开户</title><link>https://bigfa.github.io/hugo-theme-puma/story/hongkong-bank/</link><pubDate>Fri, 15 Nov 2024 13:28:00 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hongkong-bank/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/jg31jxyxrwjutb6g.jpg" alt="HSBC HK 扣账卡" />
+ &lt;figcaption class="imageCaption">HSBC HK 扣账卡&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>首先就是没需求必然无需折腾，如果有美股投资需求，港卡必开，说实话最简单的定投纳斯达克和标普 500 就是稳稳的幸福，比天天看盘强太多了。&lt;/p>&lt;/blockquote>
+&lt;p>券商目前大陆人能简单开的只有盈透，富途很难开，长桥据说被富途举报了也不太好开了。长桥推荐的人很多，你能看到这方面内容的文章都会推荐长桥，因为长桥推广奖励还是挺丰厚的，也不墨迹，哈哈。但说实话，高频交易的话长桥很难用，一但有啥重大事件，长桥要么很卡要么直接无法交易，如果是普通交易还是可以用用的。&lt;/p>
+&lt;p>还有就是香港信用卡和内地信用卡相比就是返现很厉害，4%起步，香港银行卡在内地消费算境外消费，和我们内地银行卡高额返现一个道理，非常划算，缺点就是你需要使用香港储蓄卡还款，不过既然开了信用卡，储蓄卡自然肯定也有了，一般人没有海外收入，所以要搭配境内银行卡进行转账，因为中银可以无损转账，所以推荐的人也是最多的。&lt;/p>
+&lt;h3 id="汇丰">汇丰&lt;/h3>
+&lt;p>我最早开户的银行，当时还没拿到 hkid，选择的天水围分行，直接 walk in 取号，开户非常痛快，只要了身份证和通行证，毫无刁难，也不推销保险，当场拿卡，存了点现金激活。现场同时申请了信用卡，当时是存点钱就能批，现在好像是不再给 cnid 审批了。我当时存的少，pulse 只批了一万额度，加上地址问题一直收不到卡，后面挂失了也没激活了。现在有点后悔，应该先激活赞点信用的。&lt;/p>
+&lt;p>回家后申请了蓝狮子扣账卡，提前设置了中文地址，大约三周顺利收到卡，虽然是平信，但还是打电话了，挺不错的。这里要注意的是，后续如果你需要使用汇丰的月结单用做英文地址证明，一定不要设置中文地址，否则后续修改成英文要去网点才能操作。&lt;/p>
+&lt;p>我拿到 hkid 后又抽空去网点做了开户证件变更，同时也删除了中文地址。现在有申请了 visa signature 信用卡，提供的都是内地资料，不知道能否给批。&lt;/p>
+&lt;p>当时在网点的时候还试图在线开户中银，结果没通过，就放弃中银了。另外我非常推荐天水围这个网点，首先是距离近，深圳湾坐公交直达，再就是态度真的非常好。&lt;/p>
+&lt;h3 id="工银亚洲">工银亚洲&lt;/h3>
+&lt;p>工银亚洲是支持 cnid 在线开户的而且不需要人在香港，开户需要地址证明，招行信用卡账单就可以，不过工银亚洲需要去网点确认拿卡。当初申请了，一直没去网点，hkid 下来之后直接在线申请了，提款卡需要网点申请。工银亚洲的优点是和大湾区的内地卡互转不收费，工行汇率也算不错的，大湾区用户可以说是必开的卡了，比中银强。但其实你内地卡不是大湾区的卡也没啥问题，转账仅香港那边收 60 落地费，大额转账的话损耗可以忽略不计了。&lt;/p>
+&lt;p>目前工银亚洲 cnid 是可以申请信用卡的，需要满足开户超过六个月和五万存款。我用 hkid 申请的，好像除了没有开户时长限制，其他要求都一样。&lt;/p>
+&lt;ul>
+&lt;li>内地身份证&lt;/li>
+&lt;li>英文地址证明&lt;/li>
+&lt;li>五万存款&lt;/li>
+&lt;/ul>
+&lt;p>如果不选择无业的话需要提供公司英文名和确认需要向中国报税。我汇丰带英文地址的月结单刚下来，今天才补上资料，后续批卡再更新。&lt;/p>
+&lt;h4 id="提款卡">提款卡&lt;/h4>
+&lt;p>昨天去申请提款卡，需要存一万，存完都准备签字了，告诉我是在线开户，未做实人认证，要先做实人认证，找了工作人员，告诉我还需要大陆身份证和高才签证确认书，无语，只能下次领信用卡的时候再处理了。&lt;/p>
+&lt;h3 id="信银国际">信银国际&lt;/h3>
+&lt;p>信银国际也支持在线开户，但是需要人在香港，默认也没提款卡，我是为了申请信用卡才开户的，还没去网点申请提款卡，信银国际信用卡批卡要求很低，只需要两件。&lt;/p>
+&lt;ul>
+&lt;li>地址证明&lt;/li>
+&lt;li>五万存款&lt;/li>
+&lt;/ul>
+&lt;p>我也是今天刚补资料，一般一周可批卡，后续批卡再更新。&lt;/p>
+&lt;p>一般人都选择 GBA，我没啥银联需求，选择了 motion 万事达，也可以绑定 wechatpay hk 正常消费，不影响。信银国际和内地中信转账并不免费，所以只推荐他家的信用卡，目前来说，这个是门槛最低、下卡最快的香港信用卡了。&lt;/p></description></item><item><title>二手闲置</title><link>https://bigfa.github.io/hugo-theme-puma/story/second-hand/</link><pubDate>Mon, 11 Nov 2024 13:35:33 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/second-hand/</guid><description>&lt;p>带包装的可邮寄、不带包装仅面交，地点万象天地、南山科兴、香港天水围港铁站。&lt;/p>
+&lt;p>默认不带 c to c 的线，手机 pad 送原厂 20w 充电头，港币交易可小优惠。除了 ipad mini 其他的原则上不刀了。&lt;/p>
+&lt;p>微信&lt;code>matusow&lt;/code>，有意可晚上确认细节，打包或港币交易可小优惠。&lt;/p>
+&lt;h3 id="ipad-mini-6-256g-蜂窝版--apple-pencil">iPad mini 6 256g 蜂窝版 + apple pencil&lt;/h3>
+&lt;ul>
+&lt;li>国行，有按年付费的 ac+,正常使用痕迹，一个边角处有个小磕碰，有包装。&lt;/li>
+&lt;li>pencil 未绑定此 ipad 的 ac+，包装可能找不到了。&lt;/li>
+&lt;/ul>
+&lt;p>暂定 3688&lt;/p>
+&lt;h3 id="iphone-13-pro-256g-白色">iPhone 13 Pro 256g 白色&lt;/h3>
+&lt;p>白色 3088 送原厂皮壳&lt;/p>
+&lt;h3 id="mac-studio-m2-max-32g-512g">Mac Studio M2 Max 32g 512g&lt;/h3>
+&lt;p>有年付 AC+ 一支放在家里，偶尔用一下&lt;/p>
+&lt;p>11888&lt;/p>
+&lt;h3 id="homepod-2">Homepod 2&lt;/h3>
+&lt;p>灰色一对，吃灰较多，只有一个盒子了，单出 1500 一支可邮寄，两支 2888 仅自提。&lt;/p>
+&lt;h3 id="iphone-15-pro-max-256g">iPhone 15 Pro Max 256g&lt;/h3>
+&lt;p>原色，一直戴着壳膜使用，送个 casetify 壳子，5988&lt;/p>
+&lt;h3 id="apple-wacth-s7-不锈钢-45mm">Apple wacth S7 不锈钢 45mm&lt;/h3>
+&lt;p>后面自购的黑色爱马仕皮革表带，油边有磨损，1488&lt;/p></description></item><item><title>原生美国手机卡 Ultra Mobile PayGo</title><link>https://bigfa.github.io/hugo-theme-puma/story/paygo/</link><pubDate>Tue, 05 Nov 2024 23:48:10 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/paygo/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/11/dr4awlctugcqsl34.jpg" alt="" />
+&lt;/p>
+&lt;p>此卡基本是最便宜的实体美国手机卡了，月费也几乎最低，3 美金每月。本来已经在 CMHK 上台对境外手机号没啥需求了，但是我想给手机买美版的 AppleCare+，没有美卡只能用美区 paypal，就需要真实的手机号了，不想太麻烦别人，就自己买了一张。eBay 原价 13 美金，淘宝京东价格不等，我在京东选择了一个最便宜的 129 人民币，未激活，激活要加 20，淘宝上普遍卖 200，今天到手激活发现并没有翻车，推荐京东购买。&lt;/p>
+&lt;h3 id="激活">激活&lt;/h3>
+&lt;p>激活有好几种方式，我使用最简单的网页激活了，应该是需要美国节点，直接在网站&lt;code>https://my.ultramobile.com/paygo/activation&lt;/code>上输入卡背面的 11 位卡密即可，地址填写的话我还是选择了 Oregan 免税州，谷歌地图上随便找了个住宅地址，后面开启 wifi calling 和注册 paypal 的时候也用的这个。&lt;/p>
+&lt;p>这个过程可能需要一点时间，账号密码都正常设置，信用卡信息可以暂时不绑定。如果后面要转 eSIM 这里要输入自己的真实邮箱。激活之后就可以插卡了，此卡对中文支持非常友好，无论是网站还是短信提醒都支持中文，甚至还有中文客服。&lt;/p>
+&lt;h3 id="开启-wifi-calling">开启 wifi calling&lt;/h3>
+&lt;p>&lt;del>iPhone 天然支持 wifi calling&lt;/del>(不挂代理几乎无法激活)，国产安卓默认不支持。&lt;/p>
+&lt;p>PayGo 方案低成本使用必须开启 wifi calling，否则费用是添加，接短信都要钱。插卡之后直接在蜂窝网络中开启无线局域网通话，国内开启大概率是失败的。我试了很多次都失败，后面美国节点全局代理，连续点击才成功，弹出确认框之后输入前面的地址就好了。&lt;/p>
+&lt;h3 id="esim">eSIM&lt;/h3>
+&lt;p>实体卡转 eSIM 需要连接 wifi，而且需要美国节点，有一定概率失败，一但失败就比较麻烦了。首先使用要开启 eSIM 的手机下载 ultra mobile app，可使用短信登陆或使用账号密码登录，登陆之后可以点击切换设备，就可以看到转换 eSIM 了，点击之后收入验证码即可。&lt;/p>
+&lt;p>虽然 eSIM 还可以转回实体卡，但是是需要邮寄到美国地址的，建议确定好再转，否则成本和重新买一张没有区别。&lt;/p>
+&lt;p>日版 iPhone 虽然有个卡槽，但是也可以双 eSIM 在线，还是很不错的。&lt;/p>
+&lt;h3 id="美区-paypal">美区 Paypal&lt;/h3>
+&lt;p>全程美国节点，使用美国手机号和 gmail 邮箱，注册后立马验证，同时绑定了招行的全币白，为啥用招行的，因为境外锁开关很方便。&lt;/p>
+&lt;p>注册成功之后我并没有进行所谓的养号，直接就在电脑上绑定了 app store，绑定成功后直接在手机开了美区的 ac+，月付，不知道是什么原因，首月只收了我 8.75 美金，美区 ac+ 是又偷盗险的，但是我没买，因为只有在当地被偷才有效。&lt;/p></description></item><item><title>香港高才通计划</title><link>https://bigfa.github.io/hugo-theme-puma/story/ttps/</link><pubDate>Sun, 03 Nov 2024 05:52:57 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/ttps/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/11/csxv58zm911z617t.jpg" alt="" />
+&lt;/p>
+&lt;p>前阵子申请了香港高才，过程不是太顺利，但最后也过了。这东西目前并没有太大意义，7 年才能拿到永居，有了永居才能拿到护照。如果年轻个十岁这样很好，但现在这个年纪，七年实在是太久了。相比优才，高才非常简单，而且审核速度快，一般来说有人给你仔细讲这个不是要赚你中介费就是要卖你保险或者拉你卖保险。&lt;/p>
+&lt;ul>
+&lt;li>7 月初提交&lt;/li>
+&lt;li>一个月提示补件，大学成绩单和社保资料&lt;/li>
+&lt;li>在教务处打印了成绩单，本人没有社保，提交了纳税和工资流水&lt;/li>
+&lt;li>被拒，要求二次补件，提供了营业执照和纳税证明&lt;/li>
+&lt;li>通过，缴费后拿到签证并预约通行证逗留签&lt;/li>
+&lt;li>出入境办理换证和签注，预约办理香港临时身份证&lt;/li>
+&lt;li>香港办理临时身份证并拿到行街纸&lt;/li>
+&lt;li>拿证&lt;/li>
+&lt;/ul>
+&lt;p>如果不过港工作，其实拿到 D 签就可以无限制往返了，临时身份证除了能走香港居民通道也没啥其他优势了。个人觉得临时身份证最强的就是合法香港生娃，如果有这个需求花点银子来搞定也不是不行，否则还是该干啥干啥吧。临时身份证受养人不能带父母，永居才能带父母。&lt;/p>
+&lt;p>另外就是续签问题，中介宣传如何如何困难基本上就是要拉你卖保险了，实际上只要有个香港工作就可以问问续签，不住香港都没问题。&lt;/p>
+&lt;p>最后就是官网可以直接查看申请条件，只要本科符合条件直接申请就完事了，中介都是骗你钱的。&lt;/p></description></item><item><title>iPhone 16 Pro eSIM 使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/iphone16pro/</link><pubDate>Fri, 01 Nov 2024 16:22:51 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/iphone16pro/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/gbk5x36klgltw4d1.jpg" alt="iPhone 15 Pro / iPhone 16 Pro" />
+ &lt;figcaption class="imageCaption">iPhone 15 Pro / iPhone 16 Pro&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>首发卖掉之后买新机欲望一直不是很强烈，一方面是新机器在是没啥变化，二就是手机尺寸发生了变化，手机壳不通用，去年在手机壳上投入过多，不想再在手机壳上投入金钱了。后面仍然买了新机的原因是有机会使用 eSIM 了，本来打算去日本电器店买的，可以退税，但发现淘宝上有卖未激活的日版，价格和国行原价差不多，就直接在淘宝买了。今年电子设备降价很快，现在百亿补贴和国补差不多能优惠以前，官方也直降五百。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/7it6uoaaozbzoqqa.jpg" alt="iPhone 15 Pro / iPhone 16 Pro" />
+ &lt;figcaption class="imageCaption">iPhone 15 Pro / iPhone 16 Pro&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>颜色选了黑色，没选择第一次购买的金色，也幸好当时没冲动，现在完全看不上金色了，这么多年一直都选择新色，今年回归了传统，也预示着后面会放缓更新脚步了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/c5hix0w5ktpkditm.jpg" alt="iPhone 16 Pro Black" />
+ &lt;figcaption class="imageCaption">iPhone 16 Pro Black&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="esim">eSIM&lt;/h3>
+&lt;p>日版单卡槽，支持 eSIM，国内运营商不支持 eSIM，本人选择了香港的上台卡，可绑定家乡号在大陆漫游使用，可接电话和短信，但无法使用家乡号打电话和发短信。移动的 eSIM 只能去营业厅办理，而且换设备也要去营业厅，比较麻烦，出示身份证件后会验证预留信息，地址要有个备忘，否则答不上来不知道会出现什么后果。&lt;/p>
+&lt;p>我仔细研究了移动的漫游费用，高速流量还是蛮贵的，如果不在乎这个地区包性价比还不错，不过有 eSIM 购买卡也方便太多了。我内地套餐是全球通，漫游费用还可以接受，但满意也带 GFW，有时候很难受。&lt;/p>
+&lt;p>上台价格其实和内地全球通差不多，多年前我使用过 cmlink 留学生卡，其实当时使用体验不佳，虽然是原生香港 IP，但是使用国内应用的时候很卡，现在体验好很多了，没有啥卡顿的感觉。而且 cmlink 是流量卡，不支持通话和短信的。不过香港手机号还是不适合作为主力手机号，我给我自己打电话直接提示风险了，有点无语，否则 200 分钟其实是够日常使用的，据说之前是支持家乡号拨出的，现在则不行了，理由是电信诈骗。&lt;/p>
+&lt;h3 id="esim-1">eSIM&lt;/h3>
+&lt;ul>
+&lt;li>边框更窄了&lt;/li>
+&lt;li>增加了一个实体按键，很多人吐槽，希望后面开放更多自定义功能&lt;/li>
+&lt;li>黑色很好看，真的黑&lt;/li>
+&lt;li>续航增强了&lt;/li>
+&lt;li>拆解更简单&lt;/li>
+&lt;/ul>
+&lt;h3 id="esim-2">eSIM&lt;/h3>
+&lt;ul>
+&lt;li>存储过于金贵，大容量的性价比过低&lt;/li>
+&lt;/ul>
+&lt;h3 id="国行两点阉割">国行两点阉割&lt;/h3>
+&lt;ul>
+&lt;li>无线充电不支持 25W，这个看你是否有无线充电的习惯，我个人是 magsafe 用户，还买了一个 magstone，不过只支持 15W，25W 还需要买一个港版的充电头&lt;/li>
+&lt;li>AI，目前比较鸡肋，只支持英文，但动画很好看，估计支持中文的时候都下一代都可以出了，还有一个比较坑爹的是，siri 搜索引擎是根据基站判断的，你在国内使用不管啥版本都是百度，无解。&lt;/li>
+&lt;/ul>
+&lt;p>如果是年年换新用户我觉得还是有资格骂一骂苹果不思进取的，但是 iPhone 经过这两年的迭代，各方面都已经到了一个比较完美的状态，还是一款非常好的手机的。&lt;/p></description></item><item><title>麦积山仿古</title><link>https://bigfa.github.io/hugo-theme-puma/story/maijishan/</link><pubDate>Tue, 24 Sep 2024 16:28:53 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/maijishan/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/n1pq6dns80gkt1t5.jpg" alt="麦积山石窟" />
+ &lt;figcaption class="imageCaption">麦积山石窟&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>交通方便，一般都是从兰州或者西安过去，到天水南站都是一个半小时左右，然后打车到麦积山游客中心的话在一小时之内。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/7r5cwpbgzqtpzwv3.jpg" alt="导览图" />
+ &lt;figcaption class="imageCaption">导览图&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>九寨沟</title><link>https://bigfa.github.io/hugo-theme-puma/story/jiuzhaigou/</link><pubDate>Sat, 21 Sep 2024 19:49:13 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/jiuzhaigou/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/yceo5wnetfzgnaay.jpg" alt="九寨沟" />
+ &lt;figcaption class="imageCaption">九寨沟&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>九寨沟大多数湖泊的形成源于水中所含碳酸钙。远古时代，地球处于冰期时，水中所含碳酸钙质无法凝结，只能随水漂流。到距今约 12000 年前，气候转暖后流水中的碳酸钙质活跃起来，一旦遇到障碍物便附着其上，逐渐积累，形成今天九寨沟中一条条乳白色的钙质堤埂，这些堤埂堆积起来形成堰塞湖。也就是所谓的“海子”。&lt;/p>
+&lt;p>九寨沟分三条沟：日则沟、树正沟、则查洼沟 3 条主沟。景观分布在树正、诺日朗、剑岩、长海、扎如、天海六大景区。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/sao3ac7uzc99z93h.jpg" alt="九寨黄龙机场" />
+ &lt;figcaption class="imageCaption">九寨黄龙机场&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/lidczwassxlzqs99.jpg" alt="九寨鲁能希尔顿" />
+ &lt;figcaption class="imageCaption">九寨鲁能希尔顿&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/09/qy5odexouvfxmxyd.jpg" alt="" />
+&lt;/p></description></item><item><title>梧桐区 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/xuhui-citywalk/</link><pubDate>Wed, 18 Sep 2024 21:59:43 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xuhui-citywalk/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/85n2e5lqf5h9lvbx.jpg" alt="上海图书馆" />
+ &lt;figcaption class="imageCaption">上海图书馆&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>上海来过很多次，基本上都靠着外滩转悠，毕竟外地人还是喜欢外滩景观。本次选择住在徐汇，其实之前去新加坡在上海转机住在瑞金洲际，当时没出门逛一逛。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/jzulsvh3rkwwhrps.jpg" alt="安福路" />
+ &lt;figcaption class="imageCaption">安福路&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>RICOH GR IIIx Urban Editon</title><link>https://bigfa.github.io/hugo-theme-puma/story/gr-3x/</link><pubDate>Sun, 08 Sep 2024 15:45:52 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/gr-3x/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/09/md7xqs8v0dnmxgjc.jpg" alt="GR IIIx Urban Editon" />
+ &lt;figcaption class="imageCaption">GR IIIx Urban Editon&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>理光和富士这两年风很大，价格都炒的飞起，随着出行逐渐变多，富士在有些时候已经成为负担，于是有了购入理光的想法，理光 GR 就是最小的 aps-c 画幅数码相机了，没有之一。本来想购入新出的 HDF 版本，奈何实在是买不到，退求其次买了都市版的，事实证明都市版还是非常好看的，就是旧了点。&lt;/p>
+&lt;p>GR IIIx 基本上继承了 GR III 的优缺点，不同的镜头焦段不一样，GR IIIx 等效 40mm，实际使用下来更适合在城市中使用。3 代 GR 拥有 2400 万像素，卡片机王者，内置防抖，但受限于光圈，还是要认真拍摄，像我 city walk 边走边拍，即使在白天也有一定概率糊掉，更别说夜晚了，但是如果站着手持认真拍夜景也没有太大压力，安全快门设置在 1/30s 问题也不大。&lt;/p>
+&lt;h3 id="优点">优点&lt;/h3>
+&lt;ol>
+&lt;li>镁合金机身同时拥有口袋机的紧凑尺寸，这么小的体积拥有 ASP-C 画幅，其实已经不需要再说什么了，就是最强口袋机&lt;/li>
+&lt;li>自带 2Gb 存储，虽然不及哈苏的 1T 偶尔忘记插卡也能对付&lt;/li>
+&lt;li>带 ND 虽然没啥用，没人会用这玩意拍慢门吧，但有总比没有好，HDF 带的黑柔，我本身有一块天芬的黑柔，并没有啥惊艳的效果&lt;/li>
+&lt;li>有微距模式，虽然需要手动切换，但总归是好的&lt;/li>
+&lt;li>正副片预设都不错，高对比黑白个人倒不是很喜欢，大部分时候都是正片&lt;/li>
+&lt;/ol>
+&lt;p>说句不好听的，理光一定程度上就是为偷拍设计的，snapshot，无取景器黑屏拍摄，微型体积。我日常完全可以单手拿着放在胸前一顿按，asp-c 画幅也有一定的后期裁切空间。&lt;/p>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ol>
+&lt;li>镜头设计非常容易进灰&lt;/li>
+&lt;li>光圈还是略小，要是能大一档给到 F2 就完美了&lt;/li>
+&lt;li>电池续航垃圾，连续拍摄发热严重&lt;/li>
+&lt;li>原厂配件及其昂贵且大部分都是无用的，考虑到官方捆绑配件出售，这一点就非常无语&lt;/li>
+&lt;li>镜头环有点松，官方镜头环价格抢劫&lt;/li>
+&lt;li>对焦太差了，半天对不上焦 AFC 基本算是用不了&lt;/li>
+&lt;li>ADJ 按键设计过于不合理，阻尼过低，经常误触&lt;/li>
+&lt;li>未安装指柄的情况下手指需要按在屏幕上才会有比较舒适的握持感&lt;/li>
+&lt;li>这机器虽然无法连拍，但不支持 uhs-ii 卡槽还是略遗憾，用一张 V30 卡足够了&lt;/li>
+&lt;li>官方 APP 极其拉垮，连接非常难用，而且有设计缺陷，过于耗电&lt;/li>
+&lt;li>做工拉垮，电池仓毫无安全感，总感觉会坏掉&lt;/li>
+&lt;li>最近对焦距离有点太远了，微距模式也比较远，不如 gr3&lt;/li>
+&lt;/ol>
+&lt;p>虽然对焦拉跨，&lt;strong>但是 GR 的精髓是 snapshot&lt;/strong>，抓起来就拍，其实就不需要对焦了，不过这个需要经过一定的训练才能熟练估计与拍摄对象的距离。另外镜头比 gr3 要厚一点，二者镜头环也不通用，配件割韭菜割的飞起。&lt;/p></description></item><item><title>西安 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/xian/</link><pubDate>Thu, 01 Aug 2024 21:27:39 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xian/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/08/lt5lps3ctsi4kjeb.jpg" alt="西安" />
+ &lt;figcaption class="imageCaption">西安&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>其实西安在我心里一直是属于西北地区的，但地图上看西安其实算是东部，给人这种错觉的原因是西北实在是过于荒芜，如果以人为中心，那西安确实算是西北了。&lt;/p>
+&lt;p>今年对不少地方进行了故地重游，一方面是弥补以前想去但没去的地方，另一方面是硬盘丢失，以前的照片都没了，想重拍一些点亮地图。&lt;/p>
+&lt;p>本来这次打算去兵马俑的，但再次被距离劝退。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/08/fxatoomvaa8ho8mv.jpg" alt="西安" />
+ &lt;figcaption class="imageCaption">西安&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>以前到一个地方很容易对着一点就各种喷，现在哪怕有不好的体验也不会再说什么，只是用心去感受这个地方。&lt;/p></description></item><item><title>沈阳康莱德</title><link>https://bigfa.github.io/hugo-theme-puma/story/conrad-shenyang/</link><pubDate>Thu, 25 Jul 2024 15:35:36 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/conrad-shenyang/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/uzsea21c357tab30.jpg" alt="Conrad Shenyang" />
+ &lt;figcaption class="imageCaption">Conrad Shenyang&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>前几天去了一次沈阳，本来想着也是一次 City Walk 之旅，但是堵延误险堵输了让本人兴致全无，实际并没有按照原计划执行。多年前来过一次沈阳，去了故宫、张学良旧居，这次又沿着外围走了一圈，没有买票。计划中的辽宁博物馆也没有去，算下来真的是相当亏的一次出行。&lt;/p>
+&lt;p>东北想打卡的酒店不多，沈阳康莱德算是一家，沈阳君悦貌似也不错，因为没差多少钱权衡之下还是选择了康莱德，虽然我有希尔顿的钻卡，但一般我都不会选择希尔顿集团的酒店。康莱德也是去年带着老妈去厦门的时候住了一次，整体上对这个品牌印象还是挺好的。&lt;/p>
+&lt;p>沈阳康莱德位于青年大街 1 号，位置很好，步行就能走到沈阳故宫，楼下就是恒隆广场。酒店我是上了飞机才预订的，所以也没啥入住前沟通，到店给升级到行政房，现在我个人很喜欢大开间的房型，住着非常舒适。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/tehuszfvut6vezog.jpg" alt="一楼大堂" />
+ &lt;figcaption class="imageCaption">一楼大堂&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/r3ecx8way63sqo9c.jpg" alt="一楼大堂" />
+ &lt;figcaption class="imageCaption">一楼大堂&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/0ifnvryl7u76rbbj.jpg" alt="高空大堂" />
+ &lt;figcaption class="imageCaption">高空大堂&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>沈阳康莱德是高空大堂酒店，进入客房要换乘电梯。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/lcib4z5bnvs7h8aj.jpg" alt="高空大堂" />
+ &lt;figcaption class="imageCaption">高空大堂&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/jslphkawoyis0dh4.jpg" alt="高空大堂" />
+ &lt;figcaption class="imageCaption">高空大堂&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/7z0vfy1amu1u00jq.jpg" alt="电梯间" />
+ &lt;figcaption class="imageCaption">电梯间&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/y2uikcs82rew6o4t.jpg" alt="客房电梯间" />
+ &lt;figcaption class="imageCaption">客房电梯间&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>房间装修算是新中式吧，抽屉用了不少金属，抽拉不是很顺畅。房间灯光设计不错，挺喜欢的。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/07/fzf4omhz510z563l.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/07/khwgfx4a2s1pr6p2.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/07/8s69fmd7wr5jkwgx.jpg" alt="" />
+&lt;/p>
+&lt;p>欢迎水果居然有大白梨，童年回忆了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/ncr385zistygn830.jpg" alt="欢迎水果" />
+ &lt;figcaption class="imageCaption">欢迎水果&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/07/kc8dgoumpd3bit9o.jpg" alt="" />
+&lt;/p>
+&lt;p>床边浴缸算是好评，但这种圆形浴缸真的不舒服，个人不喜欢。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/gil23tiy17rxsu1r.jpg" alt="圆形浴缸，不舒服" />
+ &lt;figcaption class="imageCaption">圆形浴缸，不舒服&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/07/c36z2v1u6ugu9b7j.jpg" alt="" />
+&lt;/p>
+&lt;p>由于是午夜入住，中午离店，没有体验下午茶和 happy hour，只是中午在酒廊坐了下处理邮件，喝了一杯气泡水。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/sqm56zxvak5kd2ui.jpg" alt="酒廊故宫贴纸" />
+ &lt;figcaption class="imageCaption">酒廊故宫贴纸&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/07/z84jvsfol5jz2bdj.jpg" alt="酒廊" />
+ &lt;figcaption class="imageCaption">酒廊&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>GR III 日记版短期使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/gr-3/</link><pubDate>Thu, 04 Jul 2024 13:32:37 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/gr-3/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/7uim98pr3otvk3i6.jpg" alt="GR III Diary Edtion" />
+ &lt;figcaption class="imageCaption">GR III Diary Edtion&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>这台机器也是我很早就买了，现在差不多也是三千多快门数，买的契机是在京东抢到一台 X-S20 套机，体验了一把倒爷的快乐，于是就购入这台当红炸子鸡。本来想着凑热闹玩一玩就卖掉，没想到这玩意远超我预期，尤其是金属机身真的是深得我心，最后不但留下来了还搭上一台 GR IIIx。&lt;/p>
+&lt;h3 id="优点">优点&lt;/h3>
+&lt;p>GR 系列的优点就是 APS-C 画幅口袋机，所以优点都差不多，GR III 和 GR IIIx 比最近对焦距离有很大优势，微距模式最近对焦距离为 6cm。&lt;/p>
+&lt;ol>
+&lt;li>体积较小，这么小的体积拥有 ASP-C 画幅，其实已经不需要再说什么了，就是最强口袋机。&lt;/li>
+&lt;li>自带 2Gb 存储，虽然不及哈苏的 1T 偶尔也对付&lt;/li>
+&lt;li>带 ND 虽然没啥用，没人会用这玩意拍慢门吧，但有总比没有好&lt;/li>
+&lt;li>金属机身&lt;/li>
+&lt;li>有微距模式，虽然需要手动切换，但总归是好的&lt;/li>
+&lt;li>正副片预设都不错，高对比黑白个人倒不是很喜欢，大部分时候都是正片。&lt;/li>
+&lt;/ol>
+&lt;p>购入 GR III 之后我就很少把富士带出门了，尤其摔了一只镜头后，更不愿意带出门了，日本之行我就只带了 GR III，是 one bag travel 的绝佳搭档。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/o7wk6sfip3pfrmmx.jpg" alt="GR III diary edtion" />
+ &lt;figcaption class="imageCaption">GR III diary edtion&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>GR III 刚好放在 quick access 区，GR IIIx 因为镜头厚一点进出没那么方便，频繁进出其实我是有一点担心磨损过快，有考虑买一个原厂的皮套的，但 400 的价格实在是太高了，闲鱼二手也要卖到 300，这个皮套是理光唯一还保值的配件了。&lt;/p>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ol>
+&lt;li>镜头设计非常容易进灰&lt;/li>
+&lt;li>光圈还是略小，要是能大一档给到 F2 就完美了&lt;/li>
+&lt;li>电池续航垃圾，连续拍摄发热严重&lt;/li>
+&lt;li>原厂配件及其昂贵且大部分都是无用的，考虑到官方捆绑配件出售，这一点就非常无语&lt;/li>
+&lt;li>镜头环有点松，官方镜头环价格抢劫&lt;/li>
+&lt;li>对焦太差了，半天对不上焦&lt;/li>
+&lt;li>ADJ 按键设计过于不合理，阻尼过低，经常误触&lt;/li>
+&lt;li>未安装指柄的情况下手指需要按在屏幕上才会有比较舒适的握持感&lt;/li>
+&lt;li>这机器虽然无法连拍，但不支持 uhs-ii 卡槽还是略遗憾，用一张 V30 卡足够了&lt;/li>
+&lt;li>官方 APP 极其拉垮，连接非常难用，而且有设计缺陷，过于耗电。&lt;/li>
+&lt;li>做工拉垮，电池仓毫无安全感，总感觉会坏掉&lt;/li>
+&lt;/ol>
+&lt;p>还有一点就是挂绳孔实在太小了，PD 的扣子很难穿进去。&lt;/p></description></item><item><title>富士 X-S20 长期使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-xs20-long-term-review/</link><pubDate>Sat, 29 Jun 2024 19:30:05 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-xs20-long-term-review/</guid><description>&lt;p>富士 X-S20 发布已经快一年了，自己的机器快门数已经到达了三万，写一篇文章来做一个收尾，本文都是我实际使用的经验。&lt;/p>
+&lt;h3 id="基本情况">基本情况&lt;/h3>
+&lt;p>首先要说的是&lt;strong>器材选购时摄影乐趣中非常重要的一环&lt;/strong>，也许购入之后很快就索然无味，但不得不说选购过程是极其快乐的。我个人情况是不使用相机包，很少使用三脚架和闪光灯，city walk 记录为主，1/4 人像拍太太。两台富士快门数六万多。使用大约各一半 xt5 因为有美肤功能所以多一点。&lt;/p>
+&lt;p>由于我是 x-t5 和 x-s20 双持，作为长期使用着，还是能体验出 x-s20 相比 x-t5 的一些劣势。在使用过程中我卖掉了 xf56 f1.2 和 xf18-55 这两支镜头，日常我使用最多的的还是新的 f1.4 三剑客，33 能兼顾一点人像，但是拍菜不是很方便，18 和 23 都很不错。xf18 由于和手机焦段一样，现在二级市场跳水厉害，还是蛮推荐的。&lt;/p>
+&lt;h3 id="x-s20-优点">X-S20 优点&lt;/h3>
+&lt;p>对于普通用户来说，&lt;strong>愿意带出门才是第一生产力&lt;/strong>，想象一下你出门旅游背一块砖头，天气炎热的时候体验的真的很差。我没买过 x-s10，不过看参数和升级点，可以说是升级巨大，如果不要复古颜值，这玩意真的是一点缺点都没有。其实富士的残幅机器，新一代就那么几样功能，反复阉割放在不同机型身上，综合来看，x-s20 真的是阉割最好的机器。&lt;/p>
+&lt;ol>
+&lt;li>体积小巧，xs20 体积真的很小，虽然有手柄，但是依然很薄，是可以收纳进我的数码包的，xt5 则厚出不少，而且握持感差不少，xs20 在搭配一些重型镜头的时候长期握持并没有明显不适。&lt;/li>
+&lt;li>超强续航，小巧的机身却搭配了新电池，比 x-s10 来说最大的提升，连新机型 x-t50 都没配备大电池，不拍视频重度拍摄的情况下，一天毫无问题。&lt;/li>
+&lt;li>5 代机，该有的都有了，最新的 ra 滤镜也下放了。&lt;/li>
+&lt;li>2600 万像素适配型很好，不挑镜头，照片体积友好。&lt;/li>
+&lt;li>过热问题其实并不是很严重，曼谷 40 度的天气，在外拍摄毫无问题。&lt;/li>
+&lt;li>uhs-ii 卡槽，建议使用 v60 的卡，虽然价格很贵，不要小看这一点，连拍的时候就能体会到这个东西的瓶颈，连拍其实是非常重要的功能，我们拍摄的对象并不是专业模特，容易闭眼，pos 问题等，这个时候连拍就是最好的解决方法，否则你就等着挨骂吧。&lt;/li>
+&lt;/ol>
+&lt;p>我在上手体验的时候提过视频功能不错，在我长期使用中基本没拍摄过视频，偶尔使用发现还是得搭配稳定期才能有良好的发挥。拍摄视频存储成本还是蛮高的，128g 的卡可能就不太够用了。x-s20 虽然是五代处理器，但是并没有搭载五代传感器，相比四千万像素，两千六百万像素也是够用的。x-t5 一张 jpg 大约 19m，x-s20 为 12m 左右。我现在基本上不拍摄 raw 了，存储压力实在太大。&lt;/p></description></item><item><title>Hugo 简明教程 05</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-05/</link><pubDate>Thu, 27 Jun 2024 10:11:35 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-05/</guid><description>&lt;p>本文主要讲解 hugo 目录结构和主题目录结构的基本逻辑。Hugo 中有一些概念如 UnionFS,Hugo pipes 对普通用户来说很难理解，我这里尽量用白话来解释，可能不是很准确，但能让你大致理解 hugo 的文件逻辑。&lt;/p>
+&lt;h3 id="联合文件系统">联合文件系统&lt;/h3>
+&lt;p>首先要理解一个概念就是 Union file system（联合文件系统），简单来说就是可以多个目录挂载到同一个位置。当两个或多个文件具有相同路径的时候，优先级的顺序遵循挂载的顺序。比如可以将任意目录挂载到&lt;code>content&lt;/code>文件夹下。
+配置文件如下&lt;code>hugo.yaml&lt;/code>，&lt;strong>用白话来讲就是合并多个文件夹，路径相同的时候前面的优先&lt;/strong>。&lt;/p>
+&lt;pre tabindex="0">&lt;code>module:
+ mounts:
+ - source: content
+ target: content
+ - source: /home/rich/shared-content
+ target: content
+&lt;/code>&lt;/pre>&lt;p>这样&lt;code>/home/rich/shared-content&lt;/code> 下的 markdown 文件也会被视为&lt;code>content&lt;/code>下的内容，一般情况下普通用户不会这么操作。&lt;strong>但是我们修改主题的时候，可以通过在项目目录的相同位置放置一个副本来覆盖主题的模板&lt;/strong>。这也是我推荐的修改主题的方法，可以做到不污染原主题文件，以免更新主题的时候修改的部分被覆盖。&lt;/p>
+&lt;h3 id="主题目录">主题目录&lt;/h3>
+&lt;p>下面介绍一下 hugo 主题的目录结构，使用 &lt;code>hugo new theme&lt;/code> 命令创建的初始目录如下。&lt;/p>
+&lt;pre tabindex="0">&lt;code>farallon/
+├── archetypes/
+├── assets/
+├── data/
+├── i18n/
+├── layouts/
+├── static/
+├── LICENSE
+├── README.md
+├── hugo.toml
+└── theme.toml
+&lt;/code>&lt;/pre>&lt;h4 id="archetypes">archetypes&lt;/h4>
+&lt;p>原型文件，前面的文章已经讲过。&lt;/p>
+&lt;h4 id="assets-和-static">assets 和 static&lt;/h4>
+&lt;p>&lt;code>static&lt;/code> 目录下的文件在构建后会被原样复制到&lt;code>public&lt;/code> 文件夹下，&lt;code>assets&lt;/code>则可以用来存放一些编译前的文件如 &lt;code>scss&lt;/code>、&lt;code>typescript&lt;/code> 等，&lt;code>assets&lt;/code> 文件夹下的文件可以使用&lt;code>resources.Get&lt;/code> 来调用。&lt;/p></description></item><item><title>Hugo 使用 Cloudflare Worker 实现文章评论</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-comment/</link><pubDate>Thu, 20 Jun 2024 19:11:24 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-comment/</guid><description>&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/hugo-cf-worker" target="_blank" rel="noopener" >项目地址&lt;/a>
+，已经和点赞评论聚合为一个项目。&lt;/p>
+&lt;p>直接 &lt;code>git clone&lt;/code> 或者 &lt;code>use template&lt;/code>.&lt;/p>
+&lt;p>需要手动修改 &lt;code>wrangler.toml&lt;/code> 设置跨域域名和绑定&lt;code>d1&lt;/code>数据库。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[vars]
+DOMAIN = &amp;#34;https://bigfa.github.io&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>这个域名是你要跨域的域名，可以设置为*，这样就没有任何限制了。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[[d1_databases]]
+binding = &amp;#34;DB&amp;#34;
+database_name = &amp;#34;hugo-cf-d1&amp;#34;
+database_id = &amp;#34;81e23e8a-3b26-4025-acf8-1123bfd5af74&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>&lt;code>database_name&lt;/code> 和 &lt;code>database_id&lt;/code> 是你需要修改的，可在 Cloudflare 后台看到。&lt;/p>
+&lt;h3 id="优点">优点&lt;/h3>
+&lt;ul>
+&lt;li>不依赖啥框架，原生 js，方便自行维护&lt;/li>
+&lt;li>部署在 cloudflare 上，免费切数据可控&lt;/li>
+&lt;/ul>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ul>
+&lt;li>暂无管理后台，不方便管理评论&lt;/li>
+&lt;li>非傻瓜式部署&lt;/li>
+&lt;/ul>
+&lt;p>后续准备弄一个后台管理页面直接部署在 cloudflare pages 上。&lt;/p>
+&lt;h3 id="本地开发">本地开发&lt;/h3>
+&lt;p>Cloudflare 的命令行工具是 &lt;code>wrangler&lt;/code>，需要 nodejs 环境。&lt;code>wrangler&lt;/code> 使用过程中如果没登陆授权会弹出网页授权，授权即可。&lt;/p>
+&lt;p>进入项目目录，安装依赖。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npm install
+&lt;/code>&lt;/pre>&lt;p>创建数据库，如果已经在后台创建则无需执行这一步。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npx wrangler d1 execute create hugo-cf-d1
+&lt;/code>&lt;/pre>&lt;p>本地创建数据表，Cloudflare 本地和远程是分开的，如果后续手动部署，则需要在远程生产环境数据库创建表。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npx wrangler d1 execute hugo-cf-d1 --local --file=./schema.sql
+&lt;/code>&lt;/pre>&lt;p>之后即可启动项目&lt;/p>
+&lt;pre tabindex="0">&lt;code>npm run dev
+&lt;/code>&lt;/pre>&lt;h3 id="前端调用">前端调用&lt;/h3>
+&lt;p>本人的两款主题天然支持，只需要在在配置文件中开启即可。&lt;/p></description></item><item><title>Now</title><link>https://bigfa.github.io/hugo-theme-puma/now/</link><pubDate>Sat, 15 Jun 2024 15:16:07 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/now/</guid><description/></item><item><title>Docker 自动同步豆瓣书影音记录</title><link>https://bigfa.github.io/hugo-theme-puma/story/douban-docker/</link><pubDate>Fri, 07 Jun 2024 20:27:46 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/douban-docker/</guid><description>&lt;p>前阵子写了一个 Cloudflare Worker 版的同步书影音记录，个人觉得对于个人博客来说已经足够了，但可能一些同学介意 Cloudflare 的网络问题，于是我构建了一个 Docker 镜像，适合有国内服务器的同学使用。&lt;/p>
+&lt;p>首先需要安装 Docker 和 Docker compose，根据你的服务器自行寻找安装方法。&lt;/p>
+&lt;h3 id="构建">构建&lt;/h3>
+&lt;p>创建一个&lt;code>docker-compose.yml&lt;/code>文件，示例&lt;/p>
+&lt;pre tabindex="0">&lt;code>version: &amp;#39;3&amp;#39;
+services:
+ douban-docker:
+ image: fatesinger/douban:latest
+ container_name: douban-docker
+ volumes:
+ - assets:/app/static
+ environment:
+ MONGO_URI: mongodb://mongo:27017/fatesinger
+ DBID: 54529369
+ DOMAIN: https://node.wpista.com
+ depends_on:
+ - mongo
+ ports:
+ - 8000:3000
+ networks:
+ - shared-network
+
+ mongo:
+ image: mongo:4.4.29
+ container_name: mongo
+ restart: &amp;#34;always&amp;#34;
+ volumes:
+ # Persist mongodb data
+ - database:/data/db
+
+ ports:
+ - &amp;#34;27017:27017&amp;#34;
+
+ networks:
+ - shared-network
+
+volumes:
+ assets:
+ driver: local
+ name: assets
+
+ database:
+ driver: local
+ name: mongodb_data
+
+networks:
+ shared-network:
+&lt;/code>&lt;/pre>&lt;h4 id="nignx-配置">Nignx 配置&lt;/h4>
+&lt;pre tabindex="0">&lt;code>server {
+ listen 80;
+ server_name example.com;
+
+ location / {
+ proxy_pass http://127.0.0.1:8000;
+ proxy_set_header Host $host;
+ proxy_set_header X-Real-IP $remote_addr;
+ proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+ proxy_set_header REMOTE-HOST $remote_addr;
+ }
+}
+&lt;/code>&lt;/pre>&lt;h4 id="运行">运行&lt;/h4>
+&lt;pre tabindex="0">&lt;code>docker-compose up -d
+&lt;/code>&lt;/pre>&lt;h3 id="不使用-docker-启动服务">不使用 docker 启动服务&lt;/h3>
+&lt;p>根据&lt;code>.env.example&lt;/code>创建&lt;code>.env&lt;/code>文件&lt;/p></description></item><item><title>青岛瑞吉</title><link>https://bigfa.github.io/hugo-theme-puma/story/qingdao-city-walk/</link><pubDate>Wed, 29 May 2024 17:30:00 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/qingdao-city-walk/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/06/j5s444uj6zsi0qaw.jpg" alt="青岛瑞吉" />
+ &lt;figcaption class="imageCaption">青岛瑞吉&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>五年前去过一次青岛，当时去的时候是淡季，除了风大点，感觉都还蛮不错的，大大小小的景点都逛了一次，如今再次造访青岛，一是刷下航段，二是打卡青岛瑞吉。这家酒店骂得人还是蛮多的，主要就是升房抠门儿，而且不收套房券。本次预定也尝试使用套房券，不出意外被拒绝了。到店说到房间给做了升级，进屋发现只是个测海景，问能否给个正海景，管家婉拒。过一会 MOD 打电话过来说有有一件卡罗琳套房，等一下可以换过去，那自然是欣然答应了。&lt;/p>
+&lt;p>不过有一说一，这家酒店景观的很赞，哪怕是侧海景，拍照也非常好看，只不过肉眼景观却是差一点，但不得不说瑞吉还是有点东西的，硬件真的不错。值得一提的本次入住应该是全年最低价，还升级到卡罗琳套房，算是运气爆棚，超值了。此处入住的卡罗琳套房唯一的缺点就是主卫是暗卫了，不过客卫是有海景的。酒店是高空大堂，需要转乘电梯才能到客房。&lt;/p>
+&lt;p>总体上说真的很好，但我觉得只是本次狗屎运而已，以后不会再有机会升套了。这两年靠着白金挑战有了万豪白金，活动加上中信联名卡获得了不少积分，体验了万豪旗下好几家不错的酒店。但是万豪现在白金防水严重，积分也严重贬值，已经准备转投 IHG 了，虽然分布没有万豪广，但是住洲际有大使加持还是非常舒服的。&lt;/p></description></item><item><title>Hugo 简明教程 04</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-04/</link><pubDate>Wed, 29 May 2024 17:05:06 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-04/</guid><description>&lt;p>本文主要讲解 hugo 的部署方法。&lt;/p>
+&lt;h3 id="build-命令">build 命令&lt;/h3>
+&lt;p>除了基础的 &lt;code>hugo build&lt;/code> 其实 &lt;code>build&lt;/code>命令支持不少参数，下面介绍一下比较有用的参数。&lt;/p>
+&lt;pre tabindex="0">&lt;code> -b, --baseURL string 绑定域名, 比如 https://fatesinger.com/
+ -D, --buildDrafts 包含草稿
+ -E, --buildExpired 包含过期内容
+ -F, --buildFuture 包含日期在将来的内容
+ -c, --contentDir string content 目录，一班不需要改
+ --disableKinds strings 禁用页面类型，同时生成多个站点时有用
+ --gc 构建完成后移除部分缓存
+ --ignoreCache 忽略缓存
+ --minify 压缩html
+ -t, --theme strings 要使用的主题，同时生成多个站点时有用
+&lt;/code>&lt;/pre>&lt;p>一般来说，默认 &lt;code>hugo build&lt;/code> 就可以了，像我这种多平台多域名多主题部署这些参数才有意义。&lt;/p>
+&lt;h3 id="手动部署">手动部署&lt;/h3>
+&lt;p>绝大部分人都推荐的方法是通过 github actions 自动部署，我个人觉的手动部署也很方便。自动部署也只不过在云端进行手动部署的步骤而已。简单来说 hugo 部署就两步&lt;/p>
+&lt;ol>
+&lt;li>使用 &lt;code>hugo build&lt;/code> 命令生成 &lt;code>html&lt;/code> 文件&lt;/li>
+&lt;li>将生成的文件上传到托管平台或者服务器&lt;/li>
+&lt;/ol>
+&lt;p>执行完构建命令后你可以把生成的 html 文件上传到任何你喜欢的平台。如果你没有特别的需求甚至也不需要用 git 来原理仓库，毕竟对于普通用户来说，各种命令难以理解。&lt;/p>
+&lt;p>本地手动部署还有一个优点就是构建速度很快，一般 PC 的配置还是要比服务器的配置强一点，尤其 Mac 的 ssd，构建速度很快。手动上传也可以克服各种网络困难。如果你上传到自己的服务器，那么你还需要部署一个简单的 &lt;code>nginx&lt;/code> 服务，因为是纯静态，所以只需要傻瓜配置。&lt;/p></description></item><item><title>Hugo 简明教程 03</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-03/</link><pubDate>Wed, 29 May 2024 17:04:24 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-03/</guid><description>&lt;p>本文主要介绍原型（archetypes）和 markdown 文件的使用方法。&lt;/p>
+&lt;p>本系列文章均可参考我的 hugo 
+
+
+&lt;a href="https://github.com/bigfa/bigfa.github.io" target="_blank" rel="noopener" >博客项目&lt;/a>
+，具体内容在里面均有体现。&lt;/p>
+&lt;h3 id="archetype-原型">archetype 原型&lt;/h3>
+&lt;p>&lt;code>archetype&lt;/code> 可以理解为模版，当使用 &lt;code>hugo new content&lt;/code> 命令创建新文件的时候会根据一定的规则选择对应的模版，相当于文章的默认设置。默认是主题目录下下的&lt;code>archetypes/default.md&lt;/code>，当然你的站点目录可能也有一个&lt;code>archetypes&lt;/code>目录，这里面的模版的优先级是大于主题目录下的&lt;code>archetypes&lt;/code>。&lt;/p>
+&lt;p>你可以为一个或多个内容类型创建一个原型（archetype）。如下，当创建 &lt;code>posts&lt;/code>类型的时候会使用 &lt;code>posts.md&lt;/code>，其他类型则会使用默认设置。&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content posts/my-first-post.md
+&lt;/code>&lt;/pre>&lt;p>文件结构&lt;/p>
+&lt;pre tabindex="0">&lt;code>archetypes/
+├── default.md
+└── posts.md
+&lt;/code>&lt;/pre>&lt;p>当你站点内容较为复杂的时候合理使用原型会更方便，如果只有一个文章类型，那么直接复制已有的 &lt;code>markdown&lt;/code> 文件也足够了。&lt;/p>
+&lt;h4 id="原型文件查找顺序">原型文件查找顺序&lt;/h4>
+&lt;p>根目录下的原型优先级是最高的，爱折腾的同学可能有非常多的自定义设置，合理使用原型初始化更加方便。&lt;/p>
+&lt;ol>
+&lt;li>archetypes/posts.md&lt;/li>
+&lt;li>archetypes/default.md&lt;/li>
+&lt;li>themes/my-theme/archetypes/posts.md&lt;/li>
+&lt;li>themes/my-theme/archetypes/default.md&lt;/li>
+&lt;/ol>
+&lt;p>原型中也有一些简单的表达式可以使用，如&lt;code>.Date&lt;/code>，但是这个值是文件发创建时间，不等于文章发布时间，目前还没办法自动修改这个时间为发布时间。&lt;/p>
+&lt;h3 id="markdown-文件">Markdown 文件&lt;/h3>
+&lt;p>Hugo 以及绝大多数静态网页生成器都是 &lt;code>markdown&lt;/code> 转 &lt;code>html&lt;/code>，在文件数量不多的情况下各种程序没有任何区别，因为最后都是转为&lt;code>html&lt;/code>文件。在文件多的时候不同程序可能构建速度不太一样，这里推荐大家单独管理图片文件，这样能大大提升构建速度。大量图片同时也意味着上传时间大大增加，所以不推荐直接把图片放在项目目录下。&lt;/p>
+&lt;p>Hugo 中 &lt;code>markdwon&lt;/code> 文件简单来说可以分为两个部分，一部分是元数据，另一部分则为正文内容。位于每个内容文件顶部的前言部分是元数据，简单来讲可以理解为 wordpress 中的&lt;code>wp_postmeta&lt;/code>，你可以在 &lt;code>params&lt;/code> 参数中自定义各种类型的数据，然后在循环中通过&lt;code>.Params&lt;/code>来调用。&lt;/p>
+&lt;p>除了&lt;code>params&lt;/code>，hugo 内置了一些功能性的字段，下面是一个简单的例子。&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+date: 2024-02-02T04:14:54-08:00
+draft: false
+params:
+ author: John Smith
+title: Example
+weight: 10
+layout: page
+categories: [&amp;#34;gears&amp;#34;]
+tags: [&amp;#34;fujifilm&amp;#34;]
+---
+&lt;/code>&lt;/pre>&lt;p>标题、分类、标签、发布时间等比较好理解，下面单独介绍一下功能性参数。&lt;/p></description></item><item><title>Hugo 简明教程 02</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-02/</link><pubDate>Wed, 29 May 2024 17:02:35 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-02/</guid><description>&lt;p>本文主要介绍 Hugo 内容文件管理和页面 URL 设置，建议搭配我的
+
+
+&lt;a href="https://github.com/bigfa/bigfa.github.io" target="_blank" rel="noopener" >GitHub Pages&lt;/a>
+项目使用。&lt;/p>
+&lt;h3 id="页面类型">页面类型&lt;/h3>
+&lt;p>Hugo 的页面类型主要有以下几个，还有一些特殊的功能性页面如 rss 这里就不做讨论了。&lt;/p>
+&lt;ul>
+&lt;li>home 首页&lt;/li>
+&lt;li>page 可以理解为文章详情页和一些指定页面如关于和固定连接&lt;/li>
+&lt;li>section 可以理解为一类文章的归档的页面&lt;/li>
+&lt;li>taxonomy 可以理解为分类、标签的归档页，就是列出所有分类、标签的聚合页面。&lt;/li>
+&lt;li>term 分类、标签等文章列表页，列出属于某个分类、标签下文章列表的页面&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>RSS、网站地图、robotsTXT 和 404 页面类型，但这些只在渲染各自页面类型时可用，因此在任何页面集合中都不可用。&lt;/p>&lt;/blockquote>
+&lt;h3 id="内容管理">内容管理&lt;/h3>
+&lt;p>众所周知，hugo 的 markdown 文件都在 content 目录下，也就是存放文章的地方，hugo 的作用就是把这些 &lt;code>markdown&lt;/code> 文件转换为 &lt;code>html&lt;/code>。默认情况下&lt;code>content&lt;/code>文件夹下的所有 &lt;code>markdown&lt;/code> 文件都会被认为是常规内容页面（RegularPages）。&lt;/p>
+&lt;p>当然，我们在实际使用过程中，可能会新建一个 posts 文件夹，或者按日期创建文件夹来管理文件，这个时候就要理解 &lt;code>section&lt;/code> 这个概念，简单来说就是一个文章类型，如果常规文章 &lt;code>post&lt;/code> 和状态内容 &lt;code>status&lt;/code>。在 Hugo 中，顶级目录（content 文件夹下的一级目录）或者是带有 &lt;code>_index.md&lt;/code> 文件的任何内容目录都会被认为是&lt;code>section&lt;/code>。这里推荐为所有 section 都创建&lt;code>_index.md&lt;/code> 文件。&lt;/p>
+&lt;p>不过也不是所有的顶级目录都会被视为 section，当在配置中被指定为&lt;code>taxonomies&lt;/code> 时，就不会被认为是 &lt;code>section&lt;/code> 了，如下配置中，此时顶级目录&lt;code>categories&lt;/code>和&lt;code>tags&lt;/code>不会被认为是 &lt;code>section&lt;/code>。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[taxonomies]
+ category = &amp;#39;categories&amp;#39;
+ tag = &amp;#39;tags&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>我推荐为每个分类都创建一个 markdown 文件，因为 markdown 文件可以存储一些元信息，所以我们可以通过这些文件来个分类设置封面、描述等信息，&lt;strong>甚至可以设置单独的模版&lt;/strong>。&lt;/p></description></item><item><title>Hugo 简明教程 01</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-01/</link><pubDate>Wed, 29 May 2024 16:51:54 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-01/</guid><description>&lt;p>首先就是如果你不是没有域名和服务器，我完全不推荐你使用静态网页生成器，简单点说，静态博客能干的动态博客都能干，反过来就差太多了。如果你酷爱使用 markdown 写作，那也有很多支持 markdown 写作的程序和平台。一般来说，使用静态博客的原因：&lt;/p>
+&lt;ol>
+&lt;li>不想花钱购买服务器&lt;/li>
+&lt;li>不想维护服务器&lt;/li>
+&lt;li>抗拒国内内容审查&lt;/li>
+&lt;li>折腾的快感&lt;/li>
+&lt;/ol>
+&lt;p>其他的理由什么速度快、方便管理都是扯蛋，对普通用户来说，可视化界面才是王道。至于内容审查那就是不能使用国内服务器，一般没有了国内服务器的速度优势，那其实还不如直接找个托管平台省事。&lt;strong>没有可视化界面都绝大部分人来说都是灾难&lt;/strong>，这也是为什么使用静态网页编译器的都是程序员居多。&lt;/p>
+&lt;h3 id="动态博客">动态博客&lt;/h3>
+&lt;p>wordpress/typecho/ghost 为代表，有可视化界面，方便管理，但需要一台服务器，选择国内云服务器的话一年可能需要几百块。这些程序都是可视化操作，上手及其简单。&lt;/p>
+&lt;h3 id="静态网页生成器">静态网页生成器&lt;/h3>
+&lt;p>一般来说所谓意义上的静态博客都是把 &lt;code>markdown&lt;/code> 文件转化为 &lt;code>html&lt;/code>，虽然可以使用其他服务实现花里胡哨的各种功能，但那其实和静态网页生成器没任何关系了，因为这些功能放在任何页面都可以使用。而不同程序的区别也仅仅是编译速度和 &lt;code>html&lt;/code> 模版引擎的区别而已。我相信绝大多数折腾这玩意的人都只会关系主题长啥样，绝对不会关注 &lt;code>markdown&lt;/code> 是怎么转成 &lt;code>html&lt;/code> 的。&lt;/p>
+&lt;h3 id="优势">优势&lt;/h3>
+&lt;p>我真的说不出来这玩意有啥优势，唯一的优势就是可以省下服务器的钱。如果你想要好的体验，再弄个不错的图床啥的，还是要花钱。&lt;/p>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ol>
+&lt;li>没有可视化管理界面&lt;/li>
+&lt;li>不搭载三方服务无法实现评论等基础功能&lt;/li>
+&lt;li>图片等媒体管理极其不方便&lt;/li>
+&lt;li>文档差劲，模版语言非程序员难以理解&lt;/li>
+&lt;li>想要顺畅使用需要 &lt;code>git&lt;/code> 基础知识，使用 &lt;code>github&lt;/code> 还需破解网络问题&lt;/li>
+&lt;/ol>
+&lt;p>虽然各种自动部署教程很多，也有可视化 git 客户端，也有专门的 markdown 写作工具，但是显然是需要多个地方配合起来使用，我相信除了折腾的成就感，写作体验真的算是差的了。&lt;/p>
+&lt;h3 id="hugo">hugo&lt;/h3>
+&lt;p>为啥选择 hugo，仅仅是比较火而已，和其他静态网页生成器并没有本质区别。&lt;strong>再次强调我不推荐任何使用传统动态博客程序如 Wordpress 的博主转到 hugo&lt;/strong>，对于个人博客来说，我觉得什么程序都一样，wordpress 臃肿之类的也只是大部分人的心理作用罢了。&lt;/p>
+&lt;p>使用 Hugo 最好搭配一些简单的计算机知识，终端，git 等，这样能极大程度帮助你更好的管理博客。静态博客本质上是 Markdown 文件转 html，长期维护自然就需要管理 md 文件，当然一些写作软件也是支持的。本地调试需要使用终端执行一些命令，需要使用命令行工具。在默认情况下，图片需要手动管理并插入到文章中，和可视化编辑器那种上传插入有很大区别，一些写作软件在配置之后可以实现突破自动上传的功能。&lt;/p>
+&lt;p>另外就是自动部署一般都是使用 Github 仓库，需要解决网络问题，托管平台的网络可能有问题，需要额外优化。&lt;/p>
+&lt;p>如果你克服了上面的困难，自动部署成功，那么你后面的使用就比较轻松了，只需要管理你的 &lt;code>markdown&lt;/code> 文件，其他的应该都已经是自动的了。如果你追求个性，需要修改主题，那么你需要一点计算机知识，如果你想定制一些功能，那么恭喜你，你进入了一个大坑，hugo 的文档写的很差。&lt;/p>
+&lt;h4 id="安装">安装&lt;/h4>
+&lt;p>我推荐 mac 用户使用，直接使用 brew 安装即可。&lt;/p></description></item><item><title>郑州 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/zhengzhou-city-walk/</link><pubDate>Tue, 28 May 2024 18:50:16 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/zhengzhou-city-walk/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/06/0g6c3erh9pub2oe3.jpg" alt="洲际" />
+ &lt;figcaption class="imageCaption">洲际&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>多年以前曾经在郑州短暂待过几天，当时知识去了周边的少林寺、洛阳，郑州只是去了下二七广场，这次短暂的 City Walk 去了两个地方，一个是河南博物院，另一个是新晋地标玉米楼。&lt;/p>
+&lt;p>酒店选择了郑州丹尼斯洲际，貌似现在是郑州新晋网红，实际入住体验确实非常不错，房间面积很大，行政酒廊人少服务好，价格也还算不错。不过也只能算是不错的酒店，毕竟价格在那放着，和顶奢还是有一定差距。&lt;/p>
+&lt;p>玉米楼在郑东新区这边，晚上的时候绕着如意湖走了一圈，可以明显感觉到经济不太行。正常来讲，这种 CBD 周围应该都是咖啡店、餐厅，但玉米楼周围确都是炸串之类的小吃店。据说玉米楼上也没什么正经公司入住。还有就是晚上如意湖周围全都是直播，堪称群魔乱舞。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/06/at16zfhm7whto145.jpg" alt="绿地玉米楼" />
+ &lt;figcaption class="imageCaption">绿地玉米楼&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>博物馆并不属于我的心头好，这次只是顺便逛一逛，看一看以前课本上的东西，河南博物院还是挺不错的，还是比较推荐。&lt;/p>
+&lt;p>最后就是郑州真的太堵了，旅游资源远不如周边城市，但是作为中转简单逛一下还是不错的。&lt;/p></description></item><item><title>首尔转机游记</title><link>https://bigfa.github.io/hugo-theme-puma/story/seoul-transfer/</link><pubDate>Wed, 22 May 2024 23:54:18 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/seoul-transfer/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/cyjswt39fqadcknm.jpg" alt="青岛胶东机场" />
+ &lt;figcaption class="imageCaption">青岛胶东机场&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>昨天小押注川普成功，顺便写一下之前转机入住的川普同款酒店。&lt;/p>&lt;/blockquote>
+&lt;p>春节的时候返深机票很贵，加上想去台北转机，就要求了一个多次转机的路线，哈尔滨〉青岛〉首尔〉台北〉香港〉深圳，很早之前办了韩国签证，所以首尔我就出境做了停留，首尔冬天天气恶劣，是一年里酒店最便宜的时候，否则现在首尔酒店的价格是真住不起。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/3bqg940dr679ytok.jpg" alt="首尔仁川机场" />
+ &lt;figcaption class="imageCaption">首尔仁川机场&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>仁川机场还是挺繁忙的，入境人数非常多，排队排了很久，好在入境手续很方便，直接刷护照就可以了。仁川机场到市区比较方便的方式是机场大巴，因为带了行李还是用了 uber，晚上用车还是蛮贵的，到市区花了七万五韩元，白天去机场的时候就只要四万了。&lt;/p>
+&lt;p>首尔冬天可以算是气候恶劣了，风大又干燥，气温也跌，我穿的很少，在外面走根本受不了，第二天白天的时候还雨夹雪。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/04/b72pb5frpwpnmd2q.jpg" alt="首尔" />
+ &lt;figcaption class="imageCaption">首尔&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>首尔君悦在山上，位置算是很好了，本次直接用了套房券，虽然只住一晚血亏，但景观还是非常好的。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/11/r61cjeubkf3duyqu.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/11/6j2hgqc9l3ybhydt.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/11/v3awky5nttwjnsbb.jpg" alt="首尔君悦" />
+ &lt;figcaption class="imageCaption">首尔君悦&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/11/x6xsk9pb6a9xjop2.jpg" alt="" />
+&lt;/p></description></item><item><title>苏州 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/suzhou-city-walk/</link><pubDate>Wed, 22 May 2024 14:10:33 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/suzhou-city-walk/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/05/2g9y3y9adpma53k3.jpg" alt="" />
+&lt;/p>
+&lt;p>再游苏州。&lt;/p></description></item><item><title>无锡 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/wuxi-citywalk/</link><pubDate>Tue, 21 May 2024 17:37:39 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/wuxi-citywalk/</guid><description>&lt;p>本次主要去了两个区域，南长街和惠山古镇，惠山古镇主要逛了逛寄畅园，锡山公园因为时间原因就没有逛了，有点可惜。本次从深圳飞无锡，无锡作为酒店荒地本来没打算在这住的，但苏州想住的刚好当天满房，就在无锡住了一晚，选择了新区的华邑。第一天晚上地铁去南长街走了走，第二天早上背包去惠山古镇逛了一个多小时，然后直接去火车站了。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/05/pefgo6hwrjycuz5p.jpg" alt="" />
+&lt;/p>
+&lt;p>总体上说，在无锡的时间很短，很难评价这个城市，但因为苏州没有机场，在江浙沪航线中无锡还是蛮重要的一个城市，后面应该还是会再来感受一下这个城市。&lt;/p></description></item><item><title>Kimpton Suzhou</title><link>https://bigfa.github.io/hugo-theme-puma/story/kimpton-suzhou-bamboo-grove/</link><pubDate>Sun, 19 May 2024 20:52:52 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/kimpton-suzhou-bamboo-grove/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/05/28349llegbumt3hr.jpg" alt="" />
+&lt;/p>
+&lt;p>很多人差评的酒店，但各方面都在我的点上，我很喜欢。&lt;/p></description></item><item><title>再游拙政园</title><link>https://bigfa.github.io/hugo-theme-puma/story/humble-administrators-garden/</link><pubDate>Sun, 19 May 2024 11:47:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/humble-administrators-garden/</guid><description>&lt;p>时隔多年再游拙政园，心境有点不一样，不变的仍然是对园林没什么兴趣。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2024/05/r8ovjc95zypuuvfw.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2024/05/3xchiu89ruajxk0k.jpg" alt="" />
+&lt;/p></description></item><item><title>使用 Cloudflare Worker 获取豆瓣书影音记录</title><link>https://bigfa.github.io/hugo-theme-puma/story/douban-cf-worker/</link><pubDate>Wed, 15 May 2024 17:41:48 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/douban-cf-worker/</guid><description>&lt;blockquote>
+&lt;p>本功能直接解决豆瓣书影音记录两大痛点，自动同步和封面本地化，对于普通用户来说，Cloudflare 的免费版足够了，非常推荐使用。&lt;/p>&lt;/blockquote>
+&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/douban-cf-worker" target="_blank" rel="noopener" >项目地址&lt;/a>
+&lt;/p>
+&lt;p>之前我自己用 nodejs + mysql 写了一个同步豆瓣书影音的服务，但只在一个很隐蔽的地方公开了，主要是流量和数据库压力太大，提供公共服务成本实在是太高，最近在研究 Cloudflare Worker，试着把服务迁移过去，过程中发现几个问题。&lt;/p>
+&lt;ul>
+&lt;li>D1 单次请求操作次数是有限制的，最多一千次，读写都算。&lt;/li>
+&lt;li>Worker 子请求数最多就是 50 次，下载图片是占用这个次数的，初始化的时候如果下载图片基本都会超限失败。&lt;/li>
+&lt;li>Worker 直接读取 R2 输出图片的话速度很慢。&lt;/li>
+&lt;/ul>
+&lt;p>不过多次测试之后还是找到了使用方法，虽然免费版有各种限制，但限制的都是单次请求，初始化的时候数据比较多，只需要在本地分页之后调用初始化接口就行了，后续使用定时任务同步不会因为请求过多而超限，除非在短时间内标记了大量内容。&lt;/p>
+&lt;p>电影&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+&lt;div class="doulist-item">
+ &lt;div class="doulist-subject">
+ &lt;div class="doulist-post">&lt;img decoding="async" referrerpolicy="no-referrer" src="https://dbapi.wpista.com/movie/26434828.jpg">&lt;/div>
+ &lt;div class="doulist-content">
+ &lt;div class="doulist-title">&lt;a href="https://movie.douban.com/subject/26434828/" class="cute" target="_blank"
+ rel="external nofollow">星际迷航4&lt;/a>&lt;/div>
+ &lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight"
+ style="--width: 0%">&lt;/span>&lt;/span>&lt;span class="rating_nums">0.0&lt;/span>
+ &lt;/div>
+ &lt;div class="abstract">2028 / 美国 / 动作 科幻 惊悚 冒险 / 克里斯·派恩 扎克瑞·昆图&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;/p>
+&lt;p>音乐&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+&lt;div class="doulist-item">
+ &lt;div class="doulist-subject">
+ &lt;div class="doulist-post">&lt;img decoding="async" referrerpolicy="no-referrer" src="https://dbapi.wpista.com/music/36766055.jpg">&lt;/div>
+ &lt;div class="doulist-content">
+ &lt;div class="doulist-title">&lt;a href="https://music.douban.com/subject/36766055/" class="cute" target="_blank"
+ rel="external nofollow">The Tortured Poets Department&lt;/a>&lt;/div>
+ &lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight"
+ style="--width: 68%">&lt;/span>&lt;/span>&lt;span class="rating_nums">6.8&lt;/span>
+ &lt;/div>
+ &lt;div class="abstract">泰勒·斯威夫特 Taylor Swift / 2024&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;/p>
+&lt;p>图书&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+&lt;div class="doulist-item">
+ &lt;div class="doulist-subject">
+ &lt;div class="doulist-post">&lt;img decoding="async" referrerpolicy="no-referrer" src="https://dbapi.wpista.com/book/36593622.jpg">&lt;/div>
+ &lt;div class="doulist-content">
+ &lt;div class="doulist-title">&lt;a href="https://book.douban.com/subject/36593622/" class="cute" target="_blank"
+ rel="external nofollow">世上为什么要有图书馆&lt;/a>&lt;/div>
+ &lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight"
+ style="--width: 91%">&lt;/span>&lt;/span>&lt;span class="rating_nums">9.1&lt;/span>
+ &lt;/div>
+ &lt;div class="abstract">杨素秋 / 2024 / 上海译文出版社&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;/p>
+&lt;p>为了简化数据库使用单表、所以电影不再支持类型了。新的单条目引用不会在标记列表中展示，后续如果该条目被标记则会自动更新，&lt;strong>取消标记不会被同步&lt;/strong>。&lt;/p>
+&lt;p>自动同步使用了 Cloudflare 的 cron 触发器，实测还是比较好用的。同步时间可以根据自己的需求设置，默认配置是每 30 分钟同步一次。&lt;/p>
+&lt;pre tabindex="0">&lt;code>crons = [&amp;#34;*/30 * * * *&amp;#34;]
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>如果未进行初始化直接进行同步，可能会因为 D1 操作次数过多报错而无法同步老数据，这时需要清空数据重新初始化，建议 worker 部署后第一时间初始化。&lt;/p></description></item><item><title>Hugo 使用 Cloudflare Worker 实现文章浏览计数与点赞</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-worker/</link><pubDate>Mon, 13 May 2024 15:31:20 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-worker/</guid><description>&lt;p>一直以来我对静态博客都没什么兴趣，主要原因是静态博客都是 MD 文件转网页，各种平台都是大同小异，只展示博文还好，如果实现一些其他计数功能，如点赞评论啥的都要额外部署服务，这样还不如直接用动态博客了。如果有研究过我的 hugo 主题会发现我的数据存储都是使用 Markdown 文章文件的，也算原汁原味的静态博客。&lt;/p>
+&lt;p>引入外部服务理论上啥功能都能实现，但那其实和静态博客已经没啥关系了。前阵子 Google domains 停止服务，我就把域名转到了 Cloudflare，顺便研究了一下自带的功能，发现用 Cloudflare 的免费方案搭建一个简单的数据统计服务是没啥成本的，于是就有了本文。&lt;/p>
+&lt;ul>
+&lt;li>Cloudflare 免费方案的额度对普通用户来说完全够用，如果不够用付费就好了，毕竟大流量也很容易变现。&lt;/li>
+&lt;li>Cloudflare Worker 的域名无法直接访问，需要自己绑定域名。&lt;/li>
+&lt;li>前端调用需要解决跨域问题。&lt;/li>
+&lt;li>静态博客没有文章 id 的概念，需要设置一个 key，hugo 有个文件路径的 md5 可以作为 UniqueId。&lt;/li>
+&lt;/ul>
+&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/hugo-cf-worker" target="_blank" rel="noopener" >项目地址&lt;/a>
+&lt;/p>
+&lt;p>直接 &lt;code>git clone&lt;/code> 或者 &lt;code>use template&lt;/code>.&lt;/p>
+&lt;p>需要手动修改 &lt;code>wrangler.toml&lt;/code> 设置跨域域名和绑定&lt;code>d1&lt;/code>数据库。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[vars]
+DOMAIN = &amp;#34;https://bigfa.github.io&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>这个域名是你要跨域的域名，可以设置为*，这样就没有任何限制了。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[[d1_databases]]
+binding = &amp;#34;DB&amp;#34;
+database_name = &amp;#34;hugo-cf-d1&amp;#34;
+database_id = &amp;#34;81e23e8a-3b26-4025-acf8-1123bfd5af74&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>&lt;code>database_name&lt;/code> 和 &lt;code>database_id&lt;/code> 是你需要修改的，可在 Cloudflare 后台看到。&lt;/p>
+&lt;h3 id="本地开发">本地开发&lt;/h3>
+&lt;p>Cloudflare 的命令行工具是 &lt;code>wrangler&lt;/code>，需要 nodejs 环境。&lt;code>wrangler&lt;/code> 使用过程中如果没登陆授权会弹出网页授权，授权即可。&lt;/p>
+&lt;p>进入项目目录，安装依赖。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npm install
+&lt;/code>&lt;/pre>&lt;p>创建数据库，如果已经在后台创建则无需执行这一步。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npx wrangler d1 execute create hugo-cf-d1
+&lt;/code>&lt;/pre>&lt;p>本地创建数据表，Cloudflare 本地和远程是分开的，如果后续手动部署，则需要在远程生产环境数据库创建表。&lt;/p></description></item><item><title>重庆 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/chongqing/</link><pubDate>Wed, 24 Apr 2024 15:37:30 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/chongqing/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/04/l0dpxc3wzsbjpwmj.jpg" alt="" />
+&lt;/p>
+&lt;p>由于胡志明市直飞深圳机票太贵了，所以选择在重庆中转一晚，顺便冲一下携程的国航挑战。重庆这个城市应该来了有三四次了，是我早期去过的几个地方之一，当时重庆主流还是讲方言，&lt;del>现在已经是普通话居多了&lt;/del>，也不是很确定，也可能是我现在去的地方和以前不一样了。&lt;/p>
+&lt;p>因为是中转，所以只在重庆住一晚，第二天下午就回深圳，有一个上午的时间来逛逛，这次选择了新晋网红景点，鹅岭公园、鹅岭二厂、李子坝轻轨站这个步行路线，不行顺序一定不要搞错，我这个顺序都是下坡，反向的话那就都是上坡了，爬不完的台阶，绝对会崩溃。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/04/bf7kbvmhrkcivi41.jpg" alt="" />
+&lt;/p>
+&lt;p>这几个地方感觉除了鹅岭公园，其他的都没什么意思，鹅岭公园环境不错，有点天然氧吧的意思，逛一逛还是很舒适的。鹅岭二厂就是个假装文艺的地方，拍拍照文艺一下也就这样了。至于李子坝轻轨站，这玩意实在是没什么意思，可能对于一些外地人来说轻轨穿楼确实是难得一见，但实际上看完也就那么回事。&lt;/p>
+&lt;p>不过这一路走过来，可以看出重庆旅游局确实是下了点功夫的，一路上标注都很明显，李子坝&lt;del>观景台&lt;/del>，姑且就叫观景台吧，也有很多交警在维护秩序，体验确实不错。这两年各地的旅游局都在想法设法打造网红城市，在我看来真的用力过猛了，弥漫着一种最后一割的氛围。&lt;/p>
+&lt;p>回深圳的航班选择了走重庆机场的贵宾楼，用的广发的权益，需要提前打电话预约，服务非常好，饭点也有热食，考斯特送到飞机下面，可能是只有我一位的原因，居然还帮我提了行李，大大的好评。&lt;/p>
+&lt;p>不出意外的话，后面我还会再来重庆，一方面想体验一下洲际和丽晶，另一方面就是进藏在重庆中转要节省很多钱。随着经济逐渐下行，自己的时间又重新不值钱起来了。&lt;/p></description></item><item><title>丽江金茂凯悦甄选</title><link>https://bigfa.github.io/hugo-theme-puma/story/lijiang-ub/</link><pubDate>Tue, 16 Apr 2024 14:02:14 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/lijiang-ub/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/04/jtl06ju0j1kplx8n.jpg" alt="玉龙雪山" />
+ &lt;figcaption class="imageCaption">玉龙雪山&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>前阵子去了一躺丽江，本来想坐下玉龙雪山大索道，结果双双身体不适，只能放弃，略可惜。为了能在屋里就看日照金山，所以选择了束河古镇这边的凯悦甄选，其实位置更好的是金茂璞修，但价格太高了，要三四千元一晚，下面的凯悦甄选只要一千，两家是同一个业主。&lt;/p>
+&lt;p>本次在丽江住了两晚，第一晚选择了凯悦甄选，第二晚还是选择了洲际，丽江旅游真的首推洲际，洲际的业主和丽江大部分旅游产业都是同一个业主，可以直接原价买大索道门票，千古情之类的都可以直接买票，非常方便。而金茂凯悦甄选在束河古镇这边，不推荐首次来丽江的人，更适合已经来过丽江，想安静度假的人。&lt;/p>
+&lt;p>本次是环球客积分兑换入住，升级到雪山景观房，在滇香馆吃了个午餐。酒店体量还是挺大的，硬件不错，养了不少小动物，可以算是亲子友好。另外就是丽江实在是太干燥了，房间面积太大，加湿器开了也没啥作用，第二天鼻子就开始出血了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/04/ktqcust8zwqm3wv7.jpg" alt="玉龙雪山" />
+ &lt;figcaption class="imageCaption">玉龙雪山&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>不得不说云南真是个旅游的好地方，对于不怎么旅游的人来说，国内游我都推荐云南。现在云南的公路线和铁路线都很完善，真的很方便，当年我在云南旅游，切换城市只能飞机，像泸沽湖这种地方要八个小时的山路。现在通了动车，昆大丽一圈玩下来不要太方便。&lt;/p></description></item><item><title>Singapore City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/singapore/</link><pubDate>Mon, 15 Apr 2024 19:03:47 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/singapore/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/04/2d0hq8czqqdenilh.jpg" alt="" />
+&lt;/p>
+&lt;p>前阵子去了一躺新加坡，堪称最怨种出行。核心原因是我们出行正赶上 Taylor Swift 演唱会前两天，酒店不但天价，而且房间紧张。我们在去的时候深圳不知道 Taylor Swift 要开演唱会，我以为发达国家的消费就是这个样子的。真的超级怨种。现在回想一下，虽然怨种的一批，但是好歹也是发达国家，体验一下也还算可以。还是直接上总结。&lt;/p>
+&lt;p>酒店虽然贵，但也没那么夸张，这次出行主要是赶上了演唱会，价格翻了两三倍左右，我是用了凯悦积分兑换的安达仕，四万分两万，当时房价已经五千一晚了，正常平日应该是两千左右，但是因为房间紧张，没有用上套房券，这真的太亏了。&lt;/p>
+&lt;p>打车价格我个人觉得还好，长距离的话感觉比国内滴滴专车贵那么一点，个人还是可以接受的，地铁也挺方便的，其实没有网上说的那么夸张。&lt;/p>
+&lt;p>餐饮都是在酒店搞定的，价格我觉得和三亚酒店消费差不多吧，一碗牛肉面能卖到两百的水平。。。但酒店餐厅价格还好，人均几百的样子，和深圳差不多。&lt;/p>
+&lt;p>语言方面中文的普及程度大大超出我的预料，华人确实多，人民素质接触不多，不太好评价，但也没有啥特别的感觉。&lt;/p>
+&lt;p>天气有点热，但本身生活在南方，个人还是比较适应的。总体上说，这地方也没啥可玩的，也就溜达溜达，见识下就完了，生活的话有钱可能还是比较舒适的。&lt;/p></description></item><item><title>胡志明市 City Walk</title><link>https://bigfa.github.io/hugo-theme-puma/story/ho-chi-minh-city/</link><pubDate>Fri, 12 Apr 2024 17:19:21 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/ho-chi-minh-city/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/04/dnh4k16zzcxiu6jy.jpg" alt="" />
+&lt;/p>
+&lt;p>先总结，胡志明市没啥好玩的，酒店洼地，人文也没什么可看的，所谓法式风情也就那么点老建筑，但都大同小异，连壮观都谈不上，交通极差，英语普及度一般。胡志明市是越南最大的城市，但景点比较集中，不怕热的话基本上步行即可，但天气实在是太热了，建议超过 1 公里的直接 Grab，体验会好上很多。&lt;/p>
+&lt;p>都说越南对中国人不是很友好，但实际体验下来也还好，并没有感到明显的区别对待，当然也很可能和我基本没怎么和本地人对话的缘故，哪怕过海关也只是说了一句话。饮食方便个人觉得还挺合胃口，越南春卷很好吃，粉也不错，我没有外食，吃饭都是在酒店搞定，酒店选择的是西贡洲际，比较老，但位置极佳，去景点基本步行可达。&lt;/p>
+&lt;p>另外还体验了越南的热石按摩，我是在酒店体验的，60 分钟四百多块钱，和国内比不好说，但比深圳便宜，去外面的店一两百应该就可以搞定，我是为了方便就直接在酒店体验了。手法一般，并没有感觉到比国内好。&lt;/p>
+&lt;p>下面有一些个人建议&lt;/p>
+&lt;ul>
+&lt;li>建议提前办理另纸签，节省时间，入境的时候看到有中国同胞在落地签处扯皮，感觉体验极差&lt;/li>
+&lt;li>Grab 不支持支付宝，可绑 visa，我从曼谷过去的，只绑定了支付宝，结果到了胡志明市默认现金，到了酒店没有现金，十分尴尬，最后从酒店借了一点钱挂了房帐&lt;/li>
+&lt;li>住国际连锁可刷卡，其他建议现金，防止盗刷，我今天出国几次都没有换现金，全程线上或者刷卡搞定，体验还是不错的&lt;/li>
+&lt;li>离境不需要太早，新山一机场离市区很近，哪怕堵车时间也还是可控的，Grab 上也有预估时间，值机和过海关速度都还可以，安检需要拖鞋&lt;/li>
+&lt;li>建议选择国际连锁酒店，一般前台英文都不错，如果需要预约一些本地的服务可以让酒店工作人员帮忙，可完美解决沟通问题&lt;/li>
+&lt;li>个人觉得安全性还好，摩托车是很多，但并没有遇到飞车党，但我本身也还是比较小心的，走路都靠马路内侧&lt;/li>
+&lt;li>机票方面返程直飞还是蛮贵的，如果时间充裕建议进行甩尾操作&lt;/li>
+&lt;/ul>
+&lt;p>总体上说，胡志明市还是比较适合中转的，住上一晚基本上就足够了，该逛的都能逛到，再转乘国内航班去富国岛、岘港等都非常方便，要是说专门来胡志明市玩，那就不推荐了。&lt;/p>
+&lt;p>City Walk 自然就是暴走，住了 2 晚总共出去了 3 次，白天真的很热，晚上会好一点，但不得不吐槽富士的夜拍能力，边走边拍差不多成功率只要 3 成，拉高 ISO 的话基本没法看了，难受。不过站立手持基本上问题不大,快门速度 1/20s 成功率还是非常高的。下面就是边走边拍的照片了，没有啥特别的，随便看看就好了。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/04/x2pr0ulf4zrnu1yk.jpg" alt="" />
+&lt;/p></description></item><item><title>富士 X-T5 短期使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-xt5-short-term-review/</link><pubDate>Tue, 19 Mar 2024 16:06:19 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-xt5-short-term-review/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/01/p6krrw3jrw3hu7nd.jpeg" alt="Fujifilm X-T5 短期使用体验" />
+ &lt;figcaption class="imageCaption">Fujifilm X-T5 短期使用体验&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>这台相机的一切似乎都很对劲——分辨率提高，内置图像稳定功能，以及一些符合我喜好的调整，全都包含在一个时尚的机身里。升级意味着它现在成为了我的旅行摄影装备中的佼佼者，并成为我极简旅行摄影装备的一部分。&lt;/p>
+&lt;p>在通过富士的试用计划得到一台后，我终于升级到了富士 X-T5。这款相机的一切似乎都很完美——改进后的分辨率、机身内置的图像稳定器以及一些符合我个人喜好的微调，所有这些都包裹在一个时尚的机身中。升级意味着它现在成为了我旅行摄影装备清单上的首选，并构成了我极简主义旅行摄影装备的一部分。&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>尽管富士 X-T5 并非富士的旗舰型号，但考虑到你以一个合理的价格点可以获得的小巧轻便机身所带来的性能，它确实是一款强有力的相机。与索尼和佳能的高端相机相比，X-T5 的性价比相当高。此外，富士在 X-T5 上减小了尺寸和重量，这一点我也很欢迎。那么，作为一名旅行摄影师的相机，它的表现如何呢？&lt;/p>
+&lt;p>富士的首印象绝对符合我的预期。作为长期使用富士相机的用户，对富士 X-T2 也很熟悉，X-T5 拿在手里让我感觉像在家一样。尽管 X-T2 和 X-T5 之间有一些不同，但我可以直接打开相机开始拍摄，无需任何废话。这就是我喜欢富士的一个原因——他们通常都是实用无非。&lt;/p>
+&lt;p>有趣的是，富士已经停止随 X-T5 提供独立的电池充电器了。相反，你可以通过 USB-C 线缆给相机充电。我想这一点取决于你对没有充电器的看法，但对我来说，这是有帮助的，因为这意味着我需要携带的设备更少，就能保持相机的运行。我的其他设备都使用 USB-C 接口，我可以直接插上线缆，在拍摄间隙就能从插座、电池包甚至是在露营车里给相机充电。&lt;/p>
+&lt;p>X-T5 拥有 56 个防尘防水密封点，可防止灰尘和湿气进入，且能在低至-10℃ 的温度下正常运作，这意味着它几乎可以跟你去任何地方。这款相机还保留了 X 系列经典的外观和感觉，有它的顶部旋钮。这个功能当然会让你瞬间变酷。这也是我喜欢富士的一个特点——他们的风格颇具标志性。&lt;/p>
+&lt;p>阻止我升级到 X-T4 的因素之一是它的全方位翻转屏幕。因此，富士在 X-T5 上作出了明智之举，移除了全方位翻转屏幕，换上了三向倾斜屏幕。富士声称 X-T5 是一款以‘摄影为先’的产品，这对我来说简直是天籁之音。我从来就不喜欢我工作中用的佳能 R5 的全方位翻转屏幕。使用它需要更多的努力来打开、收起，并且在拍摄时它更多的是一种阻碍而不是帮助。我不是一个视频博主或摄影师，或者很少站在镜头前。我是一个摄影师，我更喜欢三向倾斜屏幕的简约。所以，干得好，富士。&lt;/p>
+&lt;p>不过，屏幕保护让我有些担心，因为我曾经打碎过一个屏幕，而且三向倾斜屏幕经常暴露在外。为了解决这个问题，我买了一个屏幕保护膜，就像我手机上用的那样，它在保护屏幕方面做得很好。&lt;/p>
+&lt;p>他们还从 X-T4 上减少了尺寸和重量，减轻了整整 50 克。哈！这听起来不多，实际上也确实不多，但对于旅行摄影师来说，任何减轻的重量都只能是好事。这是对我来说最好的因素之一。富士将拍摄变得有趣，因为它们非常小巧轻便，同时又提供高性能和高质量的结果。我几乎带着相机去任何地方，和我的全画幅工作相机、无反相机或单反相机相比，重量还不曾成为问题。&lt;/p>
+&lt;p>但当然，也不全是好消息。富士在机身设计上犯了一些错误，我并不是特别喜欢，那就是按钮布局。他们把 Q（快速）按钮放在拇指支撑旁边，这有时候挺烦人的。这个按钮很容易被按到，这就呼出了快速菜单。通过半按快门释放按钮可以轻松解决这个问题，但这仍然令人烦恼。这种变化出现在 X-T4 上，而富士似乎没有意识到将它改回 X-T3 和 X-T2 上那样的必要。&lt;/p>
+&lt;p>我注意到眼部跟踪只有在自动对焦点附近时才有效。当选择单点自动对焦，并且主体离 AF 点太远时，它不会对焦。单点越小，需要的接近度也就越高。就此而言——我喜欢你可以改变 AF 点的大小的功能。有趣的是，相机也会忽视那些它识别不出来的东西。这意味着如果设置为鸟类，并且看不到鸟，它就不会去对其他动物的眼睛进行对焦，这正是它应该做的。我一直认为这些功能有点噱头，但看来它们并不是！&lt;/p>
+&lt;p>我发现了我不喜欢 X-T5 眼部检测和 AF 跟踪的一点。当开启眼睛、面部或主题跟踪时，测光（曝光测量）不能被改变。所以，你不能把它从矩阵测光改为点测光，比如说。大多数时候这不是问题，但我注意到当主题上的光线变化时，曝光会迅速变化。考虑到光线，我假设在检测设置中设定的测光是点测光。这是我在对比度非常高的光线中仅见过一次的问题，但不管怎样都是个问题，我无法理解其存在的原因。藤泽，为什么在这些检测模式中不能改变测光呢？&lt;/p></description></item><item><title>巴厘岛路上见闻</title><link>https://bigfa.github.io/hugo-theme-puma/story/bali/</link><pubDate>Sun, 21 Jan 2024 11:22:44 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/bali/</guid><description>&lt;p>不知道什么时候开始旅行已经变成打卡、出片之类的了。回想以前外出旅行的时候从来没想道要到哪里打卡，更没有找指定机位拍照这种事，只有我要去这个地方的兴奋。拍照也只是记录旅行，而不是为了拍照旅行。而如今拍照也变得更功利起来，一切都为了流量，千篇一律模版化，大家乐此不彼。&lt;/p>
+&lt;p>时代是一直变化的，每一阶段都有流行的东西，以前看起来很酷的事情现在只能算是一些 Old School 的行为。虽然我自己也愿意并努力接受新鲜事物，不过年纪使然，脑容量不能完全处理这些变化，变化不了就只能保持不变了。只是希望时代不要变化的太快，让自己显得格格不入。&lt;/p>
+&lt;p>元旦几天去了巴厘岛，巴厘岛交通很差，有很长时间都是在路上，拍了不少照片，分享一下路上见闻。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/0uemxm9v3y7flqit.jpg" alt="出机场路上" />
+ &lt;figcaption class="imageCaption">出机场路上&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/x9ljk04s929hhv34.jpg" alt="出机场路上" />
+ &lt;figcaption class="imageCaption">出机场路上&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/5acfjggrzx63rcto.jpg" alt="我们首站选择了乌鲁瓦图，虽然高奢酒店聚集地，但是一路上都是山区，非常破。" />
+ &lt;figcaption class="imageCaption">我们首站选择了乌鲁瓦图，虽然高奢酒店聚集地，但是一路上都是山区，非常破。&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/7bbgz1pjtse27ddr.jpg" alt="沿途基本上都是村庄" />
+ &lt;figcaption class="imageCaption">沿途基本上都是村庄&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/w7hyi22h3zz2jxwl.jpg" alt="奔放的欧美人" />
+ &lt;figcaption class="imageCaption">奔放的欧美人&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/9ekqq0j84aw8ewqz.jpg" alt="白房子，据说是举行婚礼的地方" />
+ &lt;figcaption class="imageCaption">白房子，据说是举行婚礼的地方&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2024/01/d49wfhb2r7oe48it.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/lod6e81zze1y8sxg.jpg" alt="Starbucks" />
+ &lt;figcaption class="imageCaption">Starbucks&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/91y9uyuylh90scxu.jpg" alt="乌鲁瓦图" />
+ &lt;figcaption class="imageCaption">乌鲁瓦图&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/we13126ahlemaae6.jpg" alt="乌鲁瓦图，本来想住阿丽拉，但是刷不到积分房。" />
+ &lt;figcaption class="imageCaption">乌鲁瓦图，本来想住阿丽拉，但是刷不到积分房。&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/wv1mqmpxjpmokfo5.jpg" alt="乌鲁瓦图" />
+ &lt;figcaption class="imageCaption">乌鲁瓦图&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/clgj1gos9iatvymy.jpg" alt="乌鲁瓦图" />
+ &lt;figcaption class="imageCaption">乌鲁瓦图&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/7dadyinbnc1rzriv.jpg" alt="路过努沙杜瓦，度假区，非常干净了。" />
+ &lt;figcaption class="imageCaption">路过努沙杜瓦，度假区，非常干净了。&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/ws3pm7t1u6pixjhy.jpg" alt="巴厘岛的高速有摩托车专用车道" />
+ &lt;figcaption class="imageCaption">巴厘岛的高速有摩托车专用车道&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/0w9rcr30vyuvgh8b.jpg" alt="超多摩托车" />
+ &lt;figcaption class="imageCaption">超多摩托车&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/fx7ndn5a6noxsa2s.jpg" alt="奔放的欧美人" />
+ &lt;figcaption class="imageCaption">奔放的欧美人&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/m3crtvfik68uclkj.jpg" alt="本地学生" />
+ &lt;figcaption class="imageCaption">本地学生&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2024/01/3bdiqlaautidix3d.jpg" alt="本地家长接孩子放学" />
+ &lt;figcaption class="imageCaption">本地家长接孩子放学&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>长期生活在深圳，节奏很快，连外出旅行变得节奏也变得特别快。大部分时候不是自己想要和别人赛跑，而是后面有人推着你跑，不知道什么时候才能慢下来。&lt;/p></description></item><item><title>关于</title><link>https://bigfa.github.io/hugo-theme-puma/bio/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/bio/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/01/92na8vk3hhk9blsb.jpg" alt="W Kuala Lumpur 2024" />
+ &lt;figcaption class="imageCaption">W Kuala Lumpur 2024&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>bigfa，2012 年开始写博客。&lt;/p>
+&lt;p>第二版。&lt;/p></description></item><item><title>关于</title><link>https://bigfa.github.io/hugo-theme-puma/story/about-v2/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/about-v2/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/01/92na8vk3hhk9blsb.jpg" alt="W Kuala Lumpur 2024" />
+ &lt;figcaption class="imageCaption">W Kuala Lumpur 2024&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>bigfa，2012 年开始写博客。&lt;/p>
+&lt;p>第二版。&lt;/p></description></item><item><title>朋友们</title><link>https://bigfa.github.io/hugo-theme-puma/friends/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/friends/</guid><description/></item><item><title>书影音游</title><link>https://bigfa.github.io/hugo-theme-puma/movies/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/movies/</guid><description/></item><item><title>搜索</title><link>https://bigfa.github.io/hugo-theme-puma/search/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/search/</guid><description/></item><item><title>我是谁</title><link>https://bigfa.github.io/hugo-theme-puma/about/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/about/</guid><description>&lt;ul>
+&lt;li>Open Source Contributor&lt;/li>
+&lt;li>Citizen of the world&lt;/li>
+&lt;/ul></description></item><item><title>Fujifilm X-T5 上手使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/x-t5/</link><pubDate>Wed, 10 Jan 2024 00:01:41 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/x-t5/</guid><description>&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/01/p6krrw3jrw3hu7nd.jpeg" alt="" />
+&lt;/p>
+&lt;p>手上镜头有好几个镜头而且都是定焦，拧来拧去的不是特别方便，于是卖掉了 X100V 购入 X-T5，单机身没买到，买了一个 xf35f2 的套机，镜头没拆直接卖掉了。作为复古机身的代表，其实富士有一个竞争对手，尼康 zf,还是全画幅的，但是已经配备了富士的镜头群，而且尼康没啥复古镜头，只能搭配手动头玩，有点麻烦。&lt;/p>
+&lt;p>另一个原因是 X-S20 机身并不是防尘防滴的，雨天爱好者有时候用起来有点烦躁，但机身小巧紧凑，搭配几个旗舰镜头，真的很爽。而 X-T5 的握持感远不如 X-S20，有期搭配 XF90 这种稍微重一点的镜头，时间长了很累，没有 X-S20 那种随心所欲的感觉。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2024/01/hqx31hq7tdcgecsh.jpeg" alt="" />
+&lt;/p>
+&lt;p>富士的相机现在火的不行，本文就不贴样片和开箱照了，主要分享自己的使用心得，供大家参考。&lt;/p>
+&lt;h2 id="优点">优点&lt;/h2>
+&lt;ol>
+&lt;li>4000 万超高像素&lt;/li>
+&lt;li>AFC 自动对焦能用&lt;/li>
+&lt;li>机身防抖&lt;/li>
+&lt;li>三折屏，仅拍照的真的好用&lt;/li>
+&lt;li>各种拨盘控制起来很爽，还可以锁定&lt;/li>
+&lt;li>电池续航能力&lt;/li>
+&lt;li>双卡槽&lt;/li>
+&lt;li>防尘防滴&lt;/li>
+&lt;li>螺纹快门按钮&lt;/li>
+&lt;li>有个光滑皮肤功能，太太很喜欢&lt;/li>
+&lt;/ol>
+&lt;h2 id="缺点">缺点&lt;/h2>
+&lt;ol>
+&lt;li>做工太差，一万多的机器居然不是严丝合缝&lt;/li>
+&lt;li>当闪光灯设置为开启时无法使用电子快门，即使在机身上没有闪光灯&lt;/li>
+&lt;li>弱光下 AFC 对焦性能一般&lt;/li>
+&lt;li>塑料感太重，但机身轻很多&lt;/li>
+&lt;/ol>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>同等价位下有更多的选择，非常不推荐这台机器，如果喜欢富士的滤镜更推荐 X-S20，价格便宜三千多，同样的处理器，更紧凑精致的机身，非常好用。&lt;/p>
+&lt;p>但是这台 X-T5 确实可以说性能强劲，可以说是残幅中的王者，但因为四千万像素，对周边的要求也高了起来，如果拍 RAW 的话，我使用索尼的 v60 SD 卡，告诉连拍下差不多十多张就要卡壳降为低速连拍了。要完全喂饱四千万像素也需要更好的镜头。&lt;/p>
+&lt;p>必须吐槽的是 X-T5 的做工实在是太差了，不但塑料感严重，而且不是严丝合缝，上手就给人一种玩具的感觉，要只要这台机器可是卖到了一万多块钱。&lt;/p>
+&lt;p>但我还是决定暂时保留这台机器，一方面我需要一个额外的机身，目前也没啥更好的选择，周边配置也都完全适配，不需要额外花钱。另一方面，功能上这台机器确实非常好用，和 X-H2 相比阉割了一些功能，但是拍照功能几乎完全保留，这台机器真的非常适合拍照。&lt;/p>
+&lt;p>致于画幅的问题，我个人觉得哪怕是残幅对绝大部分人都够了，我见过不少使用 M43 和残幅的职业摄影师，富士的残幅不打印太大尺寸的话都没有啥问题，对普通人来说真的足够了。国外论坛上大把用着老机器老镜头的用户在分享，讨论气氛就很好。而国内则是底大一级压死人，残幅就是垃圾。&lt;/p>
+&lt;p>最后就是再强调一下，如果不是想要个复古机身，X-S20 真的是更好的选择。如果不是后期苦手，那也不需要考虑富士了，毕竟啥风格都可以调出来。同样的价格选择更好的机器和镜头，何乐而不为。&lt;/p></description></item><item><title>algolia 搜索</title><link>https://bigfa.github.io/hugo-theme-puma/memo/1/</link><pubDate>Mon, 13 Nov 2023 17:13:25 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/memo/1/</guid><description>&lt;p>捣鼓了一下午给 hugo 加上了 algolia 搜索，如果啥都是默认的话还好，但是想自定义一些样式的话真不是一般人能整的，文档是真烂啊。&lt;/p>
+&lt;p>几年前我就在商业项目中使用过 Algolia,后面涨价之后就没有使用了，个人还挺推荐这个的，速度很快，如果没几篇文章的话其实无所谓了，直接浏览器搜索就够了。&lt;/p></description></item><item><title>富士 ef60 闪光灯</title><link>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-ef-60/</link><pubDate>Sat, 11 Nov 2023 15:07:26 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-ef-60/</guid><description>&lt;p>双十一买了富士的原厂闪光灯，虽然说是原厂，但其实是日清的贴牌产品，徕卡也有一款，也是日清的贴牌产品。刚到手的时候很快就后悔了，学写了一下，发现功能丰富，可玩性非常高，又恢复了。&lt;/p>
+&lt;h3 id="模式">模式&lt;/h3>
+&lt;ol>
+&lt;li>sf 主闪光灯模式手动&lt;/li>
+&lt;li>sd ttl 模式&lt;/li>
+&lt;li>m 档&lt;/li>
+&lt;li>a 档&lt;/li>
+&lt;li>ttl&lt;/li>
+&lt;li>led&lt;/li>
+&lt;/ol>
+&lt;h3 id="跳灯">跳灯&lt;/h3>
+&lt;p>焦距 50mm&lt;/p>
+&lt;p>近摄可拉出反光板&lt;/p>
+&lt;h3 id="优点">优点&lt;/h3>
+&lt;ol>
+&lt;li>功率大&lt;/li>
+&lt;li>体积小巧&lt;/li>
+&lt;li>带了个收纳吧，配件可全部装进去，很方便&lt;/li>
+&lt;li>可以光触发，不需要无线引闪&lt;/li>
+&lt;li>9 级 LED 补光&lt;/li>
+&lt;li>24mm~200mm&lt;/li>
+&lt;li>fp 高速同步&lt;/li>
+&lt;/ol>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ol>
+&lt;li>日清的贴牌产品，价格太高&lt;/li>
+&lt;li>无线引闪器也很贵&lt;/li>
+&lt;li>做工一般&lt;/li>
+&lt;li>加上电池后很重&lt;/li>
+&lt;li>还是 5 号电池&lt;/li>
+&lt;/ol>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>搭配 x100v 的话还算舒适，如果配上一个定焦头，说实话，手有点酸。。。&lt;/p>
+&lt;h3 id="后续">后续&lt;/h3>
+&lt;p>在闲鱼上 200 块钱淘了个 EF-W1 引闪器，可玩性大大提高，打算这个周末就玩一下。引闪器战斗成色，打算买个补土修复一下。&lt;/p></description></item><item><title>Mac Studio M2</title><link>https://bigfa.github.io/hugo-theme-puma/story/mac-studio-m2/</link><pubDate>Fri, 10 Nov 2023 15:26:33 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/mac-studio-m2/</guid><description>&lt;p>
+&lt;img src="//static.fatesinger.com/2024/11/8y8xbgbs8xkin9n9.jpg" alt="" />
+&lt;/p>
+&lt;p>Mac Studio 初代的时候就很心水，一方面价格还是有些劝退，另一方面是自己不想贴钱工作。&lt;/p>
+&lt;p>相比于各个渠道，我最推荐京东老款的教育优惠，只要 12499，全网最低价。&lt;/p>
+&lt;p>这次选择购入一方面是形势严峻，&lt;del>打算自己搞点东西&lt;/del>，还有就是手上显示器和键鼠都有两套，不需要额外投入了。&lt;/p>
+&lt;p>型号和购买渠道真的纠结了好久&lt;/p>
+&lt;ol>
+&lt;li>主要是老版官翻&lt;/li>
+&lt;li>新版教育优惠&lt;/li>
+&lt;li>京东百亿补贴。&lt;/li>
+&lt;/ol>
+&lt;p>最后选择了京东百亿补贴新版，&lt;strong>14200&lt;/strong>，京东的老版教育优惠价格最优，但需要找人认证教育优惠。&lt;/p>
+&lt;p>M2 Max 性能没得说，就我现在使用的情况没有任何卡顿，任何应用程序都毫无压力，终于能在本地用 Docker 了，不容易。心水了两年，终于拿下，希望能回本。&lt;/p>
+&lt;p>之前也考虑过 Mac mini 但是配置加起来也很贵，还不如再加点钱，百亿补贴 YYDS。同时第一时间上了 AC+，399 每年。&lt;/p></description></item><item><title>富士 X-S20 短期使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-xs20-short-term-review/</link><pubDate>Thu, 09 Nov 2023 18:57:34 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/fujifilm-xs20-short-term-review/</guid><description>&lt;p>跨年博客下定目标之一是买一台徕卡，当时能也几乎没什么选择，只有 Q2，今年 Q3 发布，价格五万，Q2 也没咋降价，水货全新也要三万多。之前眼看全年已经过去三分之二，三万块也不是我能消费起的了，恰好队友想玩变焦镜头，于是目光转向了富士。可换镜头的新机也就 xt5 和 xs20，这俩机器旗舰店都是缺货状态。&lt;/p>
+&lt;p>今天富士已经被炒的不行，各种缺货，官方代理商都需要加价购买，非官代奸商更是加价到离谱，考虑到体积还是选择了 xs20，购买的时候搭配了一颗 xf18 f1.4 镜头，我之前已经写过简单的上手体验。&lt;/p>
+
+
+&lt;div class="grap--mixtapeEmbed">
+ &lt;a href="https://bigfa.github.io/hugo-theme-puma/story/xf18/" target="_blank" class="mixtapeContent">&lt;span
+ class="markup--strong markup--mixtapeEmbed-strong">富士 XF18mm F1.4 R LM WR&lt;/span>&lt;em class="markup--em markup--mixtapeEmbed-em"> 富士 XF18mmF1.4 R LM WR 其实这个镜头是先于 XF56 二代拿到的，但是这个没怎么带出去，没啥样片， …&lt;/em>&lt;/a>
+ 
+ &lt;a href="https://bigfa.github.io/hugo-theme-puma/story/xf18/" target="_blank" class="mixtapeImage"
+ style="background-image:url('https://static.fatesinger.com/2023/09/e6zsd2fgagf698b4.jpg')">&lt;/a>
+ 
+&lt;/div>
+
+&lt;p>上手最让我惊喜的就是体积，居然比 X100V 还要小那么一点，这么小的机身还带防抖，颇有之前奥林巴斯的风范。处理器是最新一代，对焦还是挺可以的，虽然没有 4000 万像素的传感器，但对我来说也足够了。&lt;/p>
+&lt;h2 id="优点">优点&lt;/h2>
+&lt;ol>
+&lt;li>5 代处理器对焦很不错&lt;/li>
+&lt;li>大电池，续航真的可以了&lt;/li>
+&lt;li>体积超小，重量也不错&lt;/li>
+&lt;li>有防抖&lt;/li>
+&lt;li>对象自动检测可用&lt;/li>
+&lt;li>视频功能相当不错&lt;/li>
+&lt;/ol>
+&lt;h2 id="缺点">缺点&lt;/h2>
+&lt;ol>
+&lt;li>没有对焦拨片&lt;/li>
+&lt;li>按键和转盘较少，切换设置不方便&lt;/li>
+&lt;li>不是全天候机身&lt;/li>
+&lt;li>塑料感比较强&lt;/li>
+&lt;li>美颜功能只能在自动挡使用&lt;/li>
+&lt;/ol>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>C 画幅高 ISO 确实不行，我能接受的也就是 1600，不过拍 RAW 的话 ISO 可以开的更高一点，用 lr 的 AI 降噪搞一搞还是能用的，就是仪式感差点儿。&lt;/p></description></item><item><title>Macbook Air M2 2022</title><link>https://bigfa.github.io/hugo-theme-puma/story/macbook-air-m2/</link><pubDate>Mon, 06 Nov 2023 17:53:54 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/macbook-air-m2/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/irjc1fvtxz6at8l9.jpg" alt="Macbook Air M2 2022" />
+ &lt;figcaption class="imageCaption">Macbook Air M2 2022&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>双十一第一单已下！Macbook Air M2 16+1T 港澳版官翻机，叠加双十一的分期优惠下来，9000 元三期免息，可以说是非常非常划算了。额外补了 1150 买了 3 年 AC +，算多了个保障。&lt;/p>&lt;/blockquote>
+&lt;p>双十一下单了新电脑，当时也在电报频道里更新了，现在收货差不多有一周了，来写个文章。&lt;/p>
+&lt;p>这机器前后观望了差不多有 1 年了，最近老电脑硬盘吃紧被迫重装了系统，重新配置环境前前后后搞了一周，过程十分暴躁，最后还有一些解决不了的小问题，刚好双十一淘宝有个三期免息，指定银行卡还能减 100，没啥犹豫直接下单了，自己的 
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-puma/gears" >wish list&lt;/a>
+ 又划掉了一项。&lt;/p>
+&lt;p>购入了后预约了老电脑的 trade-in，18 年的 macbook pro &lt;strong>丐中丐&lt;/strong>，入门机型加上官翻版本。现在自己的电脑配置是家里 Mac Studio M2 乞丐版，公司是这台新的 air，虽然我自己剁手充值了，但是我不推荐&lt;strong>大家在工作上自己花钱&lt;/strong>，公司安排啥就是啥好了，完全没必要自己升级设备。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/6kpqhx03krwhafqb.jpg" alt="Macbook Air M2 2022" />
+ &lt;figcaption class="imageCaption">Macbook Air M2 2022&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>可能这个配置可能很多程序员都瞧不起，我目前自己用着感觉还是非常不错的，我直接用的 intel 8g 内存除了应用程序打开慢点并没有太多不适。随着前几天苹果 M3 的退出，我那个老的 pro 模具算是正式退出历史舞台了。&lt;/p>
+&lt;p>不知道是不是苹果 arm 生态发展太好的原因，新电脑配置环境十分丝滑，一路都十分顺畅，完全没有 intel 的暴躁感觉，不得不感慨，人还是得与时俱进啊。买了 2 套贴纸，一套富士 xspace 限定，一套蓝瓶咖啡的，蓝瓶子之前买过一套，可能被家里人当垃圾扔了。&lt;/p>
+&lt;h2 id="我的-mac-之路">我的 Mac 之路&lt;/h2>
+&lt;p>我上大学的时候就已经开始使用 mac 了，前几年没什么正事干的时候我的电脑都装的 windows 用来打游戏，后面不玩游戏了才逐渐切换到苹果系统，算上来从第一部 mac，我差不多用了 15 年苹果电脑了。&lt;/p></description></item><item><title>榕阁 Garden Pavilion</title><link>https://bigfa.github.io/hugo-theme-puma/story/garden-pavilion/</link><pubDate>Sat, 04 Nov 2023 21:48:31 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/garden-pavilion/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/cyuaahpcuea87gfi.jpg" alt="榕阁" />
+ &lt;figcaption class="imageCaption">榕阁&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>周末和领导去吃了一顿柏悦的榕阁，之前看到大众点评上人均消费要七八百一直望而却步，这次趁着住店就体验了一把。先直接说结论，华而不实，环境可以，菜品非常一般，价格太贵，可以说是完全不值。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/1g0qa9yff44npf7u.jpg" alt="餐厅装饰" />
+ &lt;figcaption class="imageCaption">餐厅装饰&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>深圳柏悦是空中大堂，榕阁就在大堂这一层，一层电梯直达，如果去客房需要换乘其他电梯，这家餐厅环境还是很有特色的，在大楼里直接种树了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/11/klt01o49s30vcg9b.jpg" alt="" />
+&lt;/p>
+&lt;p>印象中这家餐厅周末都是很难预约的，这次也提前预约了，但是饭点去的时候居然没什么人，看来是出品大幅下降，连客人都丢了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/11/fh1gcvs71nmylgob.jpg" alt="" />
+&lt;/p>
+&lt;p>至于环境也就是这么回事，在深圳一半的价格就可以体验一样的环境，而且出品也不差，榕阁对我来说真的不推荐。我个人也是第一次吃这个价位的餐厅，每样菜都有单独的公筷，服务配套什么的确实是跟上了，但出品真的是一言难尽。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/z18ld9ej1qmtci01.jpeg" alt="餐前小食" />
+ &lt;figcaption class="imageCaption">餐前小食&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>餐前小食不好吃，还不如送水果的餐厅。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/cvvamkgar7dnvnbj.jpeg" alt="脆皮伊比利亚叉烧" />
+ &lt;figcaption class="imageCaption">脆皮伊比利亚叉烧&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>这叉烧也一般，金戈戈几十块的黑金叉烧我觉得都比这个强。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/rufa4cx77a6wb1bj.jpeg" alt="桂花蜂蜜酿秋莲藕" />
+ &lt;figcaption class="imageCaption">桂花蜂蜜酿秋莲藕&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>领导比较喜欢吃，我无感。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/2csvemxe1o7x8zy1.jpeg" alt="麻婆牛筋豆腐" />
+ &lt;figcaption class="imageCaption">麻婆牛筋豆腐&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>豆腐爱好者，其实这道菜还行，但是容器差评，本来上菜就慢，麻婆豆腐凉了之后会有点腥，应该弄个石锅的。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/muqowxn1g10971sp.jpeg" alt="冰烧三层肉" />
+ &lt;figcaption class="imageCaption">冰烧三层肉&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>冰烧三层肉出品非常不行，太腻了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/n4z52enq0hqdo4jp.jpg" alt="葱油芝麻脆皮鸡捞海螺片" />
+ &lt;figcaption class="imageCaption">葱油芝麻脆皮鸡捞海螺片&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>葱油芝麻脆皮鸡捞海螺片号称是灵魂菜肴，实际上吃起来也就那么回事，对我来说也就是不难吃的水平。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/sutwsh0go9pf7m0u.jpeg" alt="蛋白火腿姜粒炒香苗饭" />
+ &lt;figcaption class="imageCaption">蛋白火腿姜粒炒香苗饭&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>炒饭爱好者觉得这个炒饭也比较一般，没啥特别的，加了两三片火腿就卖一百多，真是无语。&lt;/p>
+&lt;hr>
+&lt;p>榕阁 20 年和 21 年是上过黑珍珠的，绝大多数能上大众点评黑珍珠的餐厅都不会踩雷，如今榕阁已经不在黑珍珠榜上了，这样的出品不在榜上也是应该的了，只不过出品水平降了，价格却没降，真的不推荐了。&lt;/p>
+&lt;p>价格：1150¥/2 人（无酒水）&lt;/p></description></item><item><title>深圳湾安达仕酒店</title><link>https://bigfa.github.io/hugo-theme-puma/story/andaz-shenzhen-bay/</link><pubDate>Mon, 30 Oct 2023 13:34:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/andaz-shenzhen-bay/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/ukfbp8mxu5ziejja.jpg" alt="深圳湾安达仕酒店" />
+ &lt;figcaption class="imageCaption">深圳湾安达仕酒店&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>深圳湾安达仕是深圳几家比较新的高端酒店之一，日常价格在 2400 左右，很少打折。这次入住使用了两万积分兑换，环球客给升级到了角房。旁边有工地在施工，算是半工地半湾景吧。这个价位的酒店服务基本上该有的都会有，提前问候到店时间和入住需求，自己大部分时间都是佛系入住，也没强制谈心要求套房，后面有套房券了直接上券再体验一番吧。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/10/53y25g7uso0lwk3l.jpg" alt="首先是 Rimowa 打卡" />
+ &lt;figcaption class="imageCaption">首先是 Rimowa 打卡&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>深圳湾万象城来的不少，也知道安达仕就在这里，但这么多次也没看到酒店正门入口，这次打车入住才发现酒店的正门，比较隐蔽，正对着春笋。深圳湾安达仕不是高空大堂设计，可能因为楼体结构的原因，一楼的大堂路线很复杂，特别容易迷路。水疗和餐厅还有单独的电梯直达，可能是为了方便对外营业。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/6eghbedjz2rk3cz2.jpg" alt="" />
+&lt;/p>
+&lt;p>酒店没有设置传统的前台，而且一组方形的高桌。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/xmbbhtu5jbfackm5.jpg" alt="" />
+&lt;/p>
+&lt;p>一层公区不小，有不少摆件，适合凹造型拍照。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/yt9d0cxt3snuq5fi.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/bu9zmjzrg880ns3a.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/dcts7t5px1nw6591.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/jv294wixlvhluen2.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/t2tn3tgxk6la6qa5.jpg" alt="酒店大堂一层设计的很复杂，容易迷路，感觉缺乏指引。" />
+ &lt;figcaption class="imageCaption">酒店大堂一层设计的很复杂，容易迷路，感觉缺乏指引。&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>客房方面，酒店给升级到了角房，景观不错，房间有 60 平的样子，个人基本满意。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/m65dy5s0a7va674w.jpg" alt="图" />
+ &lt;figcaption class="imageCaption">图&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/sg3ktsiojdlimun5.jpg" alt="可以看见春茧和体育馆，貌似歌手开演唱会有时候会住在这" />
+ &lt;figcaption class="imageCaption">可以看见春茧和体育馆，貌似歌手开演唱会有时候会住在这&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/4bcew84usernaigc.jpg" alt="客房景观" />
+ &lt;figcaption class="imageCaption">客房景观&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/dbxszn7461rbwwv2.jpg" alt="客房景观" />
+ &lt;figcaption class="imageCaption">客房景观&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/y5lait541faiajbi.jpg" alt="客房景观" />
+ &lt;figcaption class="imageCaption">客房景观&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>欢迎水果给了几个蜜桔，值得一提的是深圳湾安达仕 minibar 首轮免费，每天补充一次，加上晚上的 happy hour 对所有住客开放,还是比较大气的。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/q4ufl8iv09fnksi2.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/vpmdzo6zwv6lqyoe.jpg" alt="茶具还蛮漂亮的" />
+ &lt;figcaption class="imageCaption">茶具还蛮漂亮的&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/070jtrl7znts578f.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/fn1jn1n5o5vsh3xq.jpg" alt="比较喜欢浴室的设计" />
+ &lt;figcaption class="imageCaption">比较喜欢浴室的设计&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/shtplsieoj90n20k.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/z8n9jsbplf02r7gc.jpg" alt="" />
+&lt;/p>
+&lt;p>本次入住使用了泳池，但男更衣室在维修，所以没体验泡池桑拿等，泳池有其他人不方便拍照，但很漂亮。&lt;/p>
+&lt;h2 id="优点">优点&lt;/h2>
+&lt;ul>
+&lt;li>位置优秀，坐拥深圳湾海景&lt;/li>
+&lt;li>酒店很新，设计也很漂亮&lt;/li>
+&lt;li>服务很好，早餐还可以&lt;/li>
+&lt;li>minibar 和欢乐时光免费，比较大气&lt;/li>
+&lt;/ul>
+&lt;h2 id="缺点">缺点&lt;/h2>
+&lt;ul>
+&lt;li>环球客一般不升级套房&lt;/li>
+&lt;li>旁边有工地施工&lt;/li>
+&lt;li>价格较贵&lt;/li>
+&lt;/ul>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>总体上我还是很喜欢这家酒店的，因为积分兑换的原因没体验餐饮，下次有机会再体验。&lt;/p>
+&lt;p>顺便说下就是拍摄酒店还是需要变焦镜头，本次带的是 xf23 二代，在空间受限的情况下很是很难受的，有一点点想买个 xf10-24 了。&lt;/p></description></item><item><title>深圳柏悦酒店</title><link>https://bigfa.github.io/hugo-theme-puma/story/park-hyatt-shenzhen/</link><pubDate>Sun, 29 Oct 2023 19:07:06 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/park-hyatt-shenzhen/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/lfvsapye5xvq2m9o.jpg" alt="深圳柏悦" />
+ &lt;figcaption class="imageCaption">深圳柏悦&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>自从挑战成功环球客，就开始逐渐体验凯悦的酒店，深圳想体验的就只有安达仕和柏悦。周六了住了下深圳柏悦，本次环球客现金入住，周六 2100 在最近算是不错的价格，毕竟深圳的酒店周末价格都会高一些。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/661e0wc48e3ifpr4.jpg" alt="深圳柏悦" />
+ &lt;figcaption class="imageCaption">深圳柏悦&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>深圳柏悦位于平安中心副楼，这个地理位置其实还算是偏商务的酒店，福田区本身比较久，附近也是老办公楼比较多，较新的也就是旁边的平安中心了，也是深圳的地标建筑之一。打车直接到酒店门口，礼宾还不错，虽然人很多，但也接过行李给送到房间。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/rkweqwtubz8scadc.jpg" alt="深圳柏悦" />
+ &lt;figcaption class="imageCaption">深圳柏悦&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>深圳柏悦是空中大堂，一楼主要是礼宾部，左手边是去大堂的电梯，右手边相当于一个展厅，有个诡异的艺术雕像。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/usctxmt3zz9c6x90.jpg" alt="电梯方向" />
+ &lt;figcaption class="imageCaption">电梯方向&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/orn0qzjntebzsevx.jpg" alt="诡异的艺术雕像" />
+ &lt;figcaption class="imageCaption">诡异的艺术雕像&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>大堂有 4 个台子可以办理入住，去的时候人不多，不需要排队。环球客给升级了到天际豪华大床，也就是角房，本人挑战的环球客套房根本不敢想。因为提前电话问候需求，提了一嘴纪念日，房间给布置了一下。现金入住就是要大方许多。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/11/x6ao24gha0ut8osa.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/11/0ys4fja837ixpq0h.jpg" alt="" />
+&lt;/p>
+&lt;p>角房面积还可以，套房下的最高房型了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/r6lty7w8ofbazpix.jpg" alt="楼层布局" />
+ &lt;figcaption class="imageCaption">楼层布局&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/10/xlz7ch49kabcpbuc.jpg" alt="首先是Rimowa 打卡" />
+ &lt;figcaption class="imageCaption">首先是Rimowa 打卡&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>欢迎水果给了一块蛋糕和香印，还给了欢迎卡片。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/tytore2ay2dycp6j.jpg" alt="" />
+&lt;/p>
+&lt;p>卡片还有火漆封印，细节满满。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/x1zomq27msedlxj0.jpg" alt="" />
+&lt;/p>
+&lt;p>房间布置就是床用玫瑰花瓣弄了个心形，不知道什么品种花瓣儿很大。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/ieubffw1xuv3v1t0.jpg" alt="" />
+&lt;/p>
+&lt;p>晚上开灯效果。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/eb5f7woree9vkamj.jpg" alt="" />
+&lt;/p>
+&lt;p>客房景观比较一般，和深圳湾比还是差了不少。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/qlqh69jtlms3hogq.jpg" alt="客房景观" />
+ &lt;figcaption class="imageCaption">客房景观&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>天气一般，隔着玻璃更不通透了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/emvoud5taucje0n0.jpg" alt="客房景观" />
+ &lt;figcaption class="imageCaption">客房景观&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>minibar 不免费，居然还有小茅台。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/mm7pfjrzjrnze7wd.jpg" alt="" />
+&lt;/p>
+&lt;p>很多酒店的设计都放了很多镜子，视觉上增加房间面积。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/9kxhnf4wi170f0zv.jpg" alt="" />
+&lt;/p>
+&lt;p>客房布光不错，拍照很好看。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/nrbcdj0azmthfksb.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/wnmwte43rb4druhh.jpg" alt="" />
+&lt;/p>
+&lt;p>中式背景墙。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/kb5vr3etmn3th5xu.jpg" alt="" />
+&lt;/p>
+&lt;p>卫生间也标配卫洗丽，该有的都有了。&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/e6xw4kygfcdc39mc.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="https://static.fatesinger.com/2023/11/45cvz90ftubmt5k4.jpg" alt="" />
+&lt;/p>
+&lt;p>角房的布局有点奇怪，我个人还是喜欢安达仕的房间，但是基础房柏悦会更舒适一点。&lt;/p>
+&lt;h2 id="优点">优点&lt;/h2>
+&lt;p>这个价位的酒店该有的都会有，总能看到不少闪光点。&lt;/p>
+&lt;ol>
+&lt;li>地理位置优越，平安中心副楼，直通福田站&lt;/li>
+&lt;li>基础房型面积也不小，住着舒适&lt;/li>
+&lt;li>早餐半单点，出品不错&lt;/li>
+&lt;li>环球客提供免费的 Happy hour&lt;/li>
+&lt;li>泳健设施很好&lt;/li>
+&lt;li>服务很好，房间布置的不错&lt;/li>
+&lt;/ol>
+&lt;p>值得一提的是酒店的泡池非常好，我也第一次蒸了下桑拿，还是挺舒服的。&lt;/p>
+&lt;h2 id="缺点">缺点&lt;/h2>
+&lt;p>虽然深圳十一月温度还很高，但泳池的水还是太凉了，冷气还开的特别足，几乎没有人游。&lt;/p>
+&lt;ol>
+&lt;li>环球客一般不给套房&lt;/li>
+&lt;li>榕阁出品水准降低，价格昂贵&lt;/li>
+&lt;li>房间保养一般，开业几年已经有老化痕迹&lt;/li>
+&lt;li>泳池水太凉&lt;/li>
+&lt;/ol>
+&lt;p>餐饮的吐槽另一篇文章可见。&lt;/p>
+
+
+&lt;div class="grap--mixtapeEmbed">
+ &lt;a href="https://bigfa.github.io/hugo-theme-puma/story/garden-pavilion/" target="_blank" class="mixtapeContent">&lt;span
+ class="markup--strong markup--mixtapeEmbed-strong">榕阁 Garden Pavilion&lt;/span>&lt;em class="markup--em markup--mixtapeEmbed-em"> 榕阁 周末和领导去吃了一顿柏悦的榕阁，之前看到大众点评上人均消费要七八百一直望而却步，这次趁着住店就体验了一把。先直接 …&lt;/em>&lt;/a>
+ 
+ &lt;a href="https://bigfa.github.io/hugo-theme-puma/story/garden-pavilion/" target="_blank" class="mixtapeImage"
+ style="background-image:url('https://static.fatesinger.com/2023/11/cyuaahpcuea87gfi.jpg')">&lt;/a>
+ 
+&lt;/div>
+
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>本次入住较为可惜的是忘去大堂吧体验一下了，只能下次再见了。总体上深圳柏悦还是挺不错的，该有的都有，如果和安达仕二选一还是挺难的。&lt;/p></description></item><item><title>富士 XF23mm F1.4 R LM WR</title><link>https://bigfa.github.io/hugo-theme-puma/story/xf23/</link><pubDate>Thu, 26 Oct 2023 12:46:11 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xf23/</guid><description>&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/34n30fwqhrythqhv.jpg" alt="" />
+&lt;/p>
+&lt;blockquote>
+&lt;p>35 equivalent lenses, they are just never wide enough or never tight enough, like story of my life.&lt;/p>&lt;/blockquote>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/ixeewi5rqyjlumwt.jpg" alt="XF23mm F1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF23mm F1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>现在每当我使用 35mm 脑子里就会有这个画面，内心莫名的悲伤。&lt;/p>
+&lt;p>早些年我使用奥林巴斯的时候购买的定焦镜头就差不多是等效 35mm，买这个焦段并不是因为我多喜欢这个焦段，只是因为便宜而已。后面又使用了 X100V，买一个无法换镜头的相机也只是为了省钱。现在 x100v 用了快两年，还没有拍上一万张照片，可见我对这个焦段并不是得心应手。&lt;/p>
+&lt;p>这是我富士 x 卡口定焦配置的最后一支了，之前有考虑再买一只微距，想来想去还是放弃了，现在用 xf56 来拍一拍开箱照就挺舒适的了，说回 35mm，虽然号称人文之眼，但能用这玩意进行人文拍摄的基本都是大神起步，起码是社牛属性，这个焦段要拍人物特写那离的是相当近了。&lt;/p>
+&lt;p>富士的东西现在价格非常不友好，这个镜头活动的时候还能打九折的，但现在各种缺货，估计很难打折了。购买这只镜头的时候也是狗血，本来在京东选了一家，商品页写着现货立发，结果下单两天后告诉我无货，浪费一张优惠券，本来想等着的，后面想想算了，又找了一家现货的，可惜无优惠券了。期间还在闲鱼上勾搭了一个本地卖家，本来约好自提了，但太远，刚好京东另一家有货，直接取消了。&lt;/p>
+&lt;p>二手市场上，富士新的 1.4 军团其实都不好卖，价格太高。哪怕是 33 看似好卖其实是有价无市。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/sdngd1cqlhfu425b.jpg" alt="" />
+&lt;/p>
+&lt;p>较短和 x100v 一样，光圈大一点，x100v 表现还是挺不错的 现在是非常火爆的机型，价格已经非常夸张了。&lt;/p>
+&lt;p>镜头焦段和 x100v 一样，光圈大一级，其实 x100v 除了对焦表现还是挺不错的，现在是非常火爆的机型，价格已经非常夸张了。日常挂机的话这只镜头还是不错的，日常拍一些环境人像、小物件和美食适合记录生活。1.4 的光圈虚化很美，日常拿出来拍上几张很是舒适。相比中长焦拍&lt;/p>
+&lt;p>23 这支镜头基本上日常挂机，可以胜任一些环境人像，日常扫街 35mm 这支镜头则负责一些半身人像的拍摄，小景致小物件以及美食等等方面的拍摄，环境人像是 23 最常用的场景之一，平日出门约个朋友可以随时拿出来就拍上几张。既能包含一些环境原素，又能保持一定的人物大小比例，同时还能保有一些虚化。&lt;/p>
+&lt;p>当然如果只能选择一支镜头，那么我不会推荐这只，更推荐 33 或者 18，如果再次选择，那推荐 xf18，大师视角。&lt;/p></description></item><item><title>Fujifilm X100V 全家桶使用体验</title><link>https://bigfa.github.io/hugo-theme-puma/story/x100v/</link><pubDate>Thu, 26 Oct 2023 09:44:37 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/x100v/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2021/12/8nmg9orlw0l7pknl.jpg" alt="X100V" />
+ &lt;figcaption class="imageCaption">X100V&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>X100V 这个专题建了可能有一年多了，现在终于有第一篇文章了。&lt;/p>
+&lt;p>双十一下单了黑色裸机，双十二终于发货了。当时想着双十二再不发货就取消订单了，等待的时候也看了大法 A7C 什么的，也看了看徕卡 Q2，最后还是&lt;!-- raw HTML omitted -->望价生畏&lt;!-- raw HTML omitted -->了。稍微犹豫了一下，趁着双十二的一点折扣，买了官方 UV 镜、遮光罩、两个转接镜。算上机身，差不多是一个三分之一个徕卡 Q2。&lt;/p>
+&lt;p>富士的配件很贵，加起来差不多有半个相机钱了，但质感很好，也提升了可玩度，还能勉强接受了。&lt;/p>
+&lt;p>配件是在天猫的授权商买的，定价都和官方一样，只不过是参加了双十二的活动。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2021/12/omc9tvpliujgczdb.jpg" alt="全家桶盒子" />
+ &lt;figcaption class="imageCaption">全家桶盒子&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>下面就是全家桶的样子了。京东双十一只送一张 128G 的 SD 卡和原装皮套，没赠送电池有点可惜。本来还是很喜欢皮套的，但到手后发现质感不怎么样，而且也不咋实用，真的还不如送电池了。原装电池要 550，堪比苹果换电池了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2021/12/l6myfsz4xzv19ocb.jpg" alt="" />
+&lt;/p>
+&lt;p>还顺手在淘宝奸商 Larry 家买了三个快门按钮，算下来要 20 多块钱一个，十分昂贵，安装之后还挺稳固，而且质感不错，勉强接受了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2021/12/qgmub3uvscrys5em.jpg" alt="" />
+&lt;/p>
+&lt;p>由于这相机已经快发售两年了，开箱什么的就不拍了，基本没有啥配件，只有一根破充电线。我这里重点要说的是配件，尤其是转接镜，购买之前只是抱着玩的心态，真的到手之后可以说是用爱不释手来形容了。&lt;!-- raw HTML omitted -->富士的配件都是金属的，很有质感，把玩起来很快乐&lt;!-- raw HTML omitted -->。&lt;/p>
+&lt;p>首先要说的是这个远转换镜头，官方型号是 TCL-X100 II，售价不到两千，作为一个附加镜，这个价格可以说是十分惊人了，怪不得用富士的都叫富家子弟。这个转接镜到手后直接就成为了我的挂机头，于是我的 X100V 就长下面这个样子了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2021/12/7m3wdekkobl8c89l.jpg" alt="" />
+&lt;/p>
+&lt;p>这个转接镜的大眼睛十分漂亮，为了实现三防购入了官方的 UV 镜，但是这个 64mm 的 UV 镜要 420，而这个转接镜还不到 2000，直接没有购入的想法了。&lt;/p>
+&lt;p>下面是换个角度，X100V 挂上转接镜之后立马就是我喜欢的相机那个样子了。原机镜头虽然素质不错，但我个人对饼干造型实在无感，加装了这个镜头，官方皮套什么的就更没用了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2021/12/bo2bn4o9wpvb5bz1.jpg" alt="" />
+&lt;/p>
+&lt;p>官方说加装转换镜并不会对画质造成损耗，我已经很久没用过相机了，对比手机的话就算有损耗画质也是远远胜出了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2021/12/2mozszyb5qbgs072.jpg" alt="" />
+&lt;/p>
+&lt;p>富士的这个广角转换镜官方型号是 WCL-X100 II，售价和望远转换镜差不多，也是不到 2000，这个镜头的口径和 X100V 自带的 23F2 是一样的，所以遮光罩和 UV 镜可以直接用上，我个人手机拍照更多用的还是长焦镜头，购入这个广角转环境也就是为了以后拍风景。这里不得不吐槽下，iPhone 13Pro 的长焦镜头真的是太难用了。&lt;/p></description></item><item><title>徕卡 Sofort</title><link>https://bigfa.github.io/hugo-theme-puma/story/sofort/</link><pubDate>Thu, 26 Oct 2023 09:32:23 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/sofort/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/b1gdey1f53d7vy0j.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>第一个拍立得是富士的 mini 40，差不多用了 1 年半，差不多了拍了 400 张，因为想玩一玩双重曝光打算升级 mini 90，结果发现这玩意已经涨到一千五了，刚好最近徕卡发布了 sofort 2，又让我想起多年前自己想买却买不起的 sofort 1 代。&lt;/p>
+&lt;p>没想到这玩意停产之后价格已经炒上天了，全新和二手的都非常贵，不得不说，有些东西当时你买不起，以后还是买不起，这就是命了。好在二代发布一代价格有些许跳水，在闲鱼上翻了很久，找到一个看似是个人买家的，成色还不错，价格也能接受，和当初发售价差不多，简单沟通下就收了。&lt;/p>
+&lt;p>由于是省内，一天就到了，到手检查了一下，成色没啥问题，机器里自带了几张相纸，试了一张，发现成像不是很美丽，内心小慌，又试了几张，发现都一样，想到最近开盲盒的过期相纸可能是相纸时间太长了，换了一盒新的再试一张就没问题了，立马就确认了，虽然是二手的，也算了却了当年的一个小心愿。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/aeqd36ewmo15vnzj.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>徕卡的拍立得都是富士代工，sofort 1 代就是换壳的 mini 90，规格都一模一样，只是按键位置略有区别，个人感觉如果坏了可以买一个 mini 90 拆件维修。现在出了 sofort 2 代，也就是富士的 evo 换壳，就是个照片打印机，玩这个还不如直接买一个富士的打印机。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/7yqpqof1ilpan63b.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>因为是换壳机，所以电池和 mini 90 通用，不过原装电池还是印了徕卡的标。徕卡把开关键移到了后面，其他的就完全没区别了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/7hzaw86uh79o09j6.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>拆掉了原装肩带，挂了个 PD 的快拆扣，日常外出基本上都是挂个腕带了。体积也小上不少。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/q1ja0f6vragudpjg.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>相比 mini 40 的傻瓜拍摄，mini 90 多了几个模式，不过除非拍双重曝光盒 B 门，我拍摄都使用派对模式+L 闪，应该就是 40 的默认参数了，基本上不废片。B 门模式可以上脚架，上脚架太容易磨损相机了，尤其是这种老古董级别的，磨损了都很难维修。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/5t307srwiyoej2x4.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>不得不说的是现在相纸是真的难买，看了以前白边的差不多 3 块钱一张就能入口，现在只能花五块多买花边的玩。昨天还脑子一热花了 70 买了三盒新出的薰衣草紫边。&lt;/p></description></item><item><title>富士 XF33mm F1.4 R LM WR</title><link>https://bigfa.github.io/hugo-theme-puma/story/xf33/</link><pubDate>Wed, 25 Oct 2023 19:55:59 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xf33/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/q7cfc0gvf5vtg1v4.jpg" alt="XF33mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF33mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>XF33mmF1.4 可能是大陆目前富士最难买的镜头了，基本上全网无货，预定也要加价。&lt;/p>
+&lt;p>这篇文章想着至少要双十一才有机会发出来，没想到这么早就发出来了。根本原因是这支镜头根本无货，压根买不到，哪怕预定都要加价。前阵子在闲鱼上把两个转接镜卖了，偶尔刷一刷闲鱼，刷到一个北京老哥卖这支镜头，618 买的，也注册了延保，简单沟通就收下了。如果不是刷到这位老哥差点就收了一只全新的 35f1.4，但这个有 10 年之老，再玄学也扛不住了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/bk8gnviat2k24zad.jpg" alt="XF33mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF33mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>目前手上有 3 只 58mm 口径的镜头，只买了一片原厂 UV，还有一片 B+W 的，可能 B+W 的更好，但还是原厂最搭配，起码漆面颜色是一样的。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/slsjxifmfgh258ys.jpg" alt="XF33mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF33mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>这支镜头不算大眼睛，没 xf56 那么漂亮，但是拿在手机给人一种很扎实的感觉，光圈环比较紧，转动起来有机械感，很喜欢。除了光圈环上的自动光圈锁定按钮没有其他按钮，要是能有个切换对焦模式的拨片就好了。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/3pj2kzc15qy02mko.jpg" alt="XF33mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF33mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>镜头自带遮光罩是塑料直桶形的，相比莲花的，个人更喜欢这种直桶形的，但还是配了一个原厂的方型遮光罩，分量立马就上来了，感觉如果不小心的话随便一个磕碰就是一个坑。还有就是 23 和 33 的遮光罩通过，但是遮光罩上的数字是 23，如果是强迫症那真的是受不了，哈哈。&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/cs5b64gdvo7j85y0.jpg" alt="XF33mmF1.4 R LM WR &amp;#43; LH-XF23 II" />
+ &lt;figcaption class="imageCaption">XF33mmF1.4 R LM WR + LH-XF23 II&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>看富士 X 卡口的 roadmap 感觉这一两年不会有新镜头了，希望后面能更新类似唯卓仕的 13mm f1.4，竟然让副厂领先真是不应该啊。&lt;/p></description></item><item><title>富士 XF56mm F1.2 R WR</title><link>https://bigfa.github.io/hugo-theme-puma/story/xf56/</link><pubDate>Wed, 25 Oct 2023 18:59:07 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xf56/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/08/unh9p5pbj4vk8rdr.jpg" alt="富士 XF56ｍｍF1.2 R WR" />
+ &lt;figcaption class="imageCaption">富士 XF56ｍｍF1.2 R WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>最近买了一只镜头，主要原因是 X100V 夜拍能力太差，晚上拿起相机想快速拍一张的时候大概率是糊的，要么就拉高 ISO 全是噪点。对富士镜头群不了解的时候第一选择是 XF50F1.0，毕竟光圈大。虽然价格要一万多，但和全幅的镜头比起来价格也算还好。详细了解之后发现这个镜头体积庞大，而且快两斤了，富士的小机身真的不太合适。再加上预算有限，全新的真的买不起。&lt;/p>
+&lt;p>剩下的比较合适的中长焦就是 56mm 的了，现在有 3 只，老一代、APD 和新二代，新二代最贵，老一代现在全新的售价已经掉到 4199 了，APD 全新肯定不考虑，二手的话 5000 以内可以买到一个成色不错的。我的第一选择是全新一代，全新、体积小，一样的光圈，二代也没上线性马达。纠结了好久最后还是选择了二代，主要参考点是买新不买旧加上二手市场二代价格比较坚挺。&lt;/p>
+&lt;blockquote>
+&lt;p>稍微说下这个 APD，九千多的镜头说实话还是有点神往的，带 APD 的镜头就那么几个，研究了一下发现这个 APD 是通过减少进光量实现的，而且富士这个 APD 减少幅度较小，和索尼的相比效果要差上不少，感觉有点玄学的感觉了。提升不大但牺牲的还不小，很快就释然了。&lt;/p>&lt;/blockquote>
+&lt;p>二代没上线性马达比较可惜，不过作为只有一台 X100V 的富士用户，这个镜头对焦声音根本不算什么。玩富士就是突出一个原厂，为了不带镜头盖还同时购入了原厂 UV，富士的原厂件是真的贵，但用着确实舒坦，我的 X100V 就没用过镜头盖，真的很方便。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/6sto2jhw2xx9bao7.jpg" alt="" />
+&lt;/p>
+&lt;p>新一代镜头滤镜口径已经变成 67mm，和 X100V 的望远转接镜一样。但镜身要更粗上一圈。遮光罩一放，和小炮差不多了。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/d0w6xniikclgk7k6.jpg" alt="" />
+&lt;/p>
+&lt;p>作为一个抚摸党，那肯定不会选择 XC 系列镜头，不过镜头自带的遮光罩是塑料的，那几只新的定焦都是可以购入金属遮光罩的，这只镜头目前还没这个配置。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/wos6thmnslzx97zt.jpg" alt="" />
+&lt;/p>
+&lt;p>这只镜头网上好评还是挺多的，各种参数之类的我就不介绍了，主要说说自己的使用感受。F1.2 的光圈在晚上拍照也毫无压力，画质看上去也是相当不错。对焦速度确实不是很快，但普通拍摄已经足够了，但没有线性马达拍摄视频确实比较吃力。对焦声音大这个问题我自身是完全能接受的。虽然体积较大，但重量适中，不太会有头重脚轻的感觉。&lt;/p>
+&lt;p>作为一只人像头，感觉焦段上还是短上那么一丢丢，本人脸皮比较薄，在外面还是不好意思举起相机对人拍摄。如果使用 XF50-140 应该就毫无压力了，但 XF50-140 一万的售价和 2 斤的重量暂时也不是我能承受的。目前来看对我来说这个镜头还是相当好的，预计后面会经常使用。&lt;/p>
+&lt;h3 id="样片环节">样片环节&lt;/h3>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/yrq71bc4ublr9yii.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/ajciczz2o0si3dqw.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/71tbm07x4atip8u6.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/36mi2nqtpwc4zqlb.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/0xdrncymcvhzhgic.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/8s1nksgxi6p5207s.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/bzlsrpnx3scy70a6.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/qaakjt4pqipno9n5.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/hnajlopjtsvywjk4.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/6ox0x2zx471kl0at.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/f7pio2bimx7jgh8d.jpg" alt="" />
+&lt;/p></description></item><item><title>富士 XF18mm F1.4 R LM WR</title><link>https://bigfa.github.io/hugo-theme-puma/story/xf18/</link><pubDate>Wed, 25 Oct 2023 09:34:23 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xf18/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/e6zsd2fgagf698b4.jpg" alt="富士 XF18mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">富士 XF18mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>其实这个镜头是先于 XF56 二代拿到的，但是这个没怎么带出去，没啥样片，总感觉这个镜头应该有着更大的发挥，上周末带着出去把完了一下，发现也就这个样子了，整理了几张照片就有本文了。&lt;/p>
+&lt;p>可能和一些富士用户不一样，我对镜头有几个要求&lt;/p>
+&lt;ul>
+&lt;li>有光圈环&lt;/li>
+&lt;li>必须是金属镜身&lt;/li>
+&lt;li>防抖大光圈至少要一个，需要一定的夜拍能力&lt;/li>
+&lt;li>能接受的最大重量在一斤左右&lt;/li>
+&lt;li>对焦速度和画质没有太大需求，够博客上分享就足够了&lt;/li>
+&lt;/ul>
+&lt;p>本人不是参数党就不对参数啥的进行分析了，这只镜头号称 1.4 军团中画质最好的，当然价格也是最贵的，日本制，质感非常好。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/hey0l89rxxisj40g.jpg" alt="" />
+&lt;/p>
+&lt;p>这个镜头是有一个金属的方形遮光罩，400 多有点贵，暂未入手。虽然是广角镜头，但因为光圈的关系还有不错的虚化能力。&lt;/p>
+&lt;h3 id="优点">优点&lt;/h3>
+&lt;ul>
+&lt;li>金属镜身，做工很好&lt;/li>
+&lt;li>光圈大，画质优秀&lt;/li>
+&lt;/ul>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ul>
+&lt;li>自带的塑料遮光罩太丑，方形金属遮光罩价格昂贵&lt;/li>
+&lt;li>18mm 焦段不够广&lt;/li>
+&lt;li>光圈环有些松垮&lt;/li>
+&lt;/ul>
+&lt;h3 id="样片时间">样片时间&lt;/h3>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/wc2rn0cq7z6cajzv.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/xbjd2ydtkob0beu7.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/3l1v4byy79zxwdg7.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/v44bq6lrcjcz7stf.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/n9oij4zqd6fwxrsv.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/rkcrwpm8ti2ydle4.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/y2uiyc53b4nr74kq.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/57h4670c99zi3x8k.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/09/kdazrvy1uon27ua8.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/2e2x0glommu7gp38.jpg" alt="这张手持已经全是噪点了。" />
+ &lt;figcaption class="imageCaption">这张手持已经全是噪点了。&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/me138diy97pskjzt.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/hiei62sxtmsadzpr.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/m76hhxxri8zz1a38.jpg" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/08/r95og36a35mweu95.jpg" alt="" />
+&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>暂时用着还不错。&lt;/p></description></item><item><title>富士 XF 90mm f/2 R LM WR</title><link>https://bigfa.github.io/hugo-theme-puma/story/xf90/</link><pubDate>Tue, 24 Oct 2023 14:22:38 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/xf90/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/fmspc4kprwfqgije.jpg" alt="XF90mmF2 R LM WR" />
+ &lt;figcaption class="imageCaption">XF90mmF2 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Fuji has a relatively niche lens, and it’s also quite old. The second-hand price is around 4000, but usually, it has been used for a long time. The original price is too expensive, so I ended up finding a refurbished one through official channels. It has a minor defect with a small dust particle, but it’s tolerable. When I purchased the XF 56, I mentioned that the focal length was not quite enough. At that time, I seriously considered the XF 50-140. Although it has received almost 100% positive reviews, I eventually decided against it due to its high price and weight. The main reason behind this decision was certainly the price, as it was simply too expensive.&lt;/p></description></item><item><title>Fox Umbrellas</title><link>https://bigfa.github.io/hugo-theme-puma/story/fox-umbrellas/</link><pubDate>Sun, 31 Oct 2021 12:00:56 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/fox-umbrellas/</guid><description>&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/082xpdrrw1jp5y3u.jpg" alt="" />
+&lt;/p>
+&lt;p>最近买了两把英式雨伞，很是喜欢，分享一下。一把马六甲一把竹柄。&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/chbgbmwria5yk2ew.jpg" alt="" />
+&lt;/p>
+&lt;blockquote>
+&lt;p>Fox Umbrellas Ltd was founded in 1868 and has been producing the worlds finest umbrellas for over 150 years.&lt;/p>&lt;/blockquote></description></item><item><title>设备</title><link>https://bigfa.github.io/hugo-theme-puma/gears/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/gears/</guid><description>&lt;p>my gear&lt;/p></description></item></channel></rss>

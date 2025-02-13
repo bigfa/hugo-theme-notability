@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Untitled</title><link>https://bigfa.github.io/hugo-theme-puma/category/hugo/</link><description>Recent content in Hugo on Untitled</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 09 Feb 2025 21:20:09 +0800</lastBuildDate><atom:link href="https://bigfa.github.io/hugo-theme-puma/category/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 主题 Farallon</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-farallon/</link><pubDate>Mon, 30 Oct 2023 21:07:22 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-farallon/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/06/u1ak8xgmyn9ec24r.png" alt="Hugo 主题 Farallon" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Farallon&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.4.9&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-farallon/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="卡片分类页面使用方法">卡片分类页面使用方法&lt;/h3>
+&lt;p>在&lt;code>content&lt;/code>目录下新建你想要使用模版的页面，比如你的分类是&lt;code>travel&lt;/code>，则新建&lt;code>categories/travel/_index.md&lt;/code>,然后编辑文件，设置&lt;code>layout&lt;/code>为&lt;code>travel&lt;/code> 即可&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+title: &amp;#34;旅行&amp;#34;
+description: &amp;#34;旅行体验&amp;#34;
+layout: travel
+---
+&lt;/code>&lt;/pre>&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p></description></item><item><title>Hugo 主题 Puma</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-puma/</link><pubDate>Sun, 09 Feb 2025 21:20:09 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-puma/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2025/01/10eb5gy4cj9fvxag.png" alt="Hugo 主题 Puma" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Puma&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.0.7&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-puma/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p>
+&lt;p>站点配置参数，设置成你自己的，主要不要暴露&lt;code>adminKey&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ search= true
+ indexName = &amp;#39;bigfa&amp;#39;
+ searchKey = &amp;#39;b0825b184f45c084e31770fbcc9261f2&amp;#39;
+ searchAPPID = &amp;#39;FX1CAS2SD8&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>自动提交编辑&lt;code>.github/workflow/main.yaml&lt;/code>&lt;/p></description></item><item><title>Hugo 主题 Hera</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-hera/</link><pubDate>Fri, 03 Jan 2025 13:36:45 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-hera/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/12/2u80bhyxkmru4o9j.png" alt="Hugo 主题 Hera" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Hera&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.0.10&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-hera/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="卡片分类页面使用方法">卡片分类页面使用方法&lt;/h3>
+&lt;p>在&lt;code>content&lt;/code>目录下新建你想要使用模版的页面，比如你的分类是&lt;code>travel&lt;/code>，则新建&lt;code>categories/travel/_index.md&lt;/code>,然后编辑文件，设置&lt;code>layout&lt;/code>为&lt;code>travel&lt;/code> 即可&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+title: &amp;#34;旅行&amp;#34;
+description: &amp;#34;旅行体验&amp;#34;
+layout: travel
+---
+&lt;/code>&lt;/pre>&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p></description></item><item><title>Hugo 简明教程 05</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-05/</link><pubDate>Thu, 27 Jun 2024 10:11:35 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-05/</guid><description>&lt;p>本文主要讲解 hugo 目录结构和主题目录结构的基本逻辑。Hugo 中有一些概念如 UnionFS,Hugo pipes 对普通用户来说很难理解，我这里尽量用白话来解释，可能不是很准确，但能让你大致理解 hugo 的文件逻辑。&lt;/p>
+&lt;h3 id="联合文件系统">联合文件系统&lt;/h3>
+&lt;p>首先要理解一个概念就是 Union file system（联合文件系统），简单来说就是可以多个目录挂载到同一个位置。当两个或多个文件具有相同路径的时候，优先级的顺序遵循挂载的顺序。比如可以将任意目录挂载到&lt;code>content&lt;/code>文件夹下。
+配置文件如下&lt;code>hugo.yaml&lt;/code>，&lt;strong>用白话来讲就是合并多个文件夹，路径相同的时候前面的优先&lt;/strong>。&lt;/p>
+&lt;pre tabindex="0">&lt;code>module:
+ mounts:
+ - source: content
+ target: content
+ - source: /home/rich/shared-content
+ target: content
+&lt;/code>&lt;/pre>&lt;p>这样&lt;code>/home/rich/shared-content&lt;/code> 下的 markdown 文件也会被视为&lt;code>content&lt;/code>下的内容，一般情况下普通用户不会这么操作。&lt;strong>但是我们修改主题的时候，可以通过在项目目录的相同位置放置一个副本来覆盖主题的模板&lt;/strong>。这也是我推荐的修改主题的方法，可以做到不污染原主题文件，以免更新主题的时候修改的部分被覆盖。&lt;/p>
+&lt;h3 id="主题目录">主题目录&lt;/h3>
+&lt;p>下面介绍一下 hugo 主题的目录结构，使用 &lt;code>hugo new theme&lt;/code> 命令创建的初始目录如下。&lt;/p>
+&lt;pre tabindex="0">&lt;code>farallon/
+├── archetypes/
+├── assets/
+├── data/
+├── i18n/
+├── layouts/
+├── static/
+├── LICENSE
+├── README.md
+├── hugo.toml
+└── theme.toml
+&lt;/code>&lt;/pre>&lt;h4 id="archetypes">archetypes&lt;/h4>
+&lt;p>原型文件，前面的文章已经讲过。&lt;/p>
+&lt;h4 id="assets-和-static">assets 和 static&lt;/h4>
+&lt;p>&lt;code>static&lt;/code> 目录下的文件在构建后会被原样复制到&lt;code>public&lt;/code> 文件夹下，&lt;code>assets&lt;/code>则可以用来存放一些编译前的文件如 &lt;code>scss&lt;/code>、&lt;code>typescript&lt;/code> 等，&lt;code>assets&lt;/code> 文件夹下的文件可以使用&lt;code>resources.Get&lt;/code> 来调用。&lt;/p></description></item><item><title>Hugo 使用 Cloudflare Worker 实现文章评论</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-comment/</link><pubDate>Thu, 20 Jun 2024 19:11:24 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-comment/</guid><description>&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/hugo-cf-worker" target="_blank" rel="noopener" >项目地址&lt;/a>
+，已经和点赞评论聚合为一个项目。&lt;/p>
+&lt;p>直接 &lt;code>git clone&lt;/code> 或者 &lt;code>use template&lt;/code>.&lt;/p>
+&lt;p>需要手动修改 &lt;code>wrangler.toml&lt;/code> 设置跨域域名和绑定&lt;code>d1&lt;/code>数据库。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[vars]
+DOMAIN = &amp;#34;https://bigfa.github.io&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>这个域名是你要跨域的域名，可以设置为*，这样就没有任何限制了。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[[d1_databases]]
+binding = &amp;#34;DB&amp;#34;
+database_name = &amp;#34;hugo-cf-d1&amp;#34;
+database_id = &amp;#34;81e23e8a-3b26-4025-acf8-1123bfd5af74&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>&lt;code>database_name&lt;/code> 和 &lt;code>database_id&lt;/code> 是你需要修改的，可在 Cloudflare 后台看到。&lt;/p>
+&lt;h3 id="优点">优点&lt;/h3>
+&lt;ul>
+&lt;li>不依赖啥框架，原生 js，方便自行维护&lt;/li>
+&lt;li>部署在 cloudflare 上，免费切数据可控&lt;/li>
+&lt;/ul>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ul>
+&lt;li>暂无管理后台，不方便管理评论&lt;/li>
+&lt;li>非傻瓜式部署&lt;/li>
+&lt;/ul>
+&lt;p>后续准备弄一个后台管理页面直接部署在 cloudflare pages 上。&lt;/p>
+&lt;h3 id="本地开发">本地开发&lt;/h3>
+&lt;p>Cloudflare 的命令行工具是 &lt;code>wrangler&lt;/code>，需要 nodejs 环境。&lt;code>wrangler&lt;/code> 使用过程中如果没登陆授权会弹出网页授权，授权即可。&lt;/p>
+&lt;p>进入项目目录，安装依赖。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npm install
+&lt;/code>&lt;/pre>&lt;p>创建数据库，如果已经在后台创建则无需执行这一步。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npx wrangler d1 execute create hugo-cf-d1
+&lt;/code>&lt;/pre>&lt;p>本地创建数据表，Cloudflare 本地和远程是分开的，如果后续手动部署，则需要在远程生产环境数据库创建表。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npx wrangler d1 execute hugo-cf-d1 --local --file=./schema.sql
+&lt;/code>&lt;/pre>&lt;p>之后即可启动项目&lt;/p>
+&lt;pre tabindex="0">&lt;code>npm run dev
+&lt;/code>&lt;/pre>&lt;h3 id="前端调用">前端调用&lt;/h3>
+&lt;p>本人的两款主题天然支持，只需要在在配置文件中开启即可。&lt;/p></description></item><item><title>Docker 自动同步豆瓣书影音记录</title><link>https://bigfa.github.io/hugo-theme-puma/story/douban-docker/</link><pubDate>Fri, 07 Jun 2024 20:27:46 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/douban-docker/</guid><description>&lt;p>前阵子写了一个 Cloudflare Worker 版的同步书影音记录，个人觉得对于个人博客来说已经足够了，但可能一些同学介意 Cloudflare 的网络问题，于是我构建了一个 Docker 镜像，适合有国内服务器的同学使用。&lt;/p>
+&lt;p>首先需要安装 Docker 和 Docker compose，根据你的服务器自行寻找安装方法。&lt;/p>
+&lt;h3 id="构建">构建&lt;/h3>
+&lt;p>创建一个&lt;code>docker-compose.yml&lt;/code>文件，示例&lt;/p>
+&lt;pre tabindex="0">&lt;code>version: &amp;#39;3&amp;#39;
+services:
+ douban-docker:
+ image: fatesinger/douban:latest
+ container_name: douban-docker
+ volumes:
+ - assets:/app/static
+ environment:
+ MONGO_URI: mongodb://mongo:27017/fatesinger
+ DBID: 54529369
+ DOMAIN: https://node.wpista.com
+ depends_on:
+ - mongo
+ ports:
+ - 8000:3000
+ networks:
+ - shared-network
+
+ mongo:
+ image: mongo:4.4.29
+ container_name: mongo
+ restart: &amp;#34;always&amp;#34;
+ volumes:
+ # Persist mongodb data
+ - database:/data/db
+
+ ports:
+ - &amp;#34;27017:27017&amp;#34;
+
+ networks:
+ - shared-network
+
+volumes:
+ assets:
+ driver: local
+ name: assets
+
+ database:
+ driver: local
+ name: mongodb_data
+
+networks:
+ shared-network:
+&lt;/code>&lt;/pre>&lt;h4 id="nignx-配置">Nignx 配置&lt;/h4>
+&lt;pre tabindex="0">&lt;code>server {
+ listen 80;
+ server_name example.com;
+
+ location / {
+ proxy_pass http://127.0.0.1:8000;
+ proxy_set_header Host $host;
+ proxy_set_header X-Real-IP $remote_addr;
+ proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+ proxy_set_header REMOTE-HOST $remote_addr;
+ }
+}
+&lt;/code>&lt;/pre>&lt;h4 id="运行">运行&lt;/h4>
+&lt;pre tabindex="0">&lt;code>docker-compose up -d
+&lt;/code>&lt;/pre>&lt;h3 id="不使用-docker-启动服务">不使用 docker 启动服务&lt;/h3>
+&lt;p>根据&lt;code>.env.example&lt;/code>创建&lt;code>.env&lt;/code>文件&lt;/p></description></item><item><title>Hugo 简明教程 04</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-04/</link><pubDate>Wed, 29 May 2024 17:05:06 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-04/</guid><description>&lt;p>本文主要讲解 hugo 的部署方法。&lt;/p>
+&lt;h3 id="build-命令">build 命令&lt;/h3>
+&lt;p>除了基础的 &lt;code>hugo build&lt;/code> 其实 &lt;code>build&lt;/code>命令支持不少参数，下面介绍一下比较有用的参数。&lt;/p>
+&lt;pre tabindex="0">&lt;code> -b, --baseURL string 绑定域名, 比如 https://fatesinger.com/
+ -D, --buildDrafts 包含草稿
+ -E, --buildExpired 包含过期内容
+ -F, --buildFuture 包含日期在将来的内容
+ -c, --contentDir string content 目录，一班不需要改
+ --disableKinds strings 禁用页面类型，同时生成多个站点时有用
+ --gc 构建完成后移除部分缓存
+ --ignoreCache 忽略缓存
+ --minify 压缩html
+ -t, --theme strings 要使用的主题，同时生成多个站点时有用
+&lt;/code>&lt;/pre>&lt;p>一般来说，默认 &lt;code>hugo build&lt;/code> 就可以了，像我这种多平台多域名多主题部署这些参数才有意义。&lt;/p>
+&lt;h3 id="手动部署">手动部署&lt;/h3>
+&lt;p>绝大部分人都推荐的方法是通过 github actions 自动部署，我个人觉的手动部署也很方便。自动部署也只不过在云端进行手动部署的步骤而已。简单来说 hugo 部署就两步&lt;/p>
+&lt;ol>
+&lt;li>使用 &lt;code>hugo build&lt;/code> 命令生成 &lt;code>html&lt;/code> 文件&lt;/li>
+&lt;li>将生成的文件上传到托管平台或者服务器&lt;/li>
+&lt;/ol>
+&lt;p>执行完构建命令后你可以把生成的 html 文件上传到任何你喜欢的平台。如果你没有特别的需求甚至也不需要用 git 来原理仓库，毕竟对于普通用户来说，各种命令难以理解。&lt;/p>
+&lt;p>本地手动部署还有一个优点就是构建速度很快，一般 PC 的配置还是要比服务器的配置强一点，尤其 Mac 的 ssd，构建速度很快。手动上传也可以克服各种网络困难。如果你上传到自己的服务器，那么你还需要部署一个简单的 &lt;code>nginx&lt;/code> 服务，因为是纯静态，所以只需要傻瓜配置。&lt;/p></description></item><item><title>Hugo 简明教程 03</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-03/</link><pubDate>Wed, 29 May 2024 17:04:24 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-03/</guid><description>&lt;p>本文主要介绍原型（archetypes）和 markdown 文件的使用方法。&lt;/p>
+&lt;p>本系列文章均可参考我的 hugo 
+
+
+&lt;a href="https://github.com/bigfa/bigfa.github.io" target="_blank" rel="noopener" >博客项目&lt;/a>
+，具体内容在里面均有体现。&lt;/p>
+&lt;h3 id="archetype-原型">archetype 原型&lt;/h3>
+&lt;p>&lt;code>archetype&lt;/code> 可以理解为模版，当使用 &lt;code>hugo new content&lt;/code> 命令创建新文件的时候会根据一定的规则选择对应的模版，相当于文章的默认设置。默认是主题目录下下的&lt;code>archetypes/default.md&lt;/code>，当然你的站点目录可能也有一个&lt;code>archetypes&lt;/code>目录，这里面的模版的优先级是大于主题目录下的&lt;code>archetypes&lt;/code>。&lt;/p>
+&lt;p>你可以为一个或多个内容类型创建一个原型（archetype）。如下，当创建 &lt;code>posts&lt;/code>类型的时候会使用 &lt;code>posts.md&lt;/code>，其他类型则会使用默认设置。&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content posts/my-first-post.md
+&lt;/code>&lt;/pre>&lt;p>文件结构&lt;/p>
+&lt;pre tabindex="0">&lt;code>archetypes/
+├── default.md
+└── posts.md
+&lt;/code>&lt;/pre>&lt;p>当你站点内容较为复杂的时候合理使用原型会更方便，如果只有一个文章类型，那么直接复制已有的 &lt;code>markdown&lt;/code> 文件也足够了。&lt;/p>
+&lt;h4 id="原型文件查找顺序">原型文件查找顺序&lt;/h4>
+&lt;p>根目录下的原型优先级是最高的，爱折腾的同学可能有非常多的自定义设置，合理使用原型初始化更加方便。&lt;/p>
+&lt;ol>
+&lt;li>archetypes/posts.md&lt;/li>
+&lt;li>archetypes/default.md&lt;/li>
+&lt;li>themes/my-theme/archetypes/posts.md&lt;/li>
+&lt;li>themes/my-theme/archetypes/default.md&lt;/li>
+&lt;/ol>
+&lt;p>原型中也有一些简单的表达式可以使用，如&lt;code>.Date&lt;/code>，但是这个值是文件发创建时间，不等于文章发布时间，目前还没办法自动修改这个时间为发布时间。&lt;/p>
+&lt;h3 id="markdown-文件">Markdown 文件&lt;/h3>
+&lt;p>Hugo 以及绝大多数静态网页生成器都是 &lt;code>markdown&lt;/code> 转 &lt;code>html&lt;/code>，在文件数量不多的情况下各种程序没有任何区别，因为最后都是转为&lt;code>html&lt;/code>文件。在文件多的时候不同程序可能构建速度不太一样，这里推荐大家单独管理图片文件，这样能大大提升构建速度。大量图片同时也意味着上传时间大大增加，所以不推荐直接把图片放在项目目录下。&lt;/p>
+&lt;p>Hugo 中 &lt;code>markdwon&lt;/code> 文件简单来说可以分为两个部分，一部分是元数据，另一部分则为正文内容。位于每个内容文件顶部的前言部分是元数据，简单来讲可以理解为 wordpress 中的&lt;code>wp_postmeta&lt;/code>，你可以在 &lt;code>params&lt;/code> 参数中自定义各种类型的数据，然后在循环中通过&lt;code>.Params&lt;/code>来调用。&lt;/p>
+&lt;p>除了&lt;code>params&lt;/code>，hugo 内置了一些功能性的字段，下面是一个简单的例子。&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+date: 2024-02-02T04:14:54-08:00
+draft: false
+params:
+ author: John Smith
+title: Example
+weight: 10
+layout: page
+categories: [&amp;#34;gears&amp;#34;]
+tags: [&amp;#34;fujifilm&amp;#34;]
+---
+&lt;/code>&lt;/pre>&lt;p>标题、分类、标签、发布时间等比较好理解，下面单独介绍一下功能性参数。&lt;/p></description></item><item><title>Hugo 简明教程 02</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-02/</link><pubDate>Wed, 29 May 2024 17:02:35 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-02/</guid><description>&lt;p>本文主要介绍 Hugo 内容文件管理和页面 URL 设置，建议搭配我的
+
+
+&lt;a href="https://github.com/bigfa/bigfa.github.io" target="_blank" rel="noopener" >GitHub Pages&lt;/a>
+项目使用。&lt;/p>
+&lt;h3 id="页面类型">页面类型&lt;/h3>
+&lt;p>Hugo 的页面类型主要有以下几个，还有一些特殊的功能性页面如 rss 这里就不做讨论了。&lt;/p>
+&lt;ul>
+&lt;li>home 首页&lt;/li>
+&lt;li>page 可以理解为文章详情页和一些指定页面如关于和固定连接&lt;/li>
+&lt;li>section 可以理解为一类文章的归档的页面&lt;/li>
+&lt;li>taxonomy 可以理解为分类、标签的归档页，就是列出所有分类、标签的聚合页面。&lt;/li>
+&lt;li>term 分类、标签等文章列表页，列出属于某个分类、标签下文章列表的页面&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>RSS、网站地图、robotsTXT 和 404 页面类型，但这些只在渲染各自页面类型时可用，因此在任何页面集合中都不可用。&lt;/p>&lt;/blockquote>
+&lt;h3 id="内容管理">内容管理&lt;/h3>
+&lt;p>众所周知，hugo 的 markdown 文件都在 content 目录下，也就是存放文章的地方，hugo 的作用就是把这些 &lt;code>markdown&lt;/code> 文件转换为 &lt;code>html&lt;/code>。默认情况下&lt;code>content&lt;/code>文件夹下的所有 &lt;code>markdown&lt;/code> 文件都会被认为是常规内容页面（RegularPages）。&lt;/p>
+&lt;p>当然，我们在实际使用过程中，可能会新建一个 posts 文件夹，或者按日期创建文件夹来管理文件，这个时候就要理解 &lt;code>section&lt;/code> 这个概念，简单来说就是一个文章类型，如果常规文章 &lt;code>post&lt;/code> 和状态内容 &lt;code>status&lt;/code>。在 Hugo 中，顶级目录（content 文件夹下的一级目录）或者是带有 &lt;code>_index.md&lt;/code> 文件的任何内容目录都会被认为是&lt;code>section&lt;/code>。这里推荐为所有 section 都创建&lt;code>_index.md&lt;/code> 文件。&lt;/p>
+&lt;p>不过也不是所有的顶级目录都会被视为 section，当在配置中被指定为&lt;code>taxonomies&lt;/code> 时，就不会被认为是 &lt;code>section&lt;/code> 了，如下配置中，此时顶级目录&lt;code>categories&lt;/code>和&lt;code>tags&lt;/code>不会被认为是 &lt;code>section&lt;/code>。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[taxonomies]
+ category = &amp;#39;categories&amp;#39;
+ tag = &amp;#39;tags&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>我推荐为每个分类都创建一个 markdown 文件，因为 markdown 文件可以存储一些元信息，所以我们可以通过这些文件来个分类设置封面、描述等信息，&lt;strong>甚至可以设置单独的模版&lt;/strong>。&lt;/p></description></item><item><title>Hugo 简明教程 01</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-01/</link><pubDate>Wed, 29 May 2024 16:51:54 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-starter-01/</guid><description>&lt;p>首先就是如果你不是没有域名和服务器，我完全不推荐你使用静态网页生成器，简单点说，静态博客能干的动态博客都能干，反过来就差太多了。如果你酷爱使用 markdown 写作，那也有很多支持 markdown 写作的程序和平台。一般来说，使用静态博客的原因：&lt;/p>
+&lt;ol>
+&lt;li>不想花钱购买服务器&lt;/li>
+&lt;li>不想维护服务器&lt;/li>
+&lt;li>抗拒国内内容审查&lt;/li>
+&lt;li>折腾的快感&lt;/li>
+&lt;/ol>
+&lt;p>其他的理由什么速度快、方便管理都是扯蛋，对普通用户来说，可视化界面才是王道。至于内容审查那就是不能使用国内服务器，一般没有了国内服务器的速度优势，那其实还不如直接找个托管平台省事。&lt;strong>没有可视化界面都绝大部分人来说都是灾难&lt;/strong>，这也是为什么使用静态网页编译器的都是程序员居多。&lt;/p>
+&lt;h3 id="动态博客">动态博客&lt;/h3>
+&lt;p>wordpress/typecho/ghost 为代表，有可视化界面，方便管理，但需要一台服务器，选择国内云服务器的话一年可能需要几百块。这些程序都是可视化操作，上手及其简单。&lt;/p>
+&lt;h3 id="静态网页生成器">静态网页生成器&lt;/h3>
+&lt;p>一般来说所谓意义上的静态博客都是把 &lt;code>markdown&lt;/code> 文件转化为 &lt;code>html&lt;/code>，虽然可以使用其他服务实现花里胡哨的各种功能，但那其实和静态网页生成器没任何关系了，因为这些功能放在任何页面都可以使用。而不同程序的区别也仅仅是编译速度和 &lt;code>html&lt;/code> 模版引擎的区别而已。我相信绝大多数折腾这玩意的人都只会关系主题长啥样，绝对不会关注 &lt;code>markdown&lt;/code> 是怎么转成 &lt;code>html&lt;/code> 的。&lt;/p>
+&lt;h3 id="优势">优势&lt;/h3>
+&lt;p>我真的说不出来这玩意有啥优势，唯一的优势就是可以省下服务器的钱。如果你想要好的体验，再弄个不错的图床啥的，还是要花钱。&lt;/p>
+&lt;h3 id="缺点">缺点&lt;/h3>
+&lt;ol>
+&lt;li>没有可视化管理界面&lt;/li>
+&lt;li>不搭载三方服务无法实现评论等基础功能&lt;/li>
+&lt;li>图片等媒体管理极其不方便&lt;/li>
+&lt;li>文档差劲，模版语言非程序员难以理解&lt;/li>
+&lt;li>想要顺畅使用需要 &lt;code>git&lt;/code> 基础知识，使用 &lt;code>github&lt;/code> 还需破解网络问题&lt;/li>
+&lt;/ol>
+&lt;p>虽然各种自动部署教程很多，也有可视化 git 客户端，也有专门的 markdown 写作工具，但是显然是需要多个地方配合起来使用，我相信除了折腾的成就感，写作体验真的算是差的了。&lt;/p>
+&lt;h3 id="hugo">hugo&lt;/h3>
+&lt;p>为啥选择 hugo，仅仅是比较火而已，和其他静态网页生成器并没有本质区别。&lt;strong>再次强调我不推荐任何使用传统动态博客程序如 Wordpress 的博主转到 hugo&lt;/strong>，对于个人博客来说，我觉得什么程序都一样，wordpress 臃肿之类的也只是大部分人的心理作用罢了。&lt;/p>
+&lt;p>使用 Hugo 最好搭配一些简单的计算机知识，终端，git 等，这样能极大程度帮助你更好的管理博客。静态博客本质上是 Markdown 文件转 html，长期维护自然就需要管理 md 文件，当然一些写作软件也是支持的。本地调试需要使用终端执行一些命令，需要使用命令行工具。在默认情况下，图片需要手动管理并插入到文章中，和可视化编辑器那种上传插入有很大区别，一些写作软件在配置之后可以实现突破自动上传的功能。&lt;/p>
+&lt;p>另外就是自动部署一般都是使用 Github 仓库，需要解决网络问题，托管平台的网络可能有问题，需要额外优化。&lt;/p>
+&lt;p>如果你克服了上面的困难，自动部署成功，那么你后面的使用就比较轻松了，只需要管理你的 &lt;code>markdown&lt;/code> 文件，其他的应该都已经是自动的了。如果你追求个性，需要修改主题，那么你需要一点计算机知识，如果你想定制一些功能，那么恭喜你，你进入了一个大坑，hugo 的文档写的很差。&lt;/p>
+&lt;h4 id="安装">安装&lt;/h4>
+&lt;p>我推荐 mac 用户使用，直接使用 brew 安装即可。&lt;/p></description></item><item><title>使用 Cloudflare Worker 获取豆瓣书影音记录</title><link>https://bigfa.github.io/hugo-theme-puma/story/douban-cf-worker/</link><pubDate>Wed, 15 May 2024 17:41:48 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/douban-cf-worker/</guid><description>&lt;blockquote>
+&lt;p>本功能直接解决豆瓣书影音记录两大痛点，自动同步和封面本地化，对于普通用户来说，Cloudflare 的免费版足够了，非常推荐使用。&lt;/p>&lt;/blockquote>
+&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/douban-cf-worker" target="_blank" rel="noopener" >项目地址&lt;/a>
+&lt;/p>
+&lt;p>之前我自己用 nodejs + mysql 写了一个同步豆瓣书影音的服务，但只在一个很隐蔽的地方公开了，主要是流量和数据库压力太大，提供公共服务成本实在是太高，最近在研究 Cloudflare Worker，试着把服务迁移过去，过程中发现几个问题。&lt;/p>
+&lt;ul>
+&lt;li>D1 单次请求操作次数是有限制的，最多一千次，读写都算。&lt;/li>
+&lt;li>Worker 子请求数最多就是 50 次，下载图片是占用这个次数的，初始化的时候如果下载图片基本都会超限失败。&lt;/li>
+&lt;li>Worker 直接读取 R2 输出图片的话速度很慢。&lt;/li>
+&lt;/ul>
+&lt;p>不过多次测试之后还是找到了使用方法，虽然免费版有各种限制，但限制的都是单次请求，初始化的时候数据比较多，只需要在本地分页之后调用初始化接口就行了，后续使用定时任务同步不会因为请求过多而超限，除非在短时间内标记了大量内容。&lt;/p>
+&lt;p>电影&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+&lt;div class="doulist-item">
+ &lt;div class="doulist-subject">
+ &lt;div class="doulist-post">&lt;img decoding="async" referrerpolicy="no-referrer" src="https://dbapi.wpista.com/movie/26434828.jpg">&lt;/div>
+ &lt;div class="doulist-content">
+ &lt;div class="doulist-title">&lt;a href="https://movie.douban.com/subject/26434828/" class="cute" target="_blank"
+ rel="external nofollow">星际迷航4&lt;/a>&lt;/div>
+ &lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight"
+ style="--width: 0%">&lt;/span>&lt;/span>&lt;span class="rating_nums">0.0&lt;/span>
+ &lt;/div>
+ &lt;div class="abstract">2028 / 美国 / 动作 科幻 惊悚 冒险 / 克里斯·派恩 扎克瑞·昆图&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;/p>
+&lt;p>音乐&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+&lt;div class="doulist-item">
+ &lt;div class="doulist-subject">
+ &lt;div class="doulist-post">&lt;img decoding="async" referrerpolicy="no-referrer" src="https://dbapi.wpista.com/music/36766055.jpg">&lt;/div>
+ &lt;div class="doulist-content">
+ &lt;div class="doulist-title">&lt;a href="https://music.douban.com/subject/36766055/" class="cute" target="_blank"
+ rel="external nofollow">The Tortured Poets Department&lt;/a>&lt;/div>
+ &lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight"
+ style="--width: 68%">&lt;/span>&lt;/span>&lt;span class="rating_nums">6.8&lt;/span>
+ &lt;/div>
+ &lt;div class="abstract">泰勒·斯威夫特 Taylor Swift / 2024&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;/p>
+&lt;p>图书&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+&lt;div class="doulist-item">
+ &lt;div class="doulist-subject">
+ &lt;div class="doulist-post">&lt;img decoding="async" referrerpolicy="no-referrer" src="https://dbapi.wpista.com/book/36593622.jpg">&lt;/div>
+ &lt;div class="doulist-content">
+ &lt;div class="doulist-title">&lt;a href="https://book.douban.com/subject/36593622/" class="cute" target="_blank"
+ rel="external nofollow">世上为什么要有图书馆&lt;/a>&lt;/div>
+ &lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight"
+ style="--width: 91%">&lt;/span>&lt;/span>&lt;span class="rating_nums">9.1&lt;/span>
+ &lt;/div>
+ &lt;div class="abstract">杨素秋 / 2024 / 上海译文出版社&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;/p>
+&lt;p>为了简化数据库使用单表、所以电影不再支持类型了。新的单条目引用不会在标记列表中展示，后续如果该条目被标记则会自动更新，&lt;strong>取消标记不会被同步&lt;/strong>。&lt;/p>
+&lt;p>自动同步使用了 Cloudflare 的 cron 触发器，实测还是比较好用的。同步时间可以根据自己的需求设置，默认配置是每 30 分钟同步一次。&lt;/p>
+&lt;pre tabindex="0">&lt;code>crons = [&amp;#34;*/30 * * * *&amp;#34;]
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>如果未进行初始化直接进行同步，可能会因为 D1 操作次数过多报错而无法同步老数据，这时需要清空数据重新初始化，建议 worker 部署后第一时间初始化。&lt;/p></description></item><item><title>Hugo 使用 Cloudflare Worker 实现文章浏览计数与点赞</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-worker/</link><pubDate>Mon, 13 May 2024 15:31:20 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-cf-worker/</guid><description>&lt;p>一直以来我对静态博客都没什么兴趣，主要原因是静态博客都是 MD 文件转网页，各种平台都是大同小异，只展示博文还好，如果实现一些其他计数功能，如点赞评论啥的都要额外部署服务，这样还不如直接用动态博客了。如果有研究过我的 hugo 主题会发现我的数据存储都是使用 Markdown 文章文件的，也算原汁原味的静态博客。&lt;/p>
+&lt;p>引入外部服务理论上啥功能都能实现，但那其实和静态博客已经没啥关系了。前阵子 Google domains 停止服务，我就把域名转到了 Cloudflare，顺便研究了一下自带的功能，发现用 Cloudflare 的免费方案搭建一个简单的数据统计服务是没啥成本的，于是就有了本文。&lt;/p>
+&lt;ul>
+&lt;li>Cloudflare 免费方案的额度对普通用户来说完全够用，如果不够用付费就好了，毕竟大流量也很容易变现。&lt;/li>
+&lt;li>Cloudflare Worker 的域名无法直接访问，需要自己绑定域名。&lt;/li>
+&lt;li>前端调用需要解决跨域问题。&lt;/li>
+&lt;li>静态博客没有文章 id 的概念，需要设置一个 key，hugo 有个文件路径的 md5 可以作为 UniqueId。&lt;/li>
+&lt;/ul>
+&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/hugo-cf-worker" target="_blank" rel="noopener" >项目地址&lt;/a>
+&lt;/p>
+&lt;p>直接 &lt;code>git clone&lt;/code> 或者 &lt;code>use template&lt;/code>.&lt;/p>
+&lt;p>需要手动修改 &lt;code>wrangler.toml&lt;/code> 设置跨域域名和绑定&lt;code>d1&lt;/code>数据库。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[vars]
+DOMAIN = &amp;#34;https://bigfa.github.io&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>这个域名是你要跨域的域名，可以设置为*，这样就没有任何限制了。&lt;/p>
+&lt;pre tabindex="0">&lt;code>[[d1_databases]]
+binding = &amp;#34;DB&amp;#34;
+database_name = &amp;#34;hugo-cf-d1&amp;#34;
+database_id = &amp;#34;81e23e8a-3b26-4025-acf8-1123bfd5af74&amp;#34;
+&lt;/code>&lt;/pre>&lt;p>&lt;code>database_name&lt;/code> 和 &lt;code>database_id&lt;/code> 是你需要修改的，可在 Cloudflare 后台看到。&lt;/p>
+&lt;h3 id="本地开发">本地开发&lt;/h3>
+&lt;p>Cloudflare 的命令行工具是 &lt;code>wrangler&lt;/code>，需要 nodejs 环境。&lt;code>wrangler&lt;/code> 使用过程中如果没登陆授权会弹出网页授权，授权即可。&lt;/p>
+&lt;p>进入项目目录，安装依赖。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npm install
+&lt;/code>&lt;/pre>&lt;p>创建数据库，如果已经在后台创建则无需执行这一步。&lt;/p>
+&lt;pre tabindex="0">&lt;code>npx wrangler d1 execute create hugo-cf-d1
+&lt;/code>&lt;/pre>&lt;p>本地创建数据表，Cloudflare 本地和远程是分开的，如果后续手动部署，则需要在远程生产环境数据库创建表。&lt;/p></description></item></channel></rss>

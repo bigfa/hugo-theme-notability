@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Untitled</title><link>https://bigfa.github.io/hugo-theme-puma/en/category/hugo/</link><description>Recent content in Hugo on Untitled</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Oct 2023 21:07:22 +0800</lastBuildDate><atom:link href="https://bigfa.github.io/hugo-theme-puma/en/category/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Farallon</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/hugo-theme-farallon/</link><pubDate>Mon, 30 Oct 2023 21:07:22 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/hugo-theme-farallon/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/06/u1ak8xgmyn9ec24r.png" alt="Hugo Theme Farallon" />
+ &lt;figcaption class="imageCaption">Hugo Theme Farallon&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>This theme is created using ancient methods and does not rely on third-party frameworks.&lt;/p>&lt;/blockquote>
+&lt;p>Current version &lt;code>0.2.6&lt;/code>，last update &lt;code>2023/10/30&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-farallon/" target="_blank" rel="noopener" >Demo&lt;/a>
+&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/hugo-theme-farallon" target="_blank" rel="noopener" >Github&lt;/a>
+&lt;/p>
+&lt;h2 id="user-guide">User Guide&lt;/h2>
+&lt;h3 id="site-wide-settings">Site-wide settings&lt;/h3>
+&lt;p>Fields under &lt;code>[Params]&lt;/code>&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>Type: string&lt;/li>
+&lt;/ul>
+&lt;p>Site description.&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>Type:&lt;code>[string]&lt;/code>&lt;/li>
+&lt;li>Default:&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Pages places under this/those sections will be shown on homepage and archive page.&lt;/p>
+&lt;h3 id="i18n">i18n&lt;/h3>
+&lt;p>In order to use a language, set &lt;code>DefaultContentLanguage&lt;/code> to the language code in the configuration file.&lt;/p></description></item></channel></rss>

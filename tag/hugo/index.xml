@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Untitled</title><link>https://bigfa.github.io/hugo-theme-puma/tag/hugo/</link><description>Recent content in Hugo on Untitled</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 09 Feb 2025 21:20:09 +0800</lastBuildDate><atom:link href="https://bigfa.github.io/hugo-theme-puma/tag/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 主题 Farallon</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-farallon/</link><pubDate>Mon, 30 Oct 2023 21:07:22 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-farallon/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/06/u1ak8xgmyn9ec24r.png" alt="Hugo 主题 Farallon" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Farallon&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.4.9&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-farallon/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="卡片分类页面使用方法">卡片分类页面使用方法&lt;/h3>
+&lt;p>在&lt;code>content&lt;/code>目录下新建你想要使用模版的页面，比如你的分类是&lt;code>travel&lt;/code>，则新建&lt;code>categories/travel/_index.md&lt;/code>,然后编辑文件，设置&lt;code>layout&lt;/code>为&lt;code>travel&lt;/code> 即可&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+title: &amp;#34;旅行&amp;#34;
+description: &amp;#34;旅行体验&amp;#34;
+layout: travel
+---
+&lt;/code>&lt;/pre>&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p></description></item><item><title>Hugo 主题 Puma</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-puma/</link><pubDate>Sun, 09 Feb 2025 21:20:09 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-puma/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2025/01/10eb5gy4cj9fvxag.png" alt="Hugo 主题 Puma" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Puma&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.0.7&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-puma/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p>
+&lt;p>站点配置参数，设置成你自己的，主要不要暴露&lt;code>adminKey&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ search= true
+ indexName = &amp;#39;bigfa&amp;#39;
+ searchKey = &amp;#39;b0825b184f45c084e31770fbcc9261f2&amp;#39;
+ searchAPPID = &amp;#39;FX1CAS2SD8&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>自动提交编辑&lt;code>.github/workflow/main.yaml&lt;/code>&lt;/p></description></item><item><title>Hugo 主题 Hera</title><link>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-hera/</link><pubDate>Fri, 03 Jan 2025 13:36:45 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/story/hugo-theme-hera/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2024/12/2u80bhyxkmru4o9j.png" alt="Hugo 主题 Hera" />
+ &lt;figcaption class="imageCaption">Hugo 主题 Hera&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本主题使用古法制作，不依赖三方框架。&lt;/p>&lt;/blockquote>
+&lt;p>Hugo 当前版本 &lt;code>0.0.10&lt;/code>，最后更新日期 &lt;code>2025/02/13&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-hera/" target="_blank" rel="noopener" >演示地址&lt;/a>
+&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="站点参数设置">站点参数设置&lt;/h3>
+&lt;p>以下参数都在&lt;code>[Params]&lt;/code>下&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>类型: 字符串&lt;/li>
+&lt;/ul>
+&lt;p>站点描述&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>类型：数组&lt;/li>
+&lt;li>默认值：&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="多语言设置">多语言设置&lt;/h3>
+&lt;p>设置配置文件中&lt;code>DefaultContentLanguage&lt;/code>参数来选择语音，默认是&lt;code>en&lt;/code>，翻译文件在&lt;code>i18n&lt;/code> 目录下，支持以下类型，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>en&lt;/code> 英文&lt;/li>
+&lt;li>&lt;code>zh-cn&lt;/code> 简体中文&lt;/li>
+&lt;/ul>
+&lt;p>例如想试用简体中文，则设置&lt;code>DefaultContentLanguage&lt;/code>为&lt;code>zh-cn&lt;/code>&lt;/p>
+&lt;h3 id="状态文章格式">状态文章格式&lt;/h3>
+&lt;p>&lt;code>content&lt;/code> 目录下创建一个&lt;code>memo&lt;/code>文件夹，里面就是正常的文章 md 文件&lt;/p>
+&lt;pre tabindex="0">&lt;code>hugo new content memo/1.md
+&lt;/code>&lt;/pre>&lt;p>站点参数配置&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ mainSections = [&amp;#39;story&amp;#39;,&amp;#39;memo&amp;#39;]
+&lt;/code>&lt;/pre>&lt;p>如果你想用其他别名也可以，&lt;code>memo&lt;/code>换为你想用的就可以了。&lt;/p>
+&lt;h3 id="卡片分类页面使用方法">卡片分类页面使用方法&lt;/h3>
+&lt;p>在&lt;code>content&lt;/code>目录下新建你想要使用模版的页面，比如你的分类是&lt;code>travel&lt;/code>，则新建&lt;code>categories/travel/_index.md&lt;/code>,然后编辑文件，设置&lt;code>layout&lt;/code>为&lt;code>travel&lt;/code> 即可&lt;/p>
+&lt;pre tabindex="0">&lt;code>---
+title: &amp;#34;旅行&amp;#34;
+description: &amp;#34;旅行体验&amp;#34;
+layout: travel
+---
+&lt;/code>&lt;/pre>&lt;h3 id="作者信息">作者信息&lt;/h3>
+&lt;p>站点配置参数&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Params]
+ showAuthor = true
+ authorName = &amp;#39;bigfa&amp;#39;
+ authorDescription = &amp;#39;computer loser&amp;#39;
+ authorAvatar = &amp;#39;https://secure.gravatar.com/avatar/2fd7e2e17a671f8e3fade0706e0a667e?s=128&amp;amp;d=mm&amp;amp;r=g&amp;#39;
+&lt;/code>&lt;/pre>&lt;h3 id="搜索">搜索&lt;/h3>
+&lt;p>推荐使用&lt;code>algolia&lt;/code>，个人小站免费额度够用了。&lt;/p></description></item></channel></rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Untitled</title><link>https://bigfa.github.io/hugo-theme-puma/en/</link><description>Recent content on Untitled</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 29 Jun 2024 19:30:05 +0800</lastBuildDate><atom:link href="https://bigfa.github.io/hugo-theme-puma/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Farallon</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/hugo-theme-farallon/</link><pubDate>Mon, 30 Oct 2023 21:07:22 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/hugo-theme-farallon/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/06/u1ak8xgmyn9ec24r.png" alt="Hugo Theme Farallon" />
+ &lt;figcaption class="imageCaption">Hugo Theme Farallon&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>This theme is created using ancient methods and does not rely on third-party frameworks.&lt;/p>&lt;/blockquote>
+&lt;p>Current version &lt;code>0.2.6&lt;/code>，last update &lt;code>2023/10/30&lt;/code>&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://bigfa.github.io/hugo-theme-farallon/" target="_blank" rel="noopener" >Demo&lt;/a>
+&lt;/p>
+&lt;p>
+
+
+&lt;a href="https://github.com/bigfa/hugo-theme-farallon" target="_blank" rel="noopener" >Github&lt;/a>
+&lt;/p>
+&lt;h2 id="user-guide">User Guide&lt;/h2>
+&lt;h3 id="site-wide-settings">Site-wide settings&lt;/h3>
+&lt;p>Fields under &lt;code>[Params]&lt;/code>&lt;/p>
+&lt;h4 id="description">description&lt;/h4>
+&lt;ul>
+&lt;li>Type: string&lt;/li>
+&lt;/ul>
+&lt;p>Site description.&lt;/p>
+&lt;h4 id="mainsections">mainSections&lt;/h4>
+&lt;ul>
+&lt;li>Type:&lt;code>[string]&lt;/code>&lt;/li>
+&lt;li>Default:&lt;code>['story']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Pages places under this/those sections will be shown on homepage and archive page.&lt;/p>
+&lt;h3 id="i18n">i18n&lt;/h3>
+&lt;p>In order to use a language, set &lt;code>DefaultContentLanguage&lt;/code> to the language code in the configuration file.&lt;/p></description></item><item><title>Fujifilm X-S20 long term review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/fujifilm-xs20-long-term-review/</link><pubDate>Sat, 29 Jun 2024 19:30:05 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/fujifilm-xs20-long-term-review/</guid><description>&lt;p>The Fuji X-S20 has been released for nearly a year now, and my own device&amp;rsquo;s shutter count has reached 30,000. I am writing an article to wrap up my experiences, all of which are based on my actual usage.&lt;/p>
+&lt;h3 id="basic-situation">Basic Situation&lt;/h3>
+&lt;p>First of all, &lt;strong>the selection of equipment is a very important part of the enjoyment of photography&lt;/strong>. You may quickly lose interest after the purchase, but it&amp;rsquo;s undeniable that the selection process is extremely joyful. Personally, I don&amp;rsquo;t use a camera bag, rarely use a tripod or flash, mainly do city walks, and one-fourth of the time, I take portraits of my wife. I&amp;rsquo;ve shot over 60,000 shutters on two Fuji cameras. I use the XT-5 approximately half of the time because it has skin beautifying features which I prefer a bit more.&lt;/p></description></item><item><title>Observations on the road to Bali.</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/bali/</link><pubDate>Sun, 21 Jan 2024 11:22:44 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/bali/</guid><description>&lt;p>I don&amp;rsquo;t know when traveling started to become all about checking in at locations and taking photos for social media. Reflecting back, I never thought about checking in anywhere when I traveled in the past, nor was there such a thing as looking for designated photo spots. It was just the excitement of visiting a place. Taking photos was simply a way to document the journey, not to travel for the sake of photography. Nowadays, taking photos has become more utilitarian, everything is for the sake of online traffic—photos are standardized and everyone seems happy with that.&lt;/p></description></item><item><title>Friends</title><link>https://bigfa.github.io/hugo-theme-puma/en/friends/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/friends/</guid><description/></item><item><title>Who am I</title><link>https://bigfa.github.io/hugo-theme-puma/en/about/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/about/</guid><description>&lt;ul>
+&lt;li>Open Source Contributor&lt;/li>
+&lt;li>Citizen of the world&lt;/li>
+&lt;/ul></description></item><item><title>书影音游</title><link>https://bigfa.github.io/hugo-theme-puma/en/movies/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/movies/</guid><description/></item><item><title>搜索</title><link>https://bigfa.github.io/hugo-theme-puma/en/search/</link><pubDate>Mon, 15 Jan 2024 23:22:50 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/search/</guid><description/></item><item><title>Fujifilm X-S20 first review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/fuji-xs20/</link><pubDate>Thu, 09 Nov 2023 18:57:34 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/fuji-xs20/</guid><description>&lt;p>One of my goals set in the New Year&amp;rsquo;s blog was to buy a Leica camera; at that time, there weren&amp;rsquo;t many choices available, only the Q2. This year the Q3 was released, priced at fifty thousand, and the Q2 didn&amp;rsquo;t see much of a price drop, with gray market new units still costing over thirty thousand. Previously, seeing that two-thirds of the year had already passed and that thirty thousand yuan was beyond my spending capability, my teammate happened to be interested in trying out a zoom lens, which shifted our attention to Fujifilm. The new models with interchangeable lenses were the XT5 and XS20, both of which were out of stock in flagship stores.&lt;/p></description></item><item><title>Garden Pavilion</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/garden-pavilion/</link><pubDate>Sat, 04 Nov 2023 21:48:31 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/garden-pavilion/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/11/cyuaahpcuea87gfi.jpg" alt="Garden Pavilion" />
+ &lt;figcaption class="imageCaption">Garden Pavilion&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Over the weekend, I had a meal at Garden Pavilion, located at the Park Hyatt hotel. Prior to this visit, I was hesitant due to the high average cost per person mentioned on Dianping, ranging from seven to eight hundred yuan. However, since we were staying at the hotel, we decided to give it a try. In all honesty, the overall experience was underwhelming. The atmosphere was pleasant, but the dishes were quite mediocre, and the prices were steep. I would say it was not worth the expense.&lt;/p></description></item><item><title>Fox Umbrellas</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/fox-umbrellas/</link><pubDate>Tue, 31 Oct 2023 12:00:56 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/fox-umbrellas/</guid><description>&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/082xpdrrw1jp5y3u.jpg" alt="" />
+&lt;/p>
+&lt;p>Recently, I purchased two British-style umbrellas, and I am really fond of them. Let me share a bit about them. One has a Malacca handle, and the other has a bamboo handle.&lt;/p>
+&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/chbgbmwria5yk2ew.jpg" alt="" />
+&lt;/p>
+&lt;blockquote>
+&lt;p>Fox Umbrellas Ltd was founded in 1868 and has been producing the worlds finest umbrellas for over 150 years.&lt;/p>&lt;/blockquote></description></item><item><title>Park Hyatt ShenZhen</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/park-hyatt-shenzhen/</link><pubDate>Sun, 29 Oct 2023 19:07:06 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/park-hyatt-shenzhen/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/lfvsapye5xvq2m9o.jpg" alt="Park Hyatt ShenZhen" />
+ &lt;figcaption class="imageCaption">Park Hyatt ShenZhen&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Since successfully completing the Globalist challenge, I have gradually started experiencing Hyatt hotels. In Shenzhen, I only wanted to experience Andaz and Park Hyatt. Last Saturday, I stayed at Park Hyatt Shenzhen. I opted for a cash stay this time, and the price of 2100 RMB on a Saturday was considered reasonable, considering that hotel prices in Shenzhen tend to be higher on weekends.&lt;/p>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="https://static.fatesinger.com/2023/11/661e0wc48e3ifpr4.jpg" alt="Park Hyatt ShenZhen" />
+ &lt;figcaption class="imageCaption">Park Hyatt ShenZhen&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Fujinon XF23mm F1.4 R LM WR Review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/xf23/</link><pubDate>Thu, 26 Oct 2023 12:46:11 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/xf23/</guid><description>&lt;p>
+&lt;img src="//static.fatesinger.com/2023/10/34n30fwqhrythqhv.jpg" alt="" />
+&lt;/p>
+&lt;blockquote>
+&lt;p>35 equivalent lenses, they are just never wide enough or never tight enough, like story of my life.&lt;/p>&lt;/blockquote>
+&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/ixeewi5rqyjlumwt.jpg" alt="XF23mm F1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF23mm F1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Now whenever I use a 35mm lens, I have this image in my mind, with a strange sense of sadness.&lt;/p>
+&lt;p>Years ago, when I was using Olympus, I bought a prime lens that was roughly equivalent to 35mm. I didn’t choose this focal length because I particularly liked it, but simply because it was affordable. Later, I used the X100V, buying a camera with a fixed lens just to save money. Now, after nearly two years of using the X100V, I haven’t even taken ten thousand photos, which shows that I am not quite comfortable with this focal length.&lt;/p></description></item><item><title>Leica Sofort</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/sofort/</link><pubDate>Thu, 26 Oct 2023 09:32:23 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/sofort/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/b1gdey1f53d7vy0j.jpg" alt="Leica Sofort" />
+ &lt;figcaption class="imageCaption">Leica Sofort&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>The first instant camera I owned was the Fuji Mini 40. I used it for about a year and a half and took around 400 pictures with it. Because I wanted to try double exposure, I decided to upgrade to the Mini 90. However, I found out that its price has risen to 1500 dollars. Coincidentally, Leica recently released the Sofort 2, which reminded me of the Sofort 1 that I couldn’t afford years ago.&lt;/p></description></item><item><title>Fujinon XF33mm F1.4 R LM WR Review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/xf33/</link><pubDate>Wed, 25 Oct 2023 19:55:59 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/xf33/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/q7cfc0gvf5vtg1v4.jpg" alt="XF33mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">XF33mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>The XF33mmF1.4 lens is currently one of the most difficult lenses to buy in mainland China. It is basically out of stock everywhere online, and even pre-orders come with a price markup.&lt;/p>
+&lt;p>I originally planned to publish this article at least during the Singles’ Day shopping festival, but unexpectedly, it was published much earlier. The main reason is that this lens is simply unavailable, and it’s impossible to buy, even with pre-orders requiring a price markup. A while ago, I sold two lens adapters on a second-hand marketplace. Occasionally, I would check the marketplace, and I happened to come across a seller in Beijing offering this lens, which they purchased during the June 18th shopping festival. They even registered it for extended warranty. After a brief conversation, I decided to buy it. If it weren’t for finding this seller, I almost bought a brand new 35mm f1.4 lens, but this lens is old, dating back 10 years, and even the most bizarre coincidences couldn’t keep it going.&lt;/p></description></item><item><title>Fujinon XF56mm F1.2 R WR Review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/xf56/</link><pubDate>Wed, 25 Oct 2023 18:59:07 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/xf56/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/08/unh9p5pbj4vk8rdr.jpg" alt="Fujinon XF56ｍｍF1.2 R WR" />
+ &lt;figcaption class="imageCaption">Fujinon XF56ｍｍF1.2 R WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Recently, I bought a lens mainly because the low-light performance of my X100V was poor. When I pick up the camera at night and want to quickly take a photo, it’s highly likely to come out blurry or have a lot of noise if I increase the ISO. When I didn’t know much about Fujifilm lenses, my first choice was the XF50F1.0 because of its large aperture. Although it costs over 10,000, it’s still relatively affordable compared to full-frame lenses. However, after doing more research, I realized that this lens is bulky and weighs almost two kilograms, which is not suitable for Fujifilm’s compact bodies. Additionally, I have a limited budget and can’t afford a brand new lens.&lt;/p></description></item><item><title>Fujinon XF18mm F1.4 R LM WR Review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/xf18/</link><pubDate>Wed, 25 Oct 2023 09:34:23 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/xf18/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/09/e6zsd2fgagf698b4.jpg" alt="富士 XF18mmF1.4 R LM WR" />
+ &lt;figcaption class="imageCaption">富士 XF18mmF1.4 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Actually, I received this lens before the XF56 Mark II, but I didn’t use it much and didn’t take many sample photos. I always felt that this lens had greater potential, so I took it out last weekend and took some shots. However, I realized that it was just the same as before, and I ended up with only a few photos for this article.&lt;/p></description></item><item><title>Fujinon XF 90mm f/2 R LM WR Review</title><link>https://bigfa.github.io/hugo-theme-puma/en/story/xf90/</link><pubDate>Tue, 24 Oct 2023 14:22:38 +0800</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/story/xf90/</guid><description>&lt;p>
+&lt;figure class="grap--figure">
+ &lt;img src="//static.fatesinger.com/2023/10/fmspc4kprwfqgije.jpg" alt="XF90mmF2 R LM WR" />
+ &lt;figcaption class="imageCaption">XF90mmF2 R LM WR&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Fuji has a relatively niche lens, and it’s also quite old. The second-hand price is around 4000, but usually, it has been used for a long time. The original price is too expensive, so I ended up finding a refurbished one through official channels. It has a minor defect with a small dust particle, but it’s tolerable. When I purchased the XF 56, I mentioned that the focal length was not quite enough. At that time, I seriously considered the XF 50-140. Although it has received almost 100% positive reviews, I eventually decided against it due to its high price and weight. The main reason behind this decision was certainly the price, as it was simply too expensive.&lt;/p></description></item><item><title>Gears</title><link>https://bigfa.github.io/hugo-theme-puma/en/gears/</link><pubDate>Sat, 06 Mar 2021 15:39:00 -0600</pubDate><guid>https://bigfa.github.io/hugo-theme-puma/en/gears/</guid><description>&lt;p>my gear&lt;/p></description></item></channel></rss>
