@@ -1,13 +1,15 @@
 <header class="site-header">
 	<div class="header-inner" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 		<h1 class="site-title" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-			<a href='{{ site.Home.Permalink }}' class="metabar--logo">Puma
+			<a href='{{ site.Home.Permalink }}' class="metabar--logo">{{ $.Site.Title }}
 			</a>
 		</h1>
-		<p class="site-description">just another wordpress site</p>
+		<p class="site-description">{{ .Site.Params.SiteDescription }}</p>
+		{{ if .Site.Params.search }}
 		<form method="get" class="search-form" action="{{ site.Home.Permalink }}search">
 			<input type="search" class="search-field" placeholder="输入内容按回车搜索" value="" name="s">
 		</form>
+		{{ end }}
 		{{ if .Site.Params.footer_sns }}
 		<div class=site--footer__sns>
 			{{ partial "sns.html" . }}
